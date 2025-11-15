@@ -1,0 +1,21 @@
++---------------------+         +---------------------+
+|  Nuevo entrenamiento|         |  Modelo ya entrenado|
++---------------------+         +---------------------+
+           |                              |
+           v                              v
+   [Seteas el seed]                [El seed NO importa]
+           |                              |
+           v                              v
+   - Controla inicialización         - El modelo usa los
+     de pesos, orden de datos,         pesos y parámetros
+     exploración, etc.                 guardados
+   - Afecta todo el proceso          - El resultado es
+     de entrenamiento                  siempre igual
+   - Cambia el resultado final         (para la misma entrada)
+           |
+           v
+   [Modelo entrenado]
+           |
+           v
+   - El modelo NO guarda el seed
+   - Solo guarda los pesos finales

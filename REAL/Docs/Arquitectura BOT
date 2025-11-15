@@ -1,0 +1,126 @@
+Claro, aquí tienes una **explicación técnica** completa de cómo funciona tu bot de trading, incluyendo estrategias, librerías, arquitectura y lógica operativa:
+
+---
+
+## 🧠 1. **Estrategia utilizada**
+
+### ✔️ Modelo RL (Aprendizaje por Reforzamiento)
+
+* Tu bot utiliza un modelo entrenado con **Stable-Baselines3** (`model.predict`) para tomar decisiones.
+* El modelo **no es una estrategia fija de indicadores**, sino una **red neuronal entrenada** que aprendió cuándo entrar/salir basándose en un entorno de entrenamiento simulado (`TradingEnv`).
+* El modelo devuelve `action`:
+
+  * `0`: HOLD
+  * `1`: LONG (compra)
+  * `2`: SHORT (venta)
+
+---
+
+## 📦 2. **Librerías y dependencias clave**
+
+* **Stable-Baselines3**: Framework de RL basado en PyTorch, para entrenamiento y uso de modelos como PPO, A2C, etc.
+* **Pandas**: Manejo de datos de velas OHLC y análisis de series temporales.
+* **Binance API**: Accede a precios, abre/cierra posiciones con `client.futures_*`.
+* **time**: Controla la frecuencia de ejecución con `time.sleep`.
+* **NumPy** (en funciones auxiliares): Procesamiento de vectores.
+
+---
+
+## ⚙️ 3. **Arquitectura general del bot**
+
+### 🔄 Bucle infinito (`while True:`)
+
+Cada ciclo:
+
+1. Obtiene el `df` de velas OHLC más recientes.
+2. Detecta si hay posición abierta (`futures_position_information`).
+3. Si hay posición abierta:
+
+   * Calcula ganancia/pérdida.
+   * Aplica **stop loss** (`-1%`) o **trailing stop** (dinámico según ganancia máxima alcanzada).
+4. Si **no hay posición abierta**:
+
+   * Evalúa si hay **una nueva vela** comparando el `timestamp`.
+   * Si hay nueva vela:
+
+     * Calcula el `state` a partir del `df`.
+     * El modelo predice una `acción`.
+     * Si la acción es `1` o `2`, ejecuta la operación.
+     * Si es `0`, espera.
+
+---
+
+## 🔐 4. **Gestión del riesgo y lógica de salida**
+
+* **Stop loss fijo:**
+  Si la pérdida supera el 1% apalancado (`impacto < -0.01`), cierra la posición.
+
+* **Trailing stop inteligente:**
+
+  * Monitorea la ganancia máxima alcanzada (`max_profit_pct`).
+  * Si retrocede un % significativo (por ejemplo, cae por debajo del 50% del pico), se cierra.
+  * Esto permite capturar ganancias mientras deja correr la operación.
+
+* **Control temporal:**
+
+  * Si hay posición abierta → evalúa cada 30 segundos.
+  * Si no hay posición abierta → espera a que se cree una **nueva vela de 5 minutos** (mismo criterio que en el backtesting).
+
+---
+
+## 🗃️ 5. **Estado y predicción**
+
+### 📊 `get_state(df)`
+
+* Toma el DataFrame de velas y lo transforma en una representación (array) adecuada para el modelo.
+* Puede incluir:
+
+  * Precio normalizado.
+  * Medias móviles, volumen.
+  * Envelopes u otros indicadores.
+  * Derivadas, diferencias, etc.
+
+### 🧠 `model.predict(state)`
+
+* Recibe el estado actual del mercado y devuelve una acción.
+* La acción se toma de manera **determinista** (`deterministic=True`), es decir, sin aleatoriedad.
+
+---
+
+## 🔁 6. **Sincronización con velas reales**
+
+* El bot **compara el timestamp de la última vela** (`df.iloc[-1]["timestamp"]`) con el de la ejecución anterior.
+* **Solo abre operaciones cuando cambia la vela**, como en el backtesting.
+* Esto garantiza **consistencia total** entre el backtest y la ejecución real, lo cual es clave para validar resultados.
+
+---
+
+## ⚠️ 7. **Variables de estado**
+
+* `max_profit_pct`: Se va actualizando solo cuando hay posición abierta, es **crítico para el trailing stop**.
+* `esperar_siguiente_vela`: Variable para evitar reentradas inmediatas tras un cierre.
+* `ultima_vela`: Marca la última vela operada, evita ejecutar en la misma.
+
+---
+
+## 🚨 8. **Control de errores**
+
+* Todo el bucle está envuelto en un `try/except`, por lo que si hay una excepción (API, red, etc.), el bot **espera 60 segundos** y continúa.
+* Esto evita caídas permanentes por errores temporales.
+
+---
+
+## 📌 Resumen
+
+| Componente              | Función                                                |
+| ----------------------- | ------------------------------------------------------ |
+| `model.predict()`       | Toma decisiones basadas en RL entrenado                |
+| `get_state(df)`         | Convierte el mercado en una observación para el modelo |
+| Stop Loss / Trailing    | Gestión de riesgo dinámica                             |
+| Binance API             | Acciones de trading reales                             |
+| Sincronización de velas | Imita el comportamiento del backtesting                |
+| Protección de entradas  | No abre nuevas operaciones hasta que cambia la vela    |
+
+---
+
+¿Te gustaría que te genere un **diagrama visual** de cómo funciona todo esto paso a paso?

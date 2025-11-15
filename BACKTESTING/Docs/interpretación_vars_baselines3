@@ -1,0 +1,101 @@
+🔁 rollout/ (fase de recopilación de experiencia en el entorno)
+exploration_rate: 0.05
+
+Solo aplica a agentes como DQN, no a PPO o A2C.
+
+Representa cuánta exploración está haciendo el agente: con qué probabilidad tomará una acción aleatoria en lugar de la acción “óptima”.
+
+Comenzó con un valor más alto (ej. 1.0) y ha ido decayendo. Un valor de 0.05 indica que ya está explotando lo aprendido, y solo un 5% de las veces explora.
+
+✅ ¿Qué buscar? Que este valor baje con el tiempo (si usas DQN u otro off-policy que lo requiera) y no se quede en 1.0.
+
+⏱️ time/ (estadísticas del tiempo de entrenamiento)
+episodes: 72
+
+El número total de episodios completados. Cada episodio termina cuando el entorno dice que se terminó (por ejemplo, se llegó al final de una simulación).
+
+Ayuda a ver cuánta "experiencia completa" ha recolectado el agente.
+
+fps: 1381
+
+Cuántos pasos por segundo está procesando tu agente.
+
+Alto = entrenamiento rápido (bueno). Bajo = cuello de botella (a veces el entorno o la red neural es muy pesada).
+
+time_elapsed: 63
+
+Tiempo total desde que comenzó el entrenamiento (en segundos).
+
+Solo es útil como referencia de rendimiento.
+
+total_timesteps: 87138
+
+Cantidad total de pasos (acciones ejecutadas en el entorno).
+
+Es más útil que el número de episodios, ya que refleja directamente el volumen de datos usado.
+
+✅ ¿Qué buscar? Aumento progresivo. Ideal si tienes gráficos: ver si el reward medio por episodio mejora con los total_timesteps.
+
+🧠 train/ (parámetros del proceso de aprendizaje)
+learning_rate: 0.0001
+
+Tasa de aprendizaje actual del optimizador.
+
+Si es constante, es lo que definiste. Algunos algoritmos usan decay.
+
+Más bajo = más lento pero más estable; más alto = puede aprender rápido pero volverse inestable.
+
+loss: 36
+
+Pérdida del modelo (error de predicción en Q-values o policy gradient).
+
+No siempre es fácil de interpretar directamente. Por ejemplo, en DQN, puede variar mucho.
+
+Lo ideal es que disminuya con el tiempo (aunque puede haber picos).
+
+n_updates: 296034
+
+Número de actualizaciones al modelo (ej. gradient descent).
+
+Útil para saber cuántos pasos reales de entrenamiento se han hecho (no confundir con timesteps del entorno).
+
+✅ ¿Qué buscar?
+
+Si el loss baja de forma general.
+
+Si n_updates sube junto con timesteps.
+
+En algunos casos, puedes ver el loss oscilar si estás en entornos complejos, pero debería haber una tendencia general a estabilizarse.
+
+✅ ¿Cómo saber si el entrenamiento va bien?
+Además de estos logs, lo más importante es:
+
+Seguimiento del reward medio:
+
+Usa eval_env y EvalCallback para guardar logs automáticos de mean_reward.
+
+Si el reward sube con el tiempo, el agente está aprendiendo.
+
+Usar tensorboard:
+
+Lanza el entrenamiento con tensorboard_log="./tb_logs/" y luego ejecuta:
+
+bash
+Copiar
+Editar
+tensorboard --logdir ./tb_logs/
+Ahí verás gráficos de reward, loss, entropy, etc.
+
+Prueba el agente periódicamente:
+
+python
+Copiar
+Editar
+obs = env.reset()
+for _ in range(1000):
+    action, _ = model.predict(obs, deterministic=True)
+    obs, reward, done, info = env.step(action)
+    if done:
+        obs = env.reset()
+Si el agente actúa de forma coherente y mejora con el tiempo, vas bien.
+

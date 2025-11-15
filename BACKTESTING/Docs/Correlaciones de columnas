@@ -1,0 +1,81 @@
+Excelente pregunta 💡
+
+La matriz que ves es una matriz de correlación de Pearson entre todos los indicadores y columnas de tu DataFrame (precio, volumen e indicadores técnicos).
+Vamos a desglosarlo 👇
+
+🧠 ¿Qué representa?
+
+Cada celda muestra qué tan linealmente relacionados están dos indicadores entre sí.
+El valor va de -1 a +1:
+
+Valor	Significado
++1	Correlación perfecta positiva → ambos suben y bajan juntos.
+0	Sin correlación lineal → son independientes.
+-1	Correlación perfecta negativa → uno sube mientras el otro baja.
+📊 Interpretación rápida de tu matriz
+
+Veamos algunos puntos clave de tu salida:
+
+🔹 1. Precio, EMA y Envelopes:
+close vs EMA_150             → 0.999847
+close vs Envelope_Upper_21   → 0.999972
+close vs Envelope_Lower_21   → 0.999972
+
+
+👉 Están casi perfectamente correlacionados (+0.99).
+Eso significa que aportan la misma información al modelo.
+❌ Tenerlos todos puede no aportar información nueva, e incluso generar redundancia o ruido.
+
+➡️ Podrías conservar solo uno (por ejemplo, close o EMA_150).
+
+🔹 2. RSI, ROC y ADX:
+RSI_14 vs RSI_21  → 0.976151  (altamente correlacionados)
+RSI_21 vs ROC_10  → 0.638798  (moderadamente correlacionados)
+ADX_14 vs RSI_14  → -0.006460 (sin correlación)
+
+
+👉 Los dos RSI son casi iguales, así que bastaría con uno de ellos.
+El ROC aporta algo diferente, aunque se mueve algo parecido al RSI.
+El ADX es independiente (bueno, mide tendencia).
+
+🔹 3. ATR y volumen:
+ATR_14 vs close  → 0.524141
+ATR_14 vs volume → 0.214694
+
+
+👉 El ATR tiene una correlación moderada con el precio (≈0.5), lo cual es normal.
+Aporta información sobre la volatilidad, no sobre dirección.
+
+🔹 4. OBV:
+OBV vs close → -0.376829
+OBV vs volume → -0.042759
+
+
+👉 El OBV (On Balance Volume) tiene baja correlación con los precios.
+Esto es bueno: significa que aporta información nueva (flujo de volumen acumulado).
+
+✅ En resumen (según tu matriz)
+Indicador	¿Correlacionado?	¿Aporta información nueva?	Recomendación
+close, EMA_150, Envelope_*	Sí (+0.99)	No	Dejar solo uno
+RSI_14 y RSI_21	Sí (+0.97)	No	Dejar solo uno
+ATR_14	Moderado	Sí (volatilidad)	Mantener
+ADX_14	Bajo	Sí (tendencia)	Mantener
+ROC_10	Medio	Sí (momentum)	Mantener
+OBV	Bajo	Sí (volumen direccional)	Mantener
+🧩 Recomendación práctica
+
+Para un set no redundante y matemáticamente diverso, podrías quedarte con:
+
+['close', 'RSI_14', 'ATR_14', 'ADX_14', 'ROC_10', 'OBV']
+
+
+Y si quieres agregar 1 o 2 más, te propongo:
+
+MACD (momentum y cruce de medias)
+
+CMF (Chaikin Money Flow) o VWAP (volumen-peso)
+
+Stochastic Oscillator (complementa RSI)
+
+¿Quieres que te calcule automáticamente qué indicadores están más o menos correlacionados (por ejemplo, filtrando solo los pares con |r| < 0.5 para quedarte con los más independientes)?
+Puedo darte el código exacto en Python para eso.

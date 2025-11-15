@@ -1,0 +1,61 @@
+{
+  "common": {
+    "sma_period": 200,
+    "timeframe": "5m",
+    "apalancamiento": "10x",
+    "fecha_inicio": "2020-01-01",
+    "hma_period": 300,
+    "ema_period": 200,
+    "vol_sma_period": 20,
+    "fecha_fin": "2025-10-01",
+    "sma_period_lista": [
+      10, 20, 1250, 1500, 1750, 2000, 2500, 3000
+    ],
+    "rsi_period_lista": [
+      14, 21
+    ],
+    "vol_sma_period_lista": [
+    10, 20, 30, 50, 100
+    ],
+    "ema_period_lista": [
+      150
+    ],
+    "hma_period_lista": [
+      10, 20, 1250, 1500, 1750, 2000, 2500, 3000
+    ]
+  },
+  
+  "datos": {
+    "iteraciones":450,
+    "episode_steps":10000,
+    "train_steps":7000000,
+    "fijar_seed": false,
+    "window_size": 50,
+    "seeds_number": 10,
+    "ma_period_55": 55,
+    "ma_percentage_55": 0.5,
+    "ma_period_618": 21,
+    "ma_percentage_618": 0.618
+  },
+  "strategy": {
+    "stop_loss": 0.05,
+    "threshold_ganancia": 0.05,
+    "max_profit_loss": 0.5,
+    "max_drawdown": 0.75,
+    "saldo_inicial": 200,
+    "graficar": false,
+    "resucitar": false,
+    "factor_seguridad": 0.25,
+    "slippage": 0.0005,
+    "comision": 0.0005
+  },
+"factores_rewards": {
+    "pft": 12.0,
+    "pnl": 100.0,
+    "hold_in": 0.001,
+    "hold_out": 0.01,
+    "noop": 1.0,
+    "dd": 3,
+    "ddrec": 3
+}
+}

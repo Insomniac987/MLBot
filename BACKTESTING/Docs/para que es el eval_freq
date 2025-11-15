@@ -1,0 +1,113 @@
+Excelente pregunta — y de hecho es una de las **más importantes** para entender cómo funciona el entrenamiento de DQN en la práctica 🔍
+
+El parámetro `eval_freq` define **cada cuántos timesteps** se hace una *evaluación* (es decir, se pausa momentáneamente el entrenamiento, se prueba el agente en el entorno, y se guarda el modelo si mejora).
+
+Vamos a explicarlo con claridad 👇
+
+---
+
+## 🧩 Qué es `eval_freq`
+
+Cuando usas un `EvalCallback`, típicamente lo defines así:
+
+```python
+eval_callback = EvalCallback(
+    eval_env,
+    best_model_save_path='./models/',
+    log_path='./logs/',
+    eval_freq=50_000,
+    deterministic=True,
+    render=False
+)
+```
+
+El parámetro `eval_freq` indica:
+
+> “Evalúa el agente cada *X pasos de entrenamiento*”.
+
+---
+
+## ⚙️ Ejemplo práctico
+
+| eval_freq | Significa                | Qué pasa                                           |
+| --------- | ------------------------ | -------------------------------------------------- |
+| `2000`    | Evalúa cada 2000 pasos   | Muchas pausas, más logs, más lentitud.             |
+| `50_000`  | Evalúa cada 50 mil pasos | Evalúa con menor frecuencia, más rápido y estable. |
+
+---
+
+## 💡 Lo que realmente pasa en cada evaluación
+
+Cada vez que se cumple `eval_freq`:
+
+1. El agente **se detiene temporalmente**.
+2. Corre varios episodios en el entorno `eval_env` (por defecto 5).
+3. Calcula métricas como reward medio, std, episodios ganados, etc.
+4. Si el modelo mejora, **guarda una copia** (`best_model.zip`).
+5. Reanuda el entrenamiento.
+
+---
+
+## 🧠 Entonces, ¿por qué tu entrenamiento ahora es más rápido?
+
+Porque al subir de:
+
+```python
+eval_freq = 2000
+```
+
+a
+
+```python
+eval_freq = 50000
+```
+
+… el modelo ahora **se evalúa 25 veces menos frecuentemente**.
+
+➡️ Menos evaluaciones = menos pausas = menos cómputo extra.
+➡️ Cada evaluación puede implicar 5–10 episodios completos → muy costoso en tiempo.
+
+Así que este cambio mejora la **velocidad total del entrenamiento** y reduce el ruido por evaluaciones constantes.
+
+---
+
+## 🧮 Cuánto impacta realmente
+
+Imagina que haces un entrenamiento de `2_000_000` pasos:
+
+| eval_freq | # de evaluaciones totales | Impacto                                              |
+| --------- | ------------------------- | ---------------------------------------------------- |
+| 2,000     | 1000 evaluaciones         | ⚠️ Muy lento, más logs, pausas frecuentes            |
+| 50,000    | 40 evaluaciones           | ✅ Mucho más fluido, casi sin overhead                |
+| 100,000   | 20 evaluaciones           | 🚀 Aún más rápido, pero menos seguimiento intermedio |
+
+---
+
+## 🎯 Recomendaciones
+
+| Objetivo                                 | eval_freq recomendado | Razón                                       |
+| ---------------------------------------- | --------------------- | ------------------------------------------- |
+| **Debug / pruebas cortas (≤200k steps)** | 2,000–5,000           | Ver evolución temprana del reward           |
+| **Entrenamiento estándar (1M–2M steps)** | 50,000                | Buen balance entre feedback y velocidad     |
+| **Entrenamiento largo (>5M steps)**      | 100,000               | Optimiza rendimiento sin perder checkpoints |
+
+---
+
+## ✅ En resumen
+
+| Parámetro                          | Antes                         | Ahora                                             | Efecto                                                        |
+| ---------------------------------- | ----------------------------- | ------------------------------------------------- | ------------------------------------------------------------- |
+| `eval_freq`                        | 2,000                         | 50,000                                            | 🔹 25× menos evaluaciones → entrenamiento más rápido y limpio |
+| Evaluaciones totales (en 2M steps) | 1000                          | 40                                                | ✅ Gran mejora de rendimiento                                  |
+| Pérdida potencial                  | Menos checkpoints intermedios | ❌ Pero nada grave si tienes backup final o manual |                                                               |
+
+---
+
+💬 **Conclusión:**
+Subir `eval_freq` de 2,000 a 50,000 **no afecta el aprendizaje** del agente — solo reduce la frecuencia de validación.
+Tu modelo entrena igual, pero con menos interrupciones.
+El único trade-off es que verás métricas de validación con menos frecuencia (cada 50k pasos en lugar de cada 2k).
+
+---
+
+¿Quieres que te recomiende una configuración híbrida (p. ej. `eval_freq=10000` para seguimiento más fino sin perder tanta velocidad)?

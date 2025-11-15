@@ -1,0 +1,9 @@
+ {
+  "symbol": "BTCUSDT",
+  "factor_seguridad": 0.25,
+  "timeframe": "5m",
+  "leverage": 10,
+  "sl_pct": 0.05,
+  "apalancamiento": "10x",
+  "window_size": 50
+}

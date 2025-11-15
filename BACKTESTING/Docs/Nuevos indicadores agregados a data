@@ -1,0 +1,10 @@
+5️⃣ Resumen de columnas nuevas generadas
+
+Después de ejecutar el script, tu DataFrame final (df_total) contendrá:
+
+Indicador	Columna	Propósito
+RSI	RSI_14	momentum y sobrecompra
+ATR	ATR_14	volatilidad
+ADX	ADX_14	fuerza de tendencia
+ROC	ROC_10	momentum puro
+OBV	OBV	flujo de volumen acumulado

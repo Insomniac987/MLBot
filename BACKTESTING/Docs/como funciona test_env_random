@@ -1,0 +1,167 @@
+Excelente pregunta 👏 — saber si tu entorno es *saludable* (o sea, apto para entrenar un modelo RL) no depende solo de que no dé errores, sino de **cómo se comportan las métricas clave** cuando usas acciones aleatorias.
+
+Te doy los criterios concretos que usamos los que hacemos *research* en entornos financieros 👇
+
+---
+
+## 💚 1️⃣ No hay explosiones numéricas ni valores NaN
+
+**Signo de salud:**
+
+* Ningún error en consola.
+* Ningún `NaN`, `inf`, `KeyError` o `IndexError`.
+* Rewards siempre dentro de un rango razonable (−10 a +10 por step).
+
+**Ejemplo sano ✅:**
+
+```
+EPISODE END | Balance: 50.12 | Max DD: 0.751 | Trades: 644 | Wins: 96 | Losses: 226
+```
+
+**Ejemplo enfermo ❌:**
+
+```
+EPISODE END | Balance: nan | Max DD: nan | Trades: 0 | Wins: 0 | Losses: 0
+ValueError: cannot convert float NaN to integer
+```
+
+---
+
+## 💚 2️⃣ El balance no explota ni se va a cero instantáneamente
+
+**Signo de salud:**
+
+* Con acciones aleatorias, el *balance medio* se mantiene cerca del inicial (en tu caso 200 → normalizado a 50).
+* A veces gana un poco, a veces pierde, pero sin “volar” a 10,000 o morir a 0.
+
+**Ejemplo sano ✅:**
+
+```
+mean balance: 50.48 | median: 49.81 | std: 2.71
+min balance 49.43 | max balance 68.09
+```
+
+El balance máximo (68) indica que hay *potencial de ganancia*, y el mínimo (49) que hay *riesgo controlado*.
+
+**Ejemplo enfermo ❌:**
+
+```
+mean balance: 0.0 | median: 0.0 | std: 0.0
+min balance 0.0 | max balance 0.0
+```
+
+O bien:
+
+```
+mean balance: 9000.0 | std: 100000.0
+```
+
+→ señales de overflow, apalancamiento mal calculado o reward desbalanceado.
+
+---
+
+## 💚 3️⃣ Drawdown máximo (DD) razonable y estable
+
+**Signo de salud:**
+
+* DD se mantiene constante (por tu `max_drawdown = 0.75`).
+* No cambia drásticamente episodio a episodio.
+* No baja de 0 (lo cual indicaría un bug de signo).
+
+**Ejemplo sano ✅:**
+
+```
+Max DD: 0.751 ±0.002
+```
+
+**Ejemplo enfermo ❌:**
+
+```
+Max DD: 3.412
+```
+
+(>1 significa que el cálculo no está en proporción correcta).
+
+---
+
+## 💚 4️⃣ Varianza en resultados (hay diversidad)
+
+**Signo de salud:**
+
+* Algunos episodios terminan mejor que otros.
+* `std` (desviación estándar) > 0.
+* Eso muestra que las acciones *sí afectan* el resultado.
+
+**Ejemplo sano ✅:**
+
+```
+mean: 50.48 | std: 2.71
+```
+
+**Ejemplo enfermo ❌:**
+
+```
+mean: 50.0 | std: 0.0
+```
+
+→ no importa qué haga el agente, siempre obtiene lo mismo. Sería imposible aprender.
+
+---
+
+## 💚 5️⃣ Métricas de trades razonables
+
+**Signo de salud:**
+
+* Hay **varios trades por episodio** (500–2000).
+* Hay **diferencia entre ganadoras y perdedoras** (o sea, el entorno reacciona).
+
+**Ejemplo sano ✅:**
+
+```
+Trades: 674 | Wins: 110 | Losses: 227
+```
+
+**Ejemplo enfermo ❌:**
+
+```
+Trades: 0 | Wins: 0 | Losses: 0
+```
+
+→ no se están ejecutando trades, ergo el entorno no responde a las acciones.
+
+---
+
+## 💚 6️⃣ Recompensas equilibradas
+
+**Signo de salud:**
+
+* Rewards no son todos 0 o −∞.
+* Al finalizar episodios, el balance cambia en ±10–20 %.
+* No hay “saltos” de millones.
+
+**Ejemplo sano ✅:**
+
+```
+Reward FINAL DEL EPISODIO: -10.6  → Balance: 49.4
+Reward FINAL DEL EPISODIO: +8.5   → Balance: 56.2
+```
+
+---
+
+## 📈 En resumen
+
+| Criterio                      | Indicador | Estado en tu entorno |
+| ----------------------------- | --------- | -------------------- |
+| Sin errores ni NaN            | ✅         | ✅                    |
+| Balance estable (no explota)  | ✅         | ✅                    |
+| DD consistente (~0.75)        | ✅         | ✅                    |
+| Varianza entre episodios      | ✅         | ✅                    |
+| Trades y estadísticas activas | ✅         | ✅                    |
+| Reward balanceado             | ✅         | ✅                    |
+
+✅ **Conclusión:**
+Tu entorno **está saludable y listo para entrenar DQN.**
+
+---
+
+Si quieres, puedo generarte un **test automático** (`health_check_env.py`) que corra 20 episodios, grafique la distribución de balances y te diga si pasa o falla cada criterio. ¿Quieres que te lo cree?

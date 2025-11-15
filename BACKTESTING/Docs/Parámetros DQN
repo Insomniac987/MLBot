@@ -1,0 +1,119 @@
+Arquitectura de DQN (Deep Q-Network)
+DQN tiene dos redes neuronales:
+
+Q-network: Toma decisiones (se actualiza frecuentemente)
+
+Target network: Estable, se actualiza periódicamente
+
+🔍 Desglose parámetro por parámetro:
+1. learning_rate=1e-5
+python
+# Qué es: Qué tan rápido aprende la red neuronal
+# Analogía: Velocidad de aprendizaje
+
+1e-4 = 0.0001    # ❌ Demasiado rápido (tu configuración anterior)
+1e-5 = 0.00001   # ✅ Más lento y estable
+
+# Por qué: Con trading, cambios pequeños son importantes
+# Un learning rate muy alto hace que "sobre-reaccione" al ruido
+2. buffer_size=100000
+python
+# Qué es: Memoria de experiencias pasadas
+# La red aprende de experiencias aleatorias de este buffer
+
+100000 = 100,000 experiencias almacenadas
+# Por qué: Trading tiene patrones complejos, necesita mucha memoria
+3. learning_starts=20000
+python
+# Qué es: Cuántos steps esperar antes de empezar a aprender
+# Primero llena el buffer con experiencias aleatorias
+
+10000 = Empezar a aprender después de 10K steps  # ❌ Muy pronto
+20000 = Empezar a aprender después de 20K steps  # ✅ Más datos iniciales
+
+# Por qué: Necesita ver muchos escenarios antes de aprender patrones
+4. batch_size=256
+python
+# Qué es: Cuántas experiencias usar en cada actualización
+# Analogía: Tamaño del "grupo de estudio"
+
+128 = 128 experiencias por actualización  # ❌ Grupos pequeños
+256 = 256 experiencias por actualización  # ✅ Grupos más grandes
+
+# Por qué: Mejor estabilidad, menos actualizaciones ruidosas
+5. exploration_fraction=0.5
+python
+# Qué es: Qué porcentaje del entrenamiento se dedica a explorar
+# Analogía: Tiempo de "prueba y error" vs "aplicar lo aprendido"
+
+0.2 = 20% del tiempo explorando  # ❌ Muy poco
+0.5 = 50% del tiempo explorando  # ✅ Balanceado
+
+# Por qué: Trading necesita mucha exploración para encontrar estrategias
+6. exploration_final_eps=0.15
+python
+# Qué es: Exploración mínima al final del entrenamiento
+# Analogía: Cuánto "probamos cosas nuevas" al final
+
+0.05 = 5% de exploración final  # ❌ Muy conservador
+0.15 = 15% de exploración final # ✅ Sigue explorando
+
+# Por qué: Los mercados cambian, necesita adaptarse
+7. target_update_interval=2000
+python
+# Qué es: Cada cuántos steps actualizar la target network
+# La target network es como el "libro de respuestas"
+
+1000 = Actualizar cada 1K steps  # ❌ Muy frecuente
+2000 = Actualizar cada 2K steps  # ✅ Más estable
+
+# Por qué: Menos actualizaciones = aprendizaje más estable
+8. train_freq=4
+python
+# Qué es: Cada cuántos steps entrenar la red
+# Analogía: Frecuencia de "estudio"
+
+1 = Entrenar después de cada step  # ❌ Muy frecuente, sobre-entrena
+4 = Entrenar cada 4 steps         # ✅ Balanceado
+
+# Por qué: Da tiempo a acumular experiencias diversas
+9. gradient_steps=1
+python
+# Qué es: Cuántas veces optimizar por cada entrenamiento
+# Analogía: Cuántas veces "repasar" el mismo material
+
+1 = Una optimización por entrenamiento  # ✅ Suficiente para trading
+# Más gradient steps puede causar sobre-optimización
+10. policy_kwargs=dict(net_arch=[256, 256])
+python
+# Qué es: Arquitectura de la red neuronal
+# Analogía: Tamaño del "cerebro" de la IA
+
+[64, 64]   = 2 capas de 64 neuronas   # ❌ Muy pequeño para trading
+[256, 256] = 2 capas de 256 neuronas  # ✅ Suficiente capacidad
+
+# Por qué: Los patrones de mercado son complejos, necesita más capacidad
+🎯 Estrategia general de esta configuración:
+OBJETIVO: Aprendizaje LENTO pero ESTABLE
+python
+# Tu configuración anterior = "Estudiante ansioso"
+# Aprende rápido pero comete muchos errores
+
+# Nueva configuración = "Estudiante metódico"  
+# Toma su tiempo pero aprende mejor
+PARA TRADING ESPECÍFICAMENTE:
+Mercados son ruidosos → Learning rate bajo
+
+Patrones complejos → Red neuronal más grande
+
+Riesgo alto → Más exploración
+
+Señales sutiles → Entrenamiento más estable
+
+📊 Comparación visual:
+Parámetro	Viejo (Agresivo)	Nuevo (Conservador)	Beneficio
+Learning Rate	1e-4	1e-5	+Estabilidad
+Exploración Final	5%	15%	+Adaptabilidad
+Batch Size	128	256	+Calidad aprendizaje
+Arquitectura	[64,64]	[256,256]	+Capacidad
+Esta configuración debería producir un agente más paciente, selectivo y estable en sus operaciones.

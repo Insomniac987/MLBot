@@ -1,0 +1,109 @@
+Excelente, coque 🔥
+Esto que acabas de correr es justo lo que queríamos ver: un entorno **limpio, estable y con aprendizaje controlado**.
+Y tu pregunta es muy buena — porque toca el **núcleo del diagnóstico en entrenamiento de trading con RL**.
+
+Te explico exactamente cómo leerlo ahora 👇
+
+---
+
+## 🧠 1️⃣ Antes vs. Ahora: qué cambió
+
+**Antes:**
+
+* Tu reward se componía de muchas piezas (hold, noop, dd, profit, etc.).
+* Los prints por step eran útiles porque el reward era muy ruidoso y querías ver qué lo dominaba.
+* Pero esa misma “visibilidad” hacía imposible entrenar de forma estable: saturaba la salida y confundía al agente.
+
+**Ahora:**
+
+* El reward está **condensado en una señal económica real** → cambio porcentual del balance + penalización por drawdown.
+* Ya no necesitas verlo paso a paso, porque la dinámica real se ve mejor a nivel de **episodio completo**.
+
+---
+
+## 📊 2️⃣ Qué métricas mirar ahora
+
+Tu entrenamiento ya imprime varias métricas clave:
+
+| Métrica            | Qué te dice                   | Cómo interpretarla                                                |
+| ------------------ | ----------------------------- | ----------------------------------------------------------------- |
+| `Balance`          | Resultado neto del episodio   | ✅ Si sube con el tiempo, el agente mejora                         |
+| `Max DD`           | Riesgo máximo asumido         | ⚠️ Si se mantiene cerca de 0.75 siempre, hay sobreapalancamiento  |
+| `Trades`           | Nivel de actividad del agente | ✅ Si baja un poco con el tiempo, está aprendiendo a filtrar ruido |
+| `Wins/Losses`      | Calidad de operaciones        | ✅ Si la relación win/loss mejora, el policy está aprendiendo      |
+| `exploration_rate` | Nivel de exploración de DQN   | 🔽 Debe ir bajando gradualmente hacia 0.1–0.05 conforme aprende   |
+| `loss`             | Estabilidad del entrenamiento | ✅ Si oscila bajo (0.02–0.1) sin explosiones, va bien              |
+
+---
+
+## 📈 3️⃣ Cómo evaluar si “está aprendiendo”
+
+### 🔹 Etapa inicial (primeros 50k steps)
+
+* El balance variará ±5% (ruido).
+* `exploration_rate` cerca de 0.5–0.6 (aún explora).
+* `loss` bajo pero variable.
+  ✅ Todo bien.
+
+### 🔹 Etapa media (100k–500k steps)
+
+* `exploration_rate` baja a 0.2–0.1.
+* Si el **balance promedio empieza a subir** (p. ej. de 50 a 60–80), el agente ya encontró un patrón rentable.
+* DD puede mantenerse pero sin liquidaciones constantes.
+
+### 🔹 Etapa madura (1M–2M steps)
+
+* Balance estable o en tendencia positiva.
+* Pocas liquidaciones (<30% episodios).
+* Recompensa media positiva sostenida (lo ves en logs del EvalCallback).
+
+---
+
+## 🔍 4️⃣ Si quieres seguir “viendo” el reward
+
+Puedes añadir un **log interno de reward acumulado por episodio**, sin ensuciar el step loop.
+Por ejemplo dentro del `step()` del entorno (al final):
+
+```python
+self.episode_reward += reward
+if terminated or truncated:
+    print(f"EPISODE SUMMARY | Total Reward: {self.episode_reward:.2f} | Balance: {self.balance:.2f}")
+    self.episode_reward = 0
+```
+
+Eso te da una métrica directa de recompensa *por episodio*, sin saturar la salida con miles de líneas.
+
+---
+
+## 🔬 5️⃣ Cómo detectar desbalance o bugs en rewards
+
+Mira estas señales:
+
+| Síntoma                                          | Causa probable                               |
+| ------------------------------------------------ | -------------------------------------------- |
+| Todos los balances ~50                           | Reward poco informativo o política estancada |
+| Un episodio con balance >100 y luego vuelve a 50 | Sobreexploración puntual (normal)            |
+| Rewards totales negativos en todos los episodios | Falta de incentivo positivo                  |
+| `loss` sube sin parar                            | Aprendizaje inestable, learning rate alto    |
+| `exploration_rate` no baja nunca                 | Replay buffer saturado con ruido             |
+
+---
+
+## ✅ En resumen
+
+➡️ **Ya no necesitas mirar el reward por step.**
+Ahora tu métrica principal de salud y aprendizaje es el **balance por episodio** (junto con drawdown y winrate).
+
+Piénsalo así:
+
+> Antes el reward era tu “termómetro interno”.
+> Ahora el balance y el DD son tu “análisis de sangre”: más lentos, pero mucho más útiles.
+
+---
+
+Si quieres, te puedo generar un **script de monitoreo visual**, que al final del entrenamiento:
+
+* Lee los logs del agente.
+* Grafica evolución de balance, drawdown y winrate por episodio.
+
+¿Quieres que te lo genere? (sería como `analyze_training.py`).

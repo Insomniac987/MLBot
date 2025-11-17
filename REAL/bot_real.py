@@ -30,6 +30,7 @@ MONEDA = SYMBOL.replace("USDT", "")
 WINDOW_SIZE = config.get("window_size")
 TIMEFRAME = config.get("timeframe")
 FACTOR_SEGURIDAD = config.get("factor_seguridad")
+EPISODE_STEPS = config.get("episode_steps")
 
 match apalancamiento:
   case "1x":
@@ -155,26 +156,29 @@ def obtener_ultimas(symbol=SYMBOL, interval=TIMEFRAME, limit=WINDOW_SIZE + 50):
 
     return df_total
 
-def get_state(df):
+def get_state(df, balance_norm, cur_pct, equity_change, trade_duration, drawdown, pos_vector):
     window = df.iloc[-WINDOW_SIZE:]
-    state_array = window[['close', 'RSI_14', 'ADX_14', 'OBV', 'MACD_hist', 'CMF_20', 'StochRSI_K', 'BB_Width_20']].values
-    # normalize per-window like in TradinEnv
+    state_array = window[['close', 'RSI_14', 'ADX_14', 'OBV', 'MACD_hist',
+                          'CMF_20', 'StochRSI_K', 'BB_Width_20']].values
+    
+    # Normalize
     means = state_array.mean(axis=0)
     stds = state_array.std(axis=0) + 1e-8
-    obs = ((state_array - means)/stds).flatten()
-    # build state vector (balance_norm, cur_pct, equity_change, trade_duration, drawdown, pos-onehot)
-    # in production we may not have exact balance/state; set neutral placeholders consistent with training
-    balance_norm = 1.0 # placeholder (no real balance in inference)
-    cur_pct = 0.0
-    equity_change = 0.0
-    trade_duration = 0.0
-    # assume no position
-    pos = [0,0,1]
-    state_vector = np.array([balance_norm, cur_pct, equity_change, trade_duration, 0.0] + pos, dtype= np.float32)
+    obs = ((state_array - means) / stds).flatten()
 
-    full_obs = np.concatenate([obs.astype(np.float32), state_vector])
+    # Build agent state vector
+    state_vector = np.array([
+        balance_norm,
+        cur_pct,
+        equity_change,
+        trade_duration,
+        drawdown] + pos_vector,
+        dtype=np.float32)
+    
+    full_obs = np.concatenate([obs.astype(np.float32), state_vector]).astype(np.float32)
 
-    return np.expand_dims(full_obs, axis=0)
+    return full_obs
+
 
 # obtain symbol
 _symbol_info_cache = None
@@ -249,8 +253,7 @@ def ejecutar_operacion(action, price):
 
     info_pos = client.futures_position_information(symbol=SYMBOL)
     posicion_abierta = next(
-    (p for p in info_pos if float(p['positionAmt']) != 0),
-    None
+    (p for p in info_pos if float(p['positionAmt']) != 0),None
     )
     
     # open long
@@ -377,6 +380,29 @@ def ejecutar_operacion(action, price):
         else:
             print(f"⏸️ HOLD OUT OF POSITION, Action: {action}")
 
+# Get initial balance only the first time
+def load_initial_balance(current_balance):
+    path = "initial_balance.json"
+
+    if not os.path.exists(path):
+        with open(path, "w") as f:
+            json.dump({"initial_balance": current_balance}, f)
+        return current_balance
+    
+    with open(path, "r") as f:
+        return json.load(f)["initial_balance"]
+    
+def get_futures_balance(client, asset="USDT"):
+    try:
+        balances = client.futures_account_balance()
+        for b in balances:
+            if b["asset"] == asset:
+                return b
+        return None
+    except Exception as e:
+        print(f"Error obtaining futures balance: {e}")
+        return None
+
 if __name__ == "__main__":
 
     # === Load trained model ===
@@ -398,62 +424,181 @@ if __name__ == "__main__":
     # === Loop de inferencia ===
     print("🚀 Starting bot in production...")
 
-while True:
+    # Variables persistentes entre iteraciones
+    entry_timestamp = None   # timestamp (ms) cuando se abrió la posición detectada por el bot
+    prev_pos_exists = False  # para detectar transiciones
+    prev_side = None
+    # Initialize binance client
+    client = Client(API_KEY, API_SECRET)
+    # Obtain first real balance
+    futures_balance= get_futures_balance(client)
+    current_balance = float(futures_balance['availableBalance'])
+    # Load or create initial balance 
+    initial_balance = load_initial_balance(current_balance)
+    # Load peak balance from file if existing
     try:
-        df = obtener_ultimas(SYMBOL)
-        current_price = df.iloc[-1]['close']
-        timestamp_last_candle = int(df.iloc[-1]["timestamp"])
+        with open("peak_balance.json", "r") as f:
+            peak_balance = float(json.load(f)["peak"])
+    except:
+        peak_balance = current_balance
 
-        # First execution -> just initializes
-        if last_candle is None:
+    previous_balance = current_balance
+
+    while True:
+        try:
+            df = obtener_ultimas(SYMBOL)
+            current_price = df.iloc[-1]['close']
+            timestamp_last_candle = int(df.iloc[-1]["timestamp"])
+
+            # First execution -> just initializes
+            if last_candle is None:
+                last_candle = timestamp_last_candle
+                wait_next_candle = False
+                print("⏳ Bot inicializado. Esperando primera vela nueva...")
+                time.sleep(5)
+                continue
+
+            # There's no new candle → do nothing
+            if timestamp_last_candle == last_candle:
+                time.sleep(5)
+                continue
+
+            # 🎉 New candle is here
+            print("\n🟩 New candle detected:", timestamp_last_candle)
             last_candle = timestamp_last_candle
-            wait_next_candle = False
-            print("⏳ Bot inicializado. Esperando primera vela nueva...")
-            time.sleep(5)
-            continue
 
-        # There's no new candle → do nothing
-        if timestamp_last_candle == last_candle:
-            time.sleep(5)
-            continue
+            # Detect current position
+            info_pos = client.futures_position_information(symbol=SYMBOL)
+            posicion_abierta = next(
+                (p for p in info_pos if float(p['positionAmt']) != 0),
+                None
+            )
+            ### === Build REAL STATE for DQN === ###
 
-        # 🎉 New candle is here
-        print("\n🟩 New candle detected:", timestamp_last_candle)
-        last_candle = timestamp_last_candle
+            futures_balance= get_futures_balance(client)
+            current_balance = float(futures_balance['availableBalance'])
+            peak_balance = max(peak_balance, current_balance)
 
-        # Detect current position
-        info_pos = client.futures_position_information(symbol=SYMBOL)
-        posicion_abierta = next(
-            (p for p in info_pos if float(p['positionAmt']) != 0),
-            None
-        )
+            # Save each update of peak balance
+            with open("peak_balance.json", "w") as f:
+                json.dump({"peak": peak_balance}, f)
 
-        # Obtain state and predict action
-        state = get_state(df)
-        action, _ = model.predict(state, deterministic=True)
+            # STATE: Calculate balance_norm
+            # ****** CHECK OK ******
+            balance_norm = current_balance / max(initial_balance, 1)
 
-        # if action is HOLD
-        if action == 0:
-            # HOLD inpos
-            if posicion_abierta:
-                print("⏸️ HOLD IN POSITION")
-            # HOLD outpos
+            # STATE: Calculate equity_balance 
+            # ****** CHECK OK ******
+            equity_change = (current_balance - previous_balance) / max(initial_balance, 1)
+            previous_balance = current_balance
+
+            # Detectamos si hay posición ahora
+            posicion_abierta = next(
+                (p for p in info_pos if float(p['positionAmt']) != 0),
+                None
+            )
+            current_pos_exists = posicion_abierta is not None
+
+            # Detect side and amt if existing
+            if current_pos_exists:
+                amt = float(posicion_abierta["positionAmt"])
+                side = "LONG" if amt > 0 else "SHORT"
             else:
-                print("⏸️ HOLD OUT OF POSITION")
+                amt = 0.0
+                side = None
 
-        elif action in [1,2,3,4]:
-            ejecutar_operacion(action, current_price)
+            # Transición: sin posición -> con posición (marcamos entry_timestamp)
+            if current_pos_exists and not prev_pos_exists:
+                # Nueva posición detectada ahora, guardamos timestamp de la vela actual como entrada
+                entry_timestamp = timestamp_last_candle
+                prev_side = side
 
-        # Guardar estado
-        state_dict = {
-            "last_candle": last_candle,
-            "wait_next_candle": wait_next_candle,
-        }
-        with open(state_path, "w") as f:
-            json.dump(state_dict, f)
+            # Transición: con posición -> sin posición (limpiamos datos de entrada)
+            if not current_pos_exists and prev_pos_exists:
+                entry_timestamp = None
+                prev_side = None
 
-        time.sleep(5)
+            # Calcula cur_pct, trade_duration, drawdown, pos_vector, equity_change
+            if current_pos_exists:
+                # entry_price puede ser "0" si Binance nunca definió, fallback a current_price
+                entry_price = float(posicion_abierta.get("entryPrice") or current_price)
 
-    except Exception as e:
-        print(f"⚠️ Error: {e}")
-        time.sleep(10)
+                # STATE: calculate cur_pct: porcentaje PnL ajustado por lado 
+                # ****** CHECK OK ******
+                cur_pct = (current_price - entry_price) / max(entry_price, 1e-8)
+                if amt < 0: # SHORT
+                    cur_pct = -cur_pct
+
+                # STATE: calculate trade_duration in STEPS 
+                # ****** CHECK OK ******
+                if entry_timestamp is not None:
+                    duration_minutes = (timestamp_last_candle - entry_timestamp) / 60000 # 1 minute = 60000 ms
+                    duration_steps = duration_minutes / 5 # (mins in the trade / 5 min) to obtain the current steps in 5 mins candle
+                    trade_duration = min(duration_steps / EPISODE_STEPS, 1.0)
+                else:
+                    trade_duration = 0.0
+
+                # STATE: calculate drawdown in STEPS
+                # ****** CHECK OK ******
+                drawdown = (peak_balance - current_balance) / max(peak_balance, 1)
+                # position one-hot
+                # STATE: calculate POS: check current position
+                # ****** CHECK OK ******
+                pos_vector = [1, 0, 0] if side == "LONG" else [0, 1, 0]
+
+            else:
+                # no position
+                cur_pct = 0.0
+                trade_duration = 0.0
+                drawdown = 0.0
+                pos_vector = [0, 0, 1]
+
+            # STATE logging
+            print(
+                f"balance_norm: {balance_norm}\n"
+                f"cur_pct: {cur_pct}\n"
+                f"equity_change: {equity_change}\n"
+                f"trade_duration: {trade_duration}\n"
+                f"drawdown: {drawdown}\n"
+                f"pos: {pos_vector}\n"
+                )
+
+            # guardar estado de presencia de posición para la próxima iteración
+            prev_pos_exists = current_pos_exists
+
+            # Obtain state and predict action
+            state = get_state(
+                df,
+                balance_norm=balance_norm,
+                cur_pct=cur_pct,
+                equity_change=equity_change,
+                trade_duration=trade_duration,
+                drawdown=drawdown,
+                pos_vector=pos_vector)
+            action, _ = model.predict(state, deterministic=True)
+
+            # if action is HOLD
+            if action == 0:
+                # HOLD inpos
+                if posicion_abierta:
+                    print("⏸️ HOLD IN POSITION")
+                # HOLD outpos
+                else:
+                    print("⏸️ HOLD OUT OF POSITION")
+
+            elif action in [1,2,3,4]:
+                ejecutar_operacion(action, current_price)
+
+            # Guardar estado
+            state_dict = {
+                "last_candle": last_candle,
+                "wait_next_candle": wait_next_candle,
+            }
+            with open(state_path, "w") as f:
+                json.dump(state_dict, f)
+
+            time.sleep(5)
+
+        except Exception as e:
+            print(f"⚠️ Error: {e}")
+            time.sleep(10)

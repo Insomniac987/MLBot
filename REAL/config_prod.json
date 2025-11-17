@@ -5,5 +5,6 @@
   "leverage": 10,
   "sl_pct": 0.05,
   "apalancamiento": "10x",
-  "window_size": 50
+  "window_size": 50,
+   "episode_steps":10000
 }

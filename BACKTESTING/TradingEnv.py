@@ -157,6 +157,16 @@ class TradingEnv(gym.Env):
 
         state_vector = np.array([balance_norm, cur_pct, equity_change, trade_duration, drawdown] + pos, dtype=np.float32)
         full_obs = np.concatenate([obs.astype(np.float32), state_vector])
+
+        # STATE logging
+        print(
+            f"balance_norm: {balance_norm}\n"
+            f"cur_pct: {cur_pct}\n"
+            f"equity_change: {equity_change}\n"
+            f"trade_duration: {trade_duration}\n"
+            f"drawdown: {drawdown}\n"
+            f"pos: {pos}\n"
+            )
         return full_obs
 
     def step(self, action):

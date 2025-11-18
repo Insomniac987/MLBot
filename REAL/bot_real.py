@@ -4,7 +4,8 @@ import time
 import json
 import os
 import pandas as pd
-import pandas_ta as ta
+# import pandas_ta as ta
+import pandas_ta_classic as ta
 from datetime import timezone, timedelta
 from binance.client import Client
 from binance.enums import *

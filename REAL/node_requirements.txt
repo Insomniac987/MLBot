@@ -1,0 +1,13 @@
+1.- Install python3.13.9(crear alias si es necesario)
+2.- Install pip for python installed version: python3.13.9 -m ensurepip --user
+python -m pip install --upgrade pip==24.3.1 --user (hacerle un downgrade al pip)
+*** instalar librerías con python -m para que utilicela versión de python anterior ***
+3.- Install pandas
+4.- Install binance module: python -m pip install python-binance
+5.- Install cryptography module: python -m pip install cryptography
+6.- Install requests module: python -m pip install requests
+7.- Install aionhttp: python -m pip install aiohttp
+4.- Bajar el torch sin cudas de NVIDIA:
+pip install torch --no-cache-dir --index-url https://download.pytorch.org/whl/cpu
+4.- Install stable_baselines3
+5.-Install pandas_ta con pip: python-m pip install pandas-ta-classic (version compatible para nodos y master)

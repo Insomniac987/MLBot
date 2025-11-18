@@ -447,6 +447,7 @@ if __name__ == "__main__":
     while True:
         try:
             df = obtener_ultimas(SYMBOL)
+            print("VELAS DESCARGADAS:", len(df))
             current_price = df.iloc[-1]['close']
             timestamp_last_candle = int(df.iloc[-1]["timestamp"])
 

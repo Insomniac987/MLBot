@@ -1,0 +1,706 @@
+alance_norm: 0.7744493917631816
+cur_pct: 0.0013543690036816915
+equity_change: 0.0
+trade_duration: 0.0006
+drawdown: 0.3059801443216372
+pos: [0, 1, 0]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '111.98161153', 'crossWalletBalance': '85.64574230', 'crossUnPnl': '0.00000000', 'availableBalance': '85.64574230', 'maxWithdrawAmount': '85.64574230', 'marginAvailable': True, 'updateTime': 1763677805340}
+Balance disponible para trading: 85.6457423
+Cantidad de BTC disponible: 0.002
+❌ Position BUY CLOSED, quantity: 0.003
+
+🟩 New candle detected: 1763680200000
+balance_norm: 1.016292272787507
+cur_pct: 0.0
+equity_change: 0.24184288102432538
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+⏸️ HOLD OUT OF POSITION
+
+🟩 New candle detected: 1763680500000
+balance_norm: 1.016292272787507
+cur_pct: 0.0
+equity_change: 0.0
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+⏸️ HOLD OUT OF POSITION
+
+🟩 New candle detected: 1763680800000
+balance_norm: 1.016292272787507
+cur_pct: 0.0
+equity_change: 0.0
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '112.39095417', 'crossWalletBalance': '112.39095417', 'crossUnPnl': '0.00000000', 'availableBalance': '112.39095417', 'maxWithdrawAmount': '112.39095417', 'marginAvailable': True, 'updateTime': 1763679906507}
+Balance disponible para trading: 112.39095417
+Cantidad de BTC disponible: 0.003
+📉 Open SHORT order sent, Action: 3
+✅ SL set at 87969.2 for SHORT
+
+🟩 New candle detected: 1763681100000
+balance_norm: 0.7788416095334922
+cur_pct: 0.000693349601743854
+equity_change: -0.2374506632540148
+trade_duration: 0.0
+drawdown: 0.30204407519242155
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763681400000
+balance_norm: 0.7788416095334922
+cur_pct: 0.0030398164777063565
+equity_change: 0.0
+trade_duration: 0.0001
+drawdown: 0.30204407519242155
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763681700000
+balance_norm: 0.7788416095334922
+cur_pct: 0.00435294225171257
+equity_change: 0.0
+trade_duration: 0.0002
+drawdown: 0.30204407519242155
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763682000000
+balance_norm: 0.7788416095334922
+cur_pct: 0.00813911775861526
+equity_change: 0.0
+trade_duration: 0.0003
+drawdown: 0.30204407519242155
+pos: [0, 1, 0]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '112.25965677', 'crossWalletBalance': '86.13147417', 'crossUnPnl': '0.00000000', 'availableBalance': '86.13147417', 'maxWithdrawAmount': '86.13147417', 'marginAvailable': True, 'updateTime': 1763680803492}
+Balance disponible para trading: 86.13147417
+Cantidad de BTC disponible: 0.002
+❌ Position BUY CLOSED, quantity: 0.003
+
+🟩 New candle detected: 1763682300000
+balance_norm: 1.0344037820057501
+cur_pct: 0.0
+equity_change: 0.25556217247225793
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '114.39389157', 'crossWalletBalance': '114.39389157', 'crossUnPnl': '0.00000000', 'availableBalance': '114.39389157', 'maxWithdrawAmount': '114.39389157', 'marginAvailable': True, 'updateTime': 1763682003166}
+Balance disponible para trading: 114.39389157
+Cantidad de BTC disponible: 0.003
+NOOP: Invalid Action, there's no SHORT to close
+
+🟩 New candle detected: 1763682600000
+balance_norm: 1.0344037820057501
+cur_pct: 0.0
+equity_change: 0.0
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '114.39389157', 'crossWalletBalance': '114.39389157', 'crossUnPnl': '0.00000000', 'availableBalance': '114.39389157', 'maxWithdrawAmount': '114.39389157', 'marginAvailable': True, 'updateTime': 1763682003166}
+Balance disponible para trading: 114.39389157
+Cantidad de BTC disponible: 0.003
+📉 Open SHORT order sent, Action: 3
+✅ SL set at 87264.3 for SHORT
+
+🟩 New candle detected: 1763682900000
+balance_norm: 0.7986713696474701
+cur_pct: 0.0004947587360157163
+equity_change: -0.23573241235828005
+trade_duration: 0.0
+drawdown: 0.28427371162985604
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763683200000
+balance_norm: 0.7986713696474701
+cur_pct: 0.002743170003063477
+equity_change: 0.0
+trade_duration: 0.0001
+drawdown: 0.28427371162985604
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763683500000
+balance_norm: 0.7986713696474701
+cur_pct: 0.001572609529864067
+equity_change: 0.0
+trade_duration: 0.0002
+drawdown: 0.28427371162985604
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763683800000
+balance_norm: 0.7986713696474701
+cur_pct: -0.0025297649896004327
+equity_change: 0.0
+trade_duration: 0.0003
+drawdown: 0.28427371162985604
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763684100000
+balance_norm: 0.7986713696474701
+cur_pct: -0.004960255763547672
+equity_change: 0.0
+trade_duration: 0.0004
+drawdown: 0.28427371162985604
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763684400000
+balance_norm: 1.0202880552988167
+cur_pct: 0.0
+equity_change: 0.2216166856513467
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '112.83284458', 'crossWalletBalance': '112.83284458', 'crossUnPnl': '0.00000000', 'availableBalance': '112.83284458', 'maxWithdrawAmount': '112.83284458', 'marginAvailable': True, 'updateTime': 1763684116456}
+Balance disponible para trading: 112.83284458
+Cantidad de BTC disponible: 0.003
+📉 Open SHORT order sent, Action: 3
+✅ SL set at 87609.1 for SHORT
+
+🟩 New candle detected: 1763684700000
+balance_norm: 0.7838066548251083
+cur_pct: -0.0002415877338588498
+equity_change: -0.23648140047370847
+trade_duration: 0.0
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763685000000
+balance_norm: 0.7838066548251083
+cur_pct: -0.0009543059629496914
+equity_change: 0.0
+trade_duration: 0.0001
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763685300000
+balance_norm: 0.7838066548251083
+cur_pct: 0.00028575263297366845
+equity_change: 0.0
+trade_duration: 0.0002
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763685600000
+balance_norm: 0.7838066548251083
+cur_pct: -0.0023439516457447605
+equity_change: 0.0
+trade_duration: 0.0003
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763685900000
+balance_norm: 0.7838066548251083
+cur_pct: -0.0006167025912750207
+equity_change: 0.0
+trade_duration: 0.0004
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763686200000
+balance_norm: 0.7838066548251083
+cur_pct: -0.0014535413939817793
+equity_change: 0.0
+trade_duration: 0.0005
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763686500000
+balance_norm: 0.7838066548251083
+cur_pct: -0.0021195710154371127
+equity_change: 0.0
+trade_duration: 0.0006
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763686800000
+balance_norm: 0.7838066548251083
+cur_pct: -0.0015675671335144382
+equity_change: 0.0
+trade_duration: 0.0007
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763687100000
+balance_norm: 0.7838066548251083
+cur_pct: -0.001939584712291513
+equity_change: 0.0
+trade_duration: 0.0008
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763687400000
+balance_norm: 0.7838066548251083
+cur_pct: -0.00041515005167869435
+equity_change: 0.0
+trade_duration: 0.0009
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763687700000
+balance_norm: 0.7838066548251083
+cur_pct: 0.00015371679172417163
+equity_change: 0.0
+trade_duration: 0.001
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763688000000
+balance_norm: 0.7838066548251083
+cur_pct: 0.0032181872201695718
+equity_change: 0.0
+trade_duration: 0.0011
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763688300000
+balance_norm: 0.7838066548251083
+cur_pct: 3.0513930297504996e-05
+equity_change: 0.0
+trade_duration: 0.0012
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763688600000
+balance_norm: 0.7838066548251083
+cur_pct: -0.0011253445722485126
+equity_change: 0.0
+trade_duration: 0.0013
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763688900000
+balance_norm: 0.7838066548251083
+cur_pct: 0.0011056137601766212
+equity_change: 0.0
+trade_duration: 0.0014
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763689200000
+balance_norm: 0.7838066548251083
+cur_pct: 0.000584009094527837
+equity_change: 0.0
+trade_duration: 0.0015
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763689500000
+balance_norm: 0.7838066548251083
+cur_pct: -0.0006857604335272249
+equity_change: 0.0
+trade_duration: 0.0016
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763689800000
+balance_norm: 0.7838066548251083
+cur_pct: 0.00017723316657734754
+equity_change: 0.0
+trade_duration: 0.0017
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763690100000
+balance_norm: 0.7838066548251083
+cur_pct: 0.0011749010304760545
+equity_change: 0.0
+trade_duration: 0.0018
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763690400000
+balance_norm: 0.7838066548251083
+cur_pct: 0.001594983785172847
+equity_change: 0.0
+trade_duration: 0.0019
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763690700000
+balance_norm: 0.7838066548251083
+cur_pct: 0.002928878452462015
+equity_change: 0.0
+trade_duration: 0.002
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763691000000
+balance_norm: 0.7838066548251083
+cur_pct: 0.005749925722669731
+equity_change: 0.0
+trade_duration: 0.0021
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763691300000
+balance_norm: 0.7838066548251083
+cur_pct: 0.008395575250678933
+equity_change: 0.0
+trade_duration: 0.0022
+drawdown: 0.29759466887436786
+pos: [0, 1, 0]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '112.70208463', 'crossWalletBalance': '86.68055458', 'crossUnPnl': '0.00000000', 'availableBalance': '86.68055458', 'maxWithdrawAmount': '86.68055458', 'marginAvailable': True, 'updateTime': 1763684406664}
+Balance disponible para trading: 86.68055458
+Cantidad de BTC disponible: 0.002
+❌ Position BUY CLOSED, quantity: 0.003
+
+🟩 New candle detected: 1763691600000
+balance_norm: 1.038816399054693
+cur_pct: 0.0
+equity_change: 0.2550097442295847
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '114.88187938', 'crossWalletBalance': '114.88187938', 'crossUnPnl': '0.00000000', 'availableBalance': '114.88187938', 'maxWithdrawAmount': '114.88187938', 'marginAvailable': True, 'updateTime': 1763691304689}
+Balance disponible para trading: 114.88187938
+Cantidad de BTC disponible: 0.003
+📉 Open SHORT order sent, Action: 3
+✅ SL set at 86702.1 for SHORT
+
+🟩 New candle detected: 1763691900000
+balance_norm: 1.0247593312378274
+cur_pct: 0.0
+equity_change: -0.014057067816865668
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '113.32731943', 'crossWalletBalance': '113.32731943', 'crossUnPnl': '0.00000000', 'availableBalance': '113.32731943', 'maxWithdrawAmount': '113.32731943', 'marginAvailable': True, 'updateTime': 1763691680780}
+Balance disponible para trading: 113.32731943
+Cantidad de BTC disponible: 0.003
+📉 Open SHORT order sent, Action: 3
+✅ SL set at 87113.6 for SHORT
+
+🟩 New candle detected: 1763692200000
+balance_norm: 0.7894473939171837
+cur_pct: 0.002369514606565276
+equity_change: -0.2353119373206437
+trade_duration: 0.0
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763692500000
+balance_norm: 0.7894473939171837
+cur_pct: 0.0017566872249949132
+equity_change: 0.0
+trade_duration: 0.0001
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763692800000
+balance_norm: 0.7894473939171837
+cur_pct: 0.0036942692794894472
+equity_change: 0.0
+trade_duration: 0.0002
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763693100000
+balance_norm: 0.7894473939171837
+cur_pct: 0.009092964713971507
+equity_change: 0.0
+trade_duration: 0.0003
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763693400000
+balance_norm: 0.7894473939171837
+cur_pct: 0.005782520114166741
+equity_change: 0.0
+trade_duration: 0.0004
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763693700000
+balance_norm: 0.7894473939171837
+cur_pct: 0.011492359270052486
+equity_change: 0.0
+trade_duration: 0.0005
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763694000000
+balance_norm: 0.7894473939171837
+cur_pct: 0.014250890053322491
+equity_change: 0.0
+trade_duration: 0.0006
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763694300000
+balance_norm: 0.7894473939171837
+cur_pct: 0.011519931887559131
+equity_change: 0.0
+trade_duration: 0.0007
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763694600000
+balance_norm: 0.7894473939171837
+cur_pct: 0.009606807552359145
+equity_change: 0.0
+trade_duration: 0.0008
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763694900000
+balance_norm: 0.7894473939171837
+cur_pct: 0.009672797247814406
+equity_change: 0.0
+trade_duration: 0.0009
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763695200000
+balance_norm: 0.7894473939171837
+cur_pct: 0.013602529758814498
+equity_change: 0.0
+trade_duration: 0.001
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763695500000
+balance_norm: 0.7894473939171837
+cur_pct: 0.01316909744093807
+equity_change: 0.0
+trade_duration: 0.0011
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763695800000
+balance_norm: 0.7894473939171837
+cur_pct: 0.01141390998174901
+equity_change: 0.0
+trade_duration: 0.0012
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763696100000
+balance_norm: 0.7894473939171837
+cur_pct: 0.012419791371039787
+equity_change: 0.0
+trade_duration: 0.0013
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763696400000
+balance_norm: 0.7894473939171837
+cur_pct: 0.00938957224371886
+equity_change: 0.0
+trade_duration: 0.0014
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763696700000
+balance_norm: 0.7894473939171837
+cur_pct: 0.007106697954088648
+equity_change: 0.0
+trade_duration: 0.0015
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763697000000
+balance_norm: 0.7894473939171837
+cur_pct: 0.008040244484899586
+equity_change: 0.0
+trade_duration: 0.0016
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763697300000
+balance_norm: 0.7894473939171837
+cur_pct: 0.008633574910994675
+equity_change: 0.0
+trade_duration: 0.0017
+drawdown: 0.29253974214547124
+pos: [0, 1, 0]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '113.19729913', 'crossWalletBalance': '87.30435943', 'crossUnPnl': '0.00000000', 'availableBalance': '87.30435943', 'maxWithdrawAmount': '87.30435943', 'marginAvailable': True, 'updateTime': 1763691906228}
+Balance disponible para trading: 87.30435943
+Cantidad de BTC disponible: 0.002
+❌ Position BUY CLOSED, quantity: 0.003
+
+🟩 New candle detected: 1763697600000
+balance_norm: 1.0433200502152304
+cur_pct: 0.0
+equity_change: 0.25387265629804684
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '115.37993458', 'crossWalletBalance': '115.37993458', 'crossUnPnl': '0.00000000', 'availableBalance': '115.37993458', 'maxWithdrawAmount': '115.37993458', 'marginAvailable': True, 'updateTime': 1763697306566}
+Balance disponible para trading: 115.37993458
+Cantidad de BTC disponible: 0.003
+📉 Open SHORT order sent, Action: 3
+✅ SL set at 86226.8 for SHORT
+
+🟩 New candle detected: 1763697900000
+balance_norm: 0.810572468075733
+cur_pct: -0.00023054177316692877
+equity_change: -0.23274758213949745
+trade_duration: 0.0
+drawdown: 0.27360858786393444
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763698200000
+balance_norm: 0.810572468075733
+cur_pct: 0.001961586472396042
+equity_change: 0.0
+trade_duration: 0.0001
+drawdown: 0.27360858786393444
+pos: [0, 1, 0]
+
+⏸️ HOLD IN POSITION
+
+🟩 New candle detected: 1763698500000
+balance_norm: 0.810572468075733
+cur_pct: 0.001141053568910127
+equity_change: 0.0
+trade_duration: 0.0002
+drawdown: 0.27360858786393444
+pos: [0, 1, 0]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '115.25123773', 'crossWalletBalance': '89.64056458', 'crossUnPnl': '0.00000000', 'availableBalance': '89.64056458', 'maxWithdrawAmount': '89.64056458', 'marginAvailable': True, 'updateTime': 1763697605732}
+Balance disponible para trading: 89.64056458
+Cantidad de BTC disponible: 0.002
+❌ Position BUY CLOSED, quantity: 0.003
+
+🟩 New candle detected: 1763698800000
+balance_norm: 1.0451424310758504
+cur_pct: 0.0
+equity_change: 0.23456996300011723
+trade_duration: 0.0
+drawdown: 0.0
+pos: [0, 0, 1]
+
+
+Saldo en USDT en Futuros: {'accountAlias': 'SgsRuXuXFzuXsR', 'asset': 'USDT', 'balance': '115.58147023', 'crossWalletBalance': '115.58147023', 'crossUnPnl': '0.00000000', 'availableBalance': '115.58147023', 'maxWithdrawAmount': '115.58147023', 'marginAvailable': True, 'updateTime': 1763698504281}
+Balance disponible para trading: 115.58147023
+Cantidad de BTC disponible: 0.003
+📉 Open SHORT order sent, Action: 3
+✅ SL set at 86079.5 for SHORT
+
+🟩 New candle detected: 1763699100000
+balance_norm: 0.8127925369396916
+cur_pct: -0.0005685844814964523
+equity_change: -0.23234989413615872
+trade_duration: 0.0
+drawdown: 0.27161908165610765
+pos: [0, 1, 0]
+

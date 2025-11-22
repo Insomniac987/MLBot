@@ -1,0 +1,376 @@
+✅ Apalancamiento seteado a 10x para BTCUSDT
+📦 State restored from disk
+🚀 Starting bot in production...
+
+🟩 New candle detected: 1763778000000
+⏸️ HOLD IN POSITION
+step: 1, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.0037374822224914878,
+equity_change: 0.0,
+trade_duration: 0.0,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763778300000
+⏸️ HOLD IN POSITION
+step: 2, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.004812543598273603,
+equity_change: 0.0,
+trade_duration: 0.0001,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763778600000
+⏸️ HOLD IN POSITION
+step: 3, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.00349762554832367,
+equity_change: 0.0,
+trade_duration: 0.0002,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763778900000
+⏸️ HOLD IN POSITION
+step: 4, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.007179819572257626,
+equity_change: 0.0,
+trade_duration: 0.0003,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763779200000
+⏸️ HOLD IN POSITION
+step: 5, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.007490374559900057,
+equity_change: 0.0,
+trade_duration: 0.0004,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763779500000
+⏸️ HOLD IN POSITION
+step: 6, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.0072440479901564915,
+equity_change: 0.0,
+trade_duration: 0.0005,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763779800000
+⏸️ HOLD IN POSITION
+step: 7, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.00747531734837801,
+equity_change: 0.0,
+trade_duration: 0.0006,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763780100000
+⏸️ HOLD IN POSITION
+step: 8, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.006584589179276101,
+equity_change: 0.0,
+trade_duration: 0.0007,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763780400000
+⏸️ HOLD IN POSITION
+step: 9, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.005647748299887901,
+equity_change: 0.0,
+trade_duration: 0.0008,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763780700000
+⏸️ HOLD IN POSITION
+step: 10, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.006985016898190995,
+equity_change: 0.0,
+trade_duration: 0.0009,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763781000000
+⏸️ HOLD IN POSITION
+step: 11, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.005486941986210915,
+equity_change: 0.0,
+trade_duration: 0.001,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763781300000
+⏸️ HOLD IN POSITION
+step: 12, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.004985230992917324,
+equity_change: 0.0,
+trade_duration: 0.0011,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763781600000
+⏸️ HOLD IN POSITION
+step: 13, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.005570932994232402,
+equity_change: 0.0,
+trade_duration: 0.0012,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763781900000
+⏸️ HOLD IN POSITION
+step: 14, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.007916799495583413,
+equity_change: 0.0,
+trade_duration: 0.0013,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763782200000
+⏸️ HOLD IN POSITION
+step: 15, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.006890438788317956,
+equity_change: 0.0,
+trade_duration: 0.0014,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763782500000
+⏸️ HOLD IN POSITION
+step: 16, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.006902084600354612,
+equity_change: 0.0,
+trade_duration: 0.0015,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763782800000
+⏸️ HOLD IN POSITION
+step: 17, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.007824926978405868,
+equity_change: 0.0,
+trade_duration: 0.0016,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763783100000
+⏸️ HOLD IN POSITION
+step: 18, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.007452260993234951,
+equity_change: 0.0,
+trade_duration: 0.0017,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763783400000
+⏸️ HOLD IN POSITION
+step: 19, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.008753415810778022,
+equity_change: 0.0,
+trade_duration: 0.0018,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763783700000
+⏸️ HOLD IN POSITION
+step: 20, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.007334273624823818,
+equity_change: 0.0,
+trade_duration: 0.0019,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+EPISODE END ---> Episode: 1,Final Balance: 84.93979196, Max Balance:84.93979196, Min Balance:84.93979196,Max drawdown:0.3117007270374331, Total trades0, Wins: 0, Losses 0, Winrate: 0
+
+🟩 New candle detected: 1763784000000
+⏸️ HOLD IN POSITION
+step: 21, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.006622938014871458,
+equity_change: 0.0,
+trade_duration: 0.002,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763784300000
+⏸️ HOLD IN POSITION
+step: 22, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.007824926978405868,
+equity_change: 0.0,
+trade_duration: 0.0021,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763784600000
+⏸️ HOLD IN POSITION
+step: 23, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.008745534301621963,
+equity_change: 0.0,
+trade_duration: 0.0022,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763784900000
+⏸️ HOLD IN POSITION
+step: 24, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.010515227193324001,
+equity_change: 0.0,
+trade_duration: 0.0023,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+⚠️ Error: HTTPSConnectionPool(host='api.binance.com', port=443): Read timed out. (read timeout=10)
+
+🟩 New candle detected: 1763785200000
+⏸️ HOLD IN POSITION
+step: 25, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.012246924152826058,
+equity_change: 0.0,
+trade_duration: 0.0024,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763785500000
+⏸️ HOLD IN POSITION
+step: 26, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.012162815510339618,
+equity_change: 0.0,
+trade_duration: 0.0025,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763785800000
+⏸️ HOLD IN POSITION
+step: 27, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.011231268181877108,
+equity_change: 0.0,
+trade_duration: 0.0026,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763786100000
+⏸️ HOLD IN POSITION
+step: 28, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.011572055227028758,
+equity_change: 0.0,
+trade_duration: 0.0027,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763786400000
+⏸️ HOLD IN POSITION
+step: 29, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.012687700493241394,
+equity_change: 0.0,
+trade_duration: 0.0028,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763786700000
+⏸️ HOLD IN POSITION
+step: 30, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.012157639593878881,
+equity_change: 0.0,
+trade_duration: 0.0029,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763787000000
+⏸️ HOLD IN POSITION
+step: 31, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.011431482041334384,
+equity_change: 0.0,
+trade_duration: 0.003,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763787300000
+⏸️ HOLD IN POSITION
+step: 32, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.009521333598403096,
+equity_change: 0.0,
+trade_duration: 0.0031,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+🟩 New candle detected: 1763787600000
+⏸️ HOLD IN POSITION
+step: 33, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.009248186370635703,
+equity_change: 0.0,
+trade_duration: 0.0032,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]
+
+
+step: 34, Action: [0], Balance: 84.93979196,
+balance_norm: 0.768065854219506,
+cur_pct: 0.009570622439244869,
+equity_change: 0.0,
+trade_duration: 0.0033,
+drawdown: 0.3117007270374331,
+pos: [0, 1, 0]

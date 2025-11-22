@@ -153,7 +153,7 @@ def obtener_ultimas(symbol=SYMBOL, interval=TIMEFRAME, limit=WINDOW_SIZE + 50):
     df_total = calculate_bb_width(df_total, 'close')
 
     df_total = df_total.dropna().reset_index(drop=True)
-    df_total.to_csv('Data_prod.csv', index= False)
+    # df_total.to_csv('Data_prod.csv', index= False)
 
     return df_total
 

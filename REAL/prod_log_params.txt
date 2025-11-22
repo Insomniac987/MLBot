@@ -326,3 +326,37 @@ trade_duration: 0.0008,
 drawdown: 0.22575527707048357,
 pos: [0, 1, 0]
 
+step: 41, Action: [0], Balance: 86.67191838,
+balance_norm: 1.0203924024303674,
+cur_pct: 0.0006997888169117066,
+equity_change: 0.0,
+trade_duration: 0.0009,
+drawdown: 0.22575527707048357,
+pos: [0, 1, 0]
+
+step: 42, Action: [0], Balance: 86.67191838,
+balance_norm: 1.0203924024303674,
+cur_pct: -0.0003122043407087503,
+equity_change: 0.0,
+trade_duration: 0.001,
+drawdown: 0.22575527707048357,
+pos: [0, 1, 0]
+
+step: 43, Action: [0], Balance: 86.67191838,
+balance_norm: 1.0203924024303674,
+cur_pct: 0.0013807029227311787,
+equity_change: 0.0,
+trade_duration: 0.0011,
+drawdown: 0.22575527707048357,
+pos: [0, 1, 0]
+
+step: 44, Action: [0], Balance: 86.67191838,
+balance_norm: 1.0203924024303674,
+cur_pct: 0.0019907478302985063,
+equity_change: 0.0,
+trade_duration: 0.0012,
+drawdown: 0.22575527707048357,
+pos: [0, 1, 0]
+
+EPISODE END ---> Episode: 2,Final Balance: 86.67191838, Max Balance:111.94382837, Min Balance:84.93979196,Max drawdown:0.22575527707048357, Total trades1, Wins: 1, Losses 0, Winrate: 1.0
+

@@ -1,4 +1,5 @@
-# bot_real_v2.py - PRODUCCION REAL
+ya hice los cambios, revisa:
+# bot_real_v2.py - PRODUCCION REAL kk
 
 import time
 import json
@@ -32,6 +33,19 @@ WINDOW_SIZE = config.get("window_size")
 TIMEFRAME = config.get("timeframe")
 FACTOR_SEGURIDAD = config.get("factor_seguridad")
 EPISODE_STEPS = config.get("episode_steps")
+EPISODE_SIZE = config.get("episode_size")
+
+# STATS: initialize #
+episode_counter = 1
+steps_counter = 0
+step = 0
+episode_trades = 0
+episode_wins = 0
+episode_losses = 0
+max_drawdown = 0
+
+log_buffer = []
+
 
 match apalancamiento:
   case "1x":
@@ -153,7 +167,7 @@ def obtener_ultimas(symbol=SYMBOL, interval=TIMEFRAME, limit=WINDOW_SIZE + 50):
     df_total = calculate_bb_width(df_total, 'close')
 
     df_total = df_total.dropna().reset_index(drop=True)
-    # df_total.to_csv('Data_prod.csv', index= False)
+    df_total.to_csv('Data_prod.csv', index= False)
 
     return df_total
 
@@ -178,7 +192,7 @@ def get_state(df, balance_norm, cur_pct, equity_change, trade_duration, drawdown
     
     full_obs = np.concatenate([obs.astype(np.float32), state_vector]).astype(np.float32)
 
-    return full_obs
+    return np.expand_dims(full_obs, axis= 0) # return shape (1, n_features) for model.predict
 
 
 # obtain symbol
@@ -228,21 +242,26 @@ def close_operation(posicion_abierta):
     except Exception as e:
         print(f"Error while closing position {e}")
 
-def ejecutar_operacion(action, price):
-
-    #Obtener el precio actual
+def ejecutar_operacion(action):
+    """
+    Ejecuta una acción en producción.
+    action: 0 hold, 1 open long, 2 close long, 3 open short, 4 close short
+    """
+    # EPISODE VARIABLES
+    global episode_trades, episode_wins, episode_losses
+    # Get current price
     precio_actual = float(client.get_symbol_ticker(symbol=SYMBOL)['price'])
-    #Obtener entry price
-    entry_price = None
 
     ### BALANCE ###
     futures_balances = client.futures_account_balance()
     usdt_balance = next((item for item in futures_balances if item['asset'] == 'USDT'), None)
-    available_balance = float(usdt_balance['availableBalance'])
+    available_balance = float(usdt_balance['availableBalance']) if usdt_balance else 0.0
     #Calcular la cantidad máxima de BTC que se puede comprar
-    cantidad = (available_balance * FACTOR_SEGURIDAD * LEVERAGE) / precio_actual
-    #Redondear a la cantidad mínima permitida (BTCUSDT: 0.001)
-    cantidad = ajustar_cantidad(cantidad, step=get_lot_step(SYMBOL))
+    cantidad = 0.0
+    if precio_actual > 0:
+        cantidad = (available_balance * FACTOR_SEGURIDAD * LEVERAGE) / precio_actual
+        #Redondear a la cantidad mínima permitida (BTCUSDT: 0.001)
+        cantidad = ajustar_cantidad(cantidad, step=get_lot_step(SYMBOL))
 
     if usdt_balance:
        print(f"\033[96m")
@@ -253,22 +272,22 @@ def ejecutar_operacion(action, price):
     # detect if position is open
 
     info_pos = client.futures_position_information(symbol=SYMBOL)
-    posicion_abierta = next(
-    (p for p in info_pos if float(p['positionAmt']) != 0),None
-    )
+    posicion_abierta = next((p for p in info_pos if float(p['positionAmt']) != 0), None)
     
     # open long
     if action == 1:
         if not posicion_abierta:
             try:
                 # place market entry
-                order = client.futures_create_order(
+                client.futures_create_order(
                     symbol=SYMBOL,
                     side=SIDE_BUY,
                     type=ORDER_TYPE_MARKET,
                     quantity=cantidad
                 )
                 print(f"📈 Open LONG order sent, Action: {action}")
+                # sum trade to episode trades
+                episode_trades += 1
 
             except Exception as e:
                 print(f"Error opening long market order: {e}")
@@ -276,15 +295,15 @@ def ejecutar_operacion(action, price):
 
             # small sleep then fetch position info to confirm entry proce & qty
             time.sleep(0.5)
+            # refresh position info
             info_pos = client.futures_position_information(symbol=SYMBOL)
-            pos = next((p for p in info_pos if float(p['positionAmt']) != 0), None)
-            if not pos:
+            posicion_abierta = next((p for p in info_pos if float(p['positionAmt']) != 0), None)
+            if not posicion_abierta:
                 print("Warning: position not found after opening. Skipping SL placement.")
             else:
-                entry_price = float(pos.get('entryPrice') or precio_actual)
-                amt = abs(float(pos['positionAmt']))
+                entry_price = float(posicion_abierta.get('entryPrice') or precio_actual)
                 # delay before cancelling orders
-                time.sleep(0.3)
+                time.sleep(0.2)
                 # cancel previous orders (optional but recommended)
                 cancel_all_user_orders(SYMBOL)
                 # 4) calc stop price and round to tick
@@ -294,7 +313,7 @@ def ejecutar_operacion(action, price):
                 try:
                     client.futures_create_order(
                         symbol=SYMBOL,
-                        side=SIDE_SELL,             # to close a LONG -> SELL
+                        side=SIDE_SELL,
                         type='STOP_MARKET',
                         stopPrice=str(sl_price),
                         closePosition=True,
@@ -311,9 +330,21 @@ def ejecutar_operacion(action, price):
     # close long
     elif action == 2:
         if posicion_abierta:
+            # read entry and close prices
+            entry_price = float(posicion_abierta.get('entryPrice') or precio_actual)
+            close_price = float(client.get_symbol_ticker(symbol=SYMBOL)['price'])
+            size = abs(float(posicion_abierta["positionAmt"]))
+
+            # cancel orders and close
             cancel_all_user_orders(SYMBOL)
             close_operation(posicion_abierta)
-            wait_next_candle = True
+
+            # compute PnL (approx)
+            close_profit = (close_price - entry_price) * size * LEVERAGE
+            if close_profit > 0:
+                episode_wins += 1
+            else:
+                episode_losses += 1
         else:
             print(f"NOOP: Invalid Action, there's no LONG to close, Action: {action}")
 
@@ -322,27 +353,29 @@ def ejecutar_operacion(action, price):
         if not posicion_abierta:
             try:
                 # place market entry
-                order = client.futures_create_order(
+                client.futures_create_order(
                     symbol=SYMBOL,
                     side=SIDE_SELL,
                     type=ORDER_TYPE_MARKET,
                     quantity=cantidad
                 )
                 print(f"📉 Open SHORT order sent, Action: {action}")
+                # sum trade to episode trades
+                episode_trades += 1
             except Exception as e:
                 print("Error opening short market order:", e)
                 return
             # small sleep then fetch position info to confirm entry proce & qty
             time.sleep(0.5)
             info_pos = client.futures_position_information(symbol=SYMBOL)
-            pos = next((p for p in info_pos if float(p['positionAmt']) != 0), None)
-            if not pos:
+            posicion_abierta = next((p for p in info_pos if float(p['positionAmt']) != 0), None)
+            if not posicion_abierta:
                 print("Warning: position not found after opening short. Skipping SL placement.")
             else:
-                entry_price = float(pos.get('entryPrice') or precio_actual)
-                amt = abs(float(pos['positionAmt']))
+                entry_price = float(posicion_abierta.get('entryPrice') or precio_actual)
+                amt = abs(float(posicion_abierta['positionAmt']))
                 # delay before cancelling orders
-                time.sleep(0.3)
+                time.sleep(0.2)
                 # cancel previous orders (optional but recommended)
                 cancel_all_user_orders(SYMBOL)
                 tick = get_tick_size(SYMBOL)
@@ -351,7 +384,7 @@ def ejecutar_operacion(action, price):
                 try:
                     client.futures_create_order(
                         symbol=SYMBOL,
-                        side=SIDE_BUY,              # to close a SHORT -> BUY
+                        side=SIDE_BUY,
                         type='STOP_MARKET',
                         stopPrice=str(sl_price),
                         closePosition=True,
@@ -364,17 +397,29 @@ def ejecutar_operacion(action, price):
         elif posicion_abierta and float(posicion_abierta["positionAmt"]) > 0:
             print(f"NOOP: cannot open SHORT while LONG, Action: {action}")
             return
-        elif posicion_abierta:
+        else:
             print(f"NOOP: already in position, Action: {action}")
     
     # close short
     elif action == 4:
         if posicion_abierta:
+            # get position relevant info before closing
+            entry_price = float(posicion_abierta.get('entryPrice') or precio_actual)
+            close_price = float(client.get_symbol_ticker(symbol=SYMBOL)['price'])
+            size = abs(float(posicion_abierta["positionAmt"]))
+            # close operation
             cancel_all_user_orders(SYMBOL)
             close_operation(posicion_abierta)
-            wait_next_candle = True
+
+            # compute PnL (approx)
+            close_profit = (entry_price - close_price) * size * LEVERAGE
+            if close_profit > 0:
+                episode_wins += 1
+            else:
+                episode_losses += 1
         else:
-            print(f"NOOP: Invalid Action, there's no SHORT to close")
+            print(f"NOOP: Invalid Action, there's no SHORT to close, Action: {action}")
+
     else:
         if posicion_abierta:
             print(f"⏸️ HOLD IN POSITION, Action: {action}")
@@ -384,15 +429,13 @@ def ejecutar_operacion(action, price):
 # Get initial balance only the first time
 def load_initial_balance(current_balance):
     path = "initial_balance.json"
-
     if not os.path.exists(path):
         with open(path, "w") as f:
             json.dump({"initial_balance": current_balance}, f)
         return current_balance
-    
     with open(path, "r") as f:
         return json.load(f)["initial_balance"]
-    
+
 def get_futures_balance(client, asset="USDT"):
     try:
         balances = client.futures_account_balance()
@@ -405,22 +448,18 @@ def get_futures_balance(client, asset="USDT"):
         return None
 
 if __name__ == "__main__":
-
     # === Load trained model ===
     model = DQN.load("../BACKTESTING/expert_professional_bots/super_winner_8M_best_model")
 
     ### LOAD PREVIOUS STATE IF EXISTING ###
-
     state_path = "bot_last_state.json"
     if os.path.exists(state_path):
         with open(state_path, "r") as f:
             state = json.load(f)
             last_candle = state.get("last_candle", None)
-            wait_next_candle = state.get("wait_next_candle", False)
             print("📦 State restored from disk")
     else:
         last_candle = None
-        wait_next_candle = False
 
     # === Loop de inferencia ===
     print("🚀 Starting bot in production...")
@@ -429,13 +468,16 @@ if __name__ == "__main__":
     entry_timestamp = None   # timestamp (ms) cuando se abrió la posición detectada por el bot
     prev_pos_exists = False  # para detectar transiciones
     prev_side = None
+
     # Initialize binance client
     client = Client(API_KEY, API_SECRET)
+
     # Obtain first real balance
-    futures_balance= get_futures_balance(client)
+    futures_balance = get_futures_balance(client)
     current_balance = float(futures_balance['availableBalance'])
     # Load or create initial balance 
     initial_balance = load_initial_balance(current_balance)
+
     # Load peak balance from file if existing
     try:
         with open("peak_balance.json", "r") as f:
@@ -445,8 +487,13 @@ if __name__ == "__main__":
 
     previous_balance = current_balance
 
+    #### EPISODE STARTS ####
     while True:
         try:
+            # EPISODE variables (per-episode maxima/minima)
+            episode_max_balance = current_balance
+            episode_min_balance = current_balance
+
             df = obtener_ultimas(SYMBOL)
             current_price = df.iloc[-1]['close']
             timestamp_last_candle = int(df.iloc[-1]["timestamp"])
@@ -470,13 +517,9 @@ if __name__ == "__main__":
 
             # Detect current position
             info_pos = client.futures_position_information(symbol=SYMBOL)
-            posicion_abierta = next(
-                (p for p in info_pos if float(p['positionAmt']) != 0),
-                None
-            )
+            posicion_abierta = next((p for p in info_pos if float(p['positionAmt']) != 0), None)
             ### === Build REAL STATE for DQN === ###
-
-            futures_balance= get_futures_balance(client)
+            futures_balance = get_futures_balance(client)
             current_balance = float(futures_balance['availableBalance'])
             peak_balance = max(peak_balance, current_balance)
 
@@ -493,11 +536,7 @@ if __name__ == "__main__":
             equity_change = (current_balance - previous_balance) / max(initial_balance, 1)
             previous_balance = current_balance
 
-            # Detectamos si hay posición ahora
-            posicion_abierta = next(
-                (p for p in info_pos if float(p['positionAmt']) != 0),
-                None
-            )
+            # Detect current position presence
             current_pos_exists = posicion_abierta is not None
 
             # Detect side and amt if existing
@@ -508,22 +547,20 @@ if __name__ == "__main__":
                 amt = 0.0
                 side = None
 
-            # Transición: sin posición -> con posición (marcamos entry_timestamp)
+            # Transitions for entry timestamp
             if current_pos_exists and not prev_pos_exists:
                 # Nueva posición detectada ahora, guardamos timestamp de la vela actual como entrada
                 entry_timestamp = timestamp_last_candle
                 prev_side = side
-
             # Transición: con posición -> sin posición (limpiamos datos de entrada)
             if not current_pos_exists and prev_pos_exists:
                 entry_timestamp = None
                 prev_side = None
 
-            # Calcula cur_pct, trade_duration, drawdown, pos_vector, equity_change
+            # Compute cur_pct, trade_duration, drawdown, pos_vector
             if current_pos_exists:
                 # entry_price puede ser "0" si Binance nunca definió, fallback a current_price
                 entry_price = float(posicion_abierta.get("entryPrice") or current_price)
-
                 # STATE: calculate cur_pct: porcentaje PnL ajustado por lado 
                 # ****** CHECK OK ******
                 cur_pct = (current_price - entry_price) / max(entry_price, 1e-8)
@@ -554,20 +591,10 @@ if __name__ == "__main__":
                 drawdown = 0.0
                 pos_vector = [0, 0, 1]
 
-            # STATE logging
-            print(
-                f"balance_norm: {balance_norm}\n"
-                f"cur_pct: {cur_pct}\n"
-                f"equity_change: {equity_change}\n"
-                f"trade_duration: {trade_duration}\n"
-                f"drawdown: {drawdown}\n"
-                f"pos: {pos_vector}\n"
-                )
-
             # guardar estado de presencia de posición para la próxima iteración
             prev_pos_exists = current_pos_exists
 
-            # Obtain state and predict action
+            # Predict
             state = get_state(
                 df,
                 balance_norm=balance_norm,
@@ -578,7 +605,7 @@ if __name__ == "__main__":
                 pos_vector=pos_vector)
             action, _ = model.predict(state, deterministic=True)
 
-            # if action is HOLD
+            # Action handling
             if action == 0:
                 # HOLD inpos
                 if posicion_abierta:
@@ -588,15 +615,73 @@ if __name__ == "__main__":
                     print("⏸️ HOLD OUT OF POSITION")
 
             elif action in [1,2,3,4]:
-                ejecutar_operacion(action, current_price)
+                ejecutar_operacion(action)
 
             # Guardar estado
             state_dict = {
                 "last_candle": last_candle,
-                "wait_next_candle": wait_next_candle,
             }
             with open(state_path, "w") as f:
                 json.dump(state_dict, f)
+
+            # STATS: STEP logging
+
+            #count step number
+            step += 1
+            logs_params = (
+                f"step: {step}, Action: {action}, Balance: {current_balance},\n"
+                f"balance_norm: {balance_norm},\n"
+                f"cur_pct: {cur_pct},\n"
+                f"equity_change: {equity_change},\n"
+                f"trade_duration: {trade_duration},\n"
+                f"drawdown: {drawdown},\n"
+                f"pos: {pos_vector}\n"
+            )
+            print(logs_params)
+            
+            parameters_log = "prod_log_params.txt"
+            with open(parameters_log, "a") as f:
+                f.write(logs_params + "\n")
+
+            #### EPISODE STATS ####
+
+            steps_counter += 1
+            drawdown = (peak_balance - current_balance) / max(peak_balance, 1)
+
+            # update global episode variables
+            episode_max_balance = max(episode_max_balance, current_balance)
+            episode_min_balance = min(episode_min_balance, current_balance)
+            
+
+            if steps_counter >= EPISODE_SIZE:
+                final_episode_balance = current_balance
+                max_episode_balance = episode_max_balance
+                min_episode_balance = episode_min_balance
+                max_drawdown = max(drawdown, max_drawdown)
+                trades = episode_trades
+                wins = episode_wins
+                losses = episode_losses
+                winrate = episode_wins / episode_trades if episode_trades > 0 else 0
+
+                log_line = f"Episode: {episode_counter},Final Balance: {final_episode_balance}, Max Balance:{max_episode_balance}, Min Balance:{min_episode_balance},Max drawdown:{max_drawdown}, Total trades{trades}, Wins: {wins}, Losses {losses}, Winrate: {winrate}"
+                print(f"EPISODE END ---> {log_line}")
+
+                log_buffer.append(log_line)
+
+                # Save file each 20 episodes:
+                if episode_counter % 20 == 0:
+                    with open("stats_prod.csv", "a") as f:
+                        for line in log_buffer:
+                            f.write(line + "\n")
+                    log_buffer = []
+                    print("💾Logs guardados en stats_prod.csv")
+
+                # RESET FOR NEXT EPISODE #
+                episode_counter += 1
+                steps_counter = 0
+                episode_trades = 0
+                episode_wins = 0
+                episode_losses = 0
 
             time.sleep(5)
 

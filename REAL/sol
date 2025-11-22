@@ -1,2 +1,0 @@
-pip uninstall pandas_ta -y
-pip install git+https://github.com/twopirllc/pandas-ta.git

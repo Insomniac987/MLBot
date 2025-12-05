@@ -170,7 +170,7 @@ def obtener_ultimas(symbol=SYMBOL, interval=TIMEFRAME, limit=WINDOW_SIZE + 50):
 
     return df_total
 
-def get_state(df, balance_norm, cur_pct, equity_change, trade_duration, drawdown, pos_vector):
+def get_state(df, equity_norm, cur_pct, equity_change, trade_duration, drawdown, pos_vector):
     window = df.iloc[-WINDOW_SIZE:]
     state_array = window[['close', 'RSI_14', 'ADX_14', 'OBV', 'MACD_hist',
                           'CMF_20', 'StochRSI_K', 'BB_Width_20']].values
@@ -182,9 +182,9 @@ def get_state(df, balance_norm, cur_pct, equity_change, trade_duration, drawdown
 
     # Build agent state vector
     state_vector = np.array([
-        balance_norm,
-        cur_pct,
+        equity_norm,
         equity_change,
+        cur_pct,
         trade_duration,
         drawdown] + pos_vector,
         dtype=np.float32)
@@ -448,7 +448,7 @@ def get_futures_balance(client, asset="USDT"):
 
 if __name__ == "__main__":
     # === Load trained model ===
-    model = DQN.load("../BACKTESTING/expert_professional_bots/super_winner_8M_best_model")
+    model = DQN.load("../BACKTESTING/expert_professional_bots/coke_SHORTER_8M")
 
     ### LOAD PREVIOUS STATE IF EXISTING ###
     state_path = "bot_last_state.json"
@@ -485,10 +485,13 @@ if __name__ == "__main__":
         peak_balance = current_balance
 
     previous_balance = current_balance
+    prev_equity = current_balance
+    peak_equity = current_balance
     # EPISODE variables (per-episode maxima/minima)
     episode_max_balance = current_balance
     episode_min_balance = current_balance
     max_drawdown = 0.0
+    equity_change = 0.0
 
     #### EPISODE STARTS ####
     while True:
@@ -527,25 +530,57 @@ if __name__ == "__main__":
             with open("peak_balance.json", "w") as f:
                 json.dump({"peak": peak_balance}, f)
 
-            # STATE: Calculate balance_norm
-            # ****** CHECK OK ******
-            balance_norm = current_balance / max(initial_balance, 1)
+            ### STATE: Calculate VARIABLES ###
 
-            # STATE: Calculate equity_balance 
-            # ****** CHECK OK ******
-            equity_change = (current_balance - previous_balance) / max(initial_balance, 1)
-            previous_balance = current_balance
+            
+            if posicion_abierta:
+                amt = float(posicion_abierta["positionAmt"])
+                entry_price = float(posicion_abierta.get("entryPrice") or current_price)
+                side = "LONG" if amt > 0 else "SHORT"
+
+                # --- cur_pct ---
+                cur_pct = (current_price - entry_price) / max(entry_price, 1e-8)
+                if amt < 0:
+                    cur_pct = -cur_pct
+                
+                # --- unrealized pnl ---
+                notional = abs(amt) * entry_price
+                unrealized_pnl = notional * cur_pct * LEVERAGE
+
+                # --- trade duration ---
+                if entry_timestamp is not None:
+                    duration_minutes = (timestamp_last_candle - entry_timestamp) / 60000 # 1 minute = 60000 ms
+                    duration_steps = duration_minutes / 5 # (mins in the trade / 5 min) to obtain the current steps in 5 mins candle
+                    trade_duration = min(duration_steps / EPISODE_STEPS, 1.0)
+                else:
+                    trade_duration = 0.0
+
+                # --- equity % drawdown ---
+                equity = current_balance + unrealized_pnl
+                equity_change = (equity - prev_equity) / initial_balance
+                peak_equity = max(peak_equity, equity)
+                drawdown = (peak_equity - equity) / max(peak_equity, 1)
+
+                # --- pos vector ---
+                pos_vector = [1, 0, 0] if side == "LONG" else [0, 1, 0]
+                
+            else:
+                unrealized_pnl = 0.0
+                cur_pct = 0.0
+                trade_duration = 0.0
+                equity = current_balance
+                drawdown = 0.0
+                pos_vector = [0, 0, 1]
+                side = None
+
+            # equity norm
+            equity_norm = equity / max(initial_balance, 1)
+            
+            # After calculations save equity
+            prev_equity = equity
 
             # Detect current position presence
             current_pos_exists = posicion_abierta is not None
-
-            # Detect side and amt if existing
-            if current_pos_exists:
-                amt = float(posicion_abierta["positionAmt"])
-                side = "LONG" if amt > 0 else "SHORT"
-            else:
-                amt = 0.0
-                side = None
 
             # Transitions for entry timestamp
             if current_pos_exists and not prev_pos_exists:
@@ -557,49 +592,15 @@ if __name__ == "__main__":
                 entry_timestamp = None
                 prev_side = None
 
-            # Compute cur_pct, trade_duration, drawdown, pos_vector
-            if current_pos_exists:
-                # entry_price puede ser "0" si Binance nunca definió, fallback a current_price
-                entry_price = float(posicion_abierta.get("entryPrice") or current_price)
-                # STATE: calculate cur_pct: porcentaje PnL ajustado por lado 
-                # ****** CHECK OK ******
-                cur_pct = (current_price - entry_price) / max(entry_price, 1e-8)
-                if amt < 0: # SHORT
-                    cur_pct = -cur_pct
-
-                # STATE: calculate trade_duration in STEPS 
-                # ****** CHECK OK ******
-                if entry_timestamp is not None:
-                    duration_minutes = (timestamp_last_candle - entry_timestamp) / 60000 # 1 minute = 60000 ms
-                    duration_steps = duration_minutes / 5 # (mins in the trade / 5 min) to obtain the current steps in 5 mins candle
-                    trade_duration = min(duration_steps / EPISODE_STEPS, 1.0)
-                else:
-                    trade_duration = 0.0
-
-                # STATE: calculate drawdown in STEPS
-                # ****** CHECK OK ******
-                drawdown = (peak_balance - current_balance) / max(peak_balance, 1)
-                # position one-hot
-                # STATE: calculate POS: check current position
-                # ****** CHECK OK ******
-                pos_vector = [1, 0, 0] if side == "LONG" else [0, 1, 0]
-
-            else:
-                # no position
-                cur_pct = 0.0
-                trade_duration = 0.0
-                drawdown = 0.0
-                pos_vector = [0, 0, 1]
-
             # guardar estado de presencia de posición para la próxima iteración
             prev_pos_exists = current_pos_exists
 
             # Predict
             state = get_state(
                 df,
-                balance_norm=balance_norm,
-                cur_pct=cur_pct,
+                equity_norm=equity_norm,
                 equity_change=equity_change,
+                cur_pct=cur_pct,
                 trade_duration=trade_duration,
                 drawdown=drawdown,
                 pos_vector=pos_vector)
@@ -630,9 +631,9 @@ if __name__ == "__main__":
             step += 1
             logs_params = (
                 f"step: {step}, Action: {action}, Balance: {current_balance},\n"
-                f"balance_norm: {balance_norm},\n"
-                f"cur_pct: {cur_pct},\n"
+                f"equity_norm: {equity_norm},\n"
                 f"equity_change: {equity_change},\n"
+                f"cur_pct: {cur_pct},\n"
                 f"trade_duration: {trade_duration},\n"
                 f"drawdown: {drawdown},\n"
                 f"pos: {pos_vector}\n"

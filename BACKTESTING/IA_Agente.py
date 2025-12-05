@@ -251,6 +251,11 @@ with open(os.path.join(output_resultados, filename), 'a', buffering=1) as f:
    f.write("CONTENIDO DE TradingEnv.py --- \n\n")
    with open("TradingEnv.py", "r") as env_file:
       f.write(env_file.read())
+    
+   ## Insertar el contenido de config_dev.json ##
+   f.write("CONTENIDO DE config_dev.json --- \n\n")
+   with open("config_dev.json", "r") as config_file:
+      f.write(config_file.read())
    
    ##Guardar los detalles de cada trade
    f.write("\n\nTRADES:\n")

@@ -1,0 +1,61 @@
+{
+  "backtest_n_rows": 10000,
+  "backtest_unique_actions": {
+    "0.0": 9806,
+    "4.0": 84,
+    "3.0": 80,
+    "1.0": 16,
+    "2.0": 14
+  },
+  "backtest_pct_holds": 0.0,
+  "backtest_mean_reward": 0.21874200000000002,
+  "backtest_median_reward": 0.13,
+  "prod_n_rows": 8,
+  "prod_unique_actions": {
+    "0": 7,
+    "3": 1
+  },
+  "prod_pct_holds": 0.875,
+  "pairs_aligned": 7000,
+  "pairs_same_action_pct": 0.9105714285714286,
+  "equity_norm_corr": -0.0580568299270059,
+  "mean_delta_equity_norm": 0.18633506659980584,
+  "max_delta_equity_norm": 0.28374696102003494,
+  "actions_count_comparison": {
+    "0.0": {
+      "backtest": 9806,
+      "prod": 0,
+      "diff": 9806
+    },
+    "3": {
+      "backtest": 0,
+      "prod": 1,
+      "diff": -1
+    },
+    "4.0": {
+      "backtest": 84,
+      "prod": 0,
+      "diff": 84
+    },
+    "0": {
+      "backtest": 0,
+      "prod": 7,
+      "diff": -7
+    },
+    "3.0": {
+      "backtest": 80,
+      "prod": 0,
+      "diff": 80
+    },
+    "1.0": {
+      "backtest": 16,
+      "prod": 0,
+      "diff": 16
+    },
+    "2.0": {
+      "backtest": 14,
+      "prod": 0,
+      "diff": 14
+    }
+  }
+}

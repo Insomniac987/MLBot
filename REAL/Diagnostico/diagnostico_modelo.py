@@ -95,7 +95,7 @@ def get_state(df):
 df = obtener_datos(SYMBOL)
 
 print("Cargando modelo...")
-model = DQN.load("../beast_bot_v3_10x")
+model = DQN.load("../BACKTESTING/expert_professional_bots/coke_SHORTER_8M")
 
 print("Generando estado...")
 state = get_state(df)

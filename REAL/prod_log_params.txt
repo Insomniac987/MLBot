@@ -1,3658 +1,488 @@
-step: 1, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.01107069713713003,
+step: 1, Action: [3], Balance: 95.13244803,
+equity_norm: 1.0,
 equity_change: 0.0,
+cur_pct: 0.0,
 trade_duration: 0.0,
 drawdown: 0.0,
-pos: [0, 1, 0]
+pos: [0, 0, 1]
 
-step: 1, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.010730262995373586,
-equity_change: 0.0,
+step: 2, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8168917065551944,
+equity_change: -0.18310829344480567,
+cur_pct: 0.0005694186038956306,
 trade_duration: 0.0,
-drawdown: 0.0,
+drawdown: 0.18310829344480567,
 pos: [0, 1, 0]
 
-step: 2, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.009027151210870358,
-equity_change: 0.0,
+step: 3, Action: [0], Balance: 76.66130782,
+equity_norm: 0.816824431927742,
+equity_change: -6.727462745229405e-05,
+cur_pct: 0.0005659531426319887,
 trade_duration: 0.0001,
-drawdown: 0.0,
+drawdown: 0.18317556807225796,
 pos: [0, 1, 0]
 
-step: 3, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.008689893199669224,
-equity_change: 0.0,
+step: 4, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8038698614786396,
+equity_change: -0.012954570449102438,
+cur_pct: -0.00010136474196392651,
 trade_duration: 0.0002,
-drawdown: 0.0,
+drawdown: 0.19613013852136038,
 pos: [0, 1, 0]
 
-step: 4, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.00885164058906636,
-equity_change: 0.0,
+step: 5, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8252610906768861,
+equity_change: 0.021391229198246573,
+cur_pct: 0.0010005436442357403,
 trade_duration: 0.0003,
-drawdown: 0.0,
+drawdown: 0.1747389093231138,
 pos: [0, 1, 0]
 
-step: 5, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.010695913731588735,
-equity_change: 0.0,
+step: 6, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8336914424297097,
+equity_change: 0.008430351752823554,
+cur_pct: 0.001434809258846188,
 trade_duration: 0.0004,
-drawdown: 0.0,
+drawdown: 0.16630855757029026,
 pos: [0, 1, 0]
 
-step: 6, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.008796587659438908,
-equity_change: 0.0,
+step: 7, Action: [0], Balance: 76.66130782,
+equity_norm: 0.836561125757041,
+equity_change: 0.00286968332733124,
+cur_pct: 0.001582632840876842,
 trade_duration: 0.0005,
-drawdown: 0.0,
+drawdown: 0.16343887424295903,
 pos: [0, 1, 0]
 
-step: 7, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.008441566844020235,
-equity_change: 0.0,
+step: 8, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8422647527658716,
+equity_change: 0.005703627008830717,
+cur_pct: 0.001876438978641973,
 trade_duration: 0.0006,
-drawdown: 0.0,
+drawdown: 0.15773524723412832,
 pos: [0, 1, 0]
 
-step: 8, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.0064877760145679,
-equity_change: 0.0,
+step: 9, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8270754032860357,
+equity_change: -0.015189349479836016,
+cur_pct: 0.0010940028026918411,
 trade_duration: 0.0007,
-drawdown: 0.0,
+drawdown: 0.17292459671396432,
 pos: [0, 1, 0]
 
-step: 9, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005918307569424927,
-equity_change: 0.0,
+step: 10, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8143352707119437,
+equity_change: -0.012740132574091996,
+cur_pct: 0.0004377310758740895,
 trade_duration: 0.0008,
-drawdown: 0.0,
+drawdown: 0.18566472928805633,
 pos: [0, 1, 0]
 
-step: 10, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.0027338249669742265,
-equity_change: 0.0,
+step: 11, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8100002619053811,
+equity_change: -0.004335008806562567,
+cur_pct: 0.00021442541569293967,
 trade_duration: 0.0009,
-drawdown: 0.0,
+drawdown: 0.1899997380946189,
 pos: [0, 1, 0]
 
-step: 11, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.00415731962813397,
-equity_change: 0.0,
+step: 12, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8020071952310085,
+equity_change: -0.007993066674372589,
+cur_pct: -0.00019731470070328465,
 trade_duration: 0.001,
-drawdown: 0.0,
+drawdown: 0.19799280476899148,
 pos: [0, 1, 0]
 
-step: 12, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.004295657758993011,
-equity_change: 0.0,
+step: 13, Action: [0], Balance: 76.66130782,
+equity_norm: 0.832741188316922,
+equity_change: 0.03073399308591347,
+cur_pct: 0.0013858596184960457,
 trade_duration: 0.0011,
-drawdown: 0.0,
+drawdown: 0.16725881168307802,
 pos: [0, 1, 0]
 
-step: 13, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005674686592376683,
-equity_change: 0.0,
+step: 14, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8363529948783572,
+equity_change: 0.0036118065614352437,
+cur_pct: 0.0015719115700922974,
 trade_duration: 0.0012,
-drawdown: 0.0,
+drawdown: 0.16364700512164276,
 pos: [0, 1, 0]
 
-step: 14, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.003918521664151256,
-equity_change: 0.0,
+step: 15, Action: [0], Balance: 76.66130782,
+equity_norm: 0.779859126473907,
+equity_change: -0.05649386840445025,
+cur_pct: -0.0013382095261197493,
 trade_duration: 0.0013,
-drawdown: 0.0,
+drawdown: 0.22014087352609302,
 pos: [0, 1, 0]
 
-step: 15, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.004481637848183435,
-equity_change: 0.0,
+step: 16, Action: [0], Balance: 76.66130782,
+equity_norm: 0.797581786143803,
+equity_change: 0.017722659669896074,
+cur_pct: -0.0004252770744576453,
 trade_duration: 0.0014,
-drawdown: 0.0,
+drawdown: 0.20241821385619693,
 pos: [0, 1, 0]
 
-step: 16, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005374012899795564,
-equity_change: 0.0,
+step: 17, Action: [0], Balance: 76.66130782,
+equity_norm: 0.779857024141797,
+equity_change: -0.017724762002006022,
+cur_pct: -0.0013383178217843416,
 trade_duration: 0.0015,
-drawdown: 0.0,
+drawdown: 0.22014297585820297,
 pos: [0, 1, 0]
 
-step: 17, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005645983782912728,
-equity_change: 0.0,
+step: 18, Action: [0], Balance: 76.66130782,
+equity_norm: 0.7862270904288431,
+equity_change: 0.006370066287046072,
+cur_pct: -0.0010101819583754658,
 trade_duration: 0.0016,
-drawdown: 0.0,
+drawdown: 0.21377290957115688,
 pos: [0, 1, 0]
 
-step: 18, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005988770613969631,
-equity_change: 0.0,
+step: 19, Action: [0], Balance: 76.66130782,
+equity_norm: 0.7815704248097666,
+equity_change: -0.004656665619076513,
+cur_pct: -0.0012500568552237822,
 trade_duration: 0.0017,
-drawdown: 0.0,
+drawdown: 0.2184295751902334,
 pos: [0, 1, 0]
 
-step: 19, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.006388727795024365,
-equity_change: 0.0,
+step: 20, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8084508431418335,
+equity_change: 0.026880418332066846,
+cur_pct: 0.00013461151096285206,
 trade_duration: 0.0018,
-drawdown: 0.0,
+drawdown: 0.19154915685816656,
 pos: [0, 1, 0]
 
-step: 20, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005988652979504677,
-equity_change: 0.0,
+step: 21, Action: [0], Balance: 76.66130782,
+equity_norm: 0.7962110656094311,
+equity_change: -0.012239777532402357,
+cur_pct: -0.0004958858477059036,
 trade_duration: 0.0019,
-drawdown: 0.0,
+drawdown: 0.20378893439056892,
 pos: [0, 1, 0]
 
-step: 21, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.006054528279913589,
-equity_change: 0.0,
+step: 22, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8029952913217376,
+equity_change: 0.006784225712306587,
+cur_pct: -0.00014641573839237331,
 trade_duration: 0.002,
-drawdown: 0.0,
+drawdown: 0.19700470867826234,
 pos: [0, 1, 0]
 
-step: 22, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005917719397099983,
-equity_change: 0.0,
+step: 23, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8104480586443724,
+equity_change: 0.007452767322634728,
+cur_pct: 0.0002374923922296514,
 trade_duration: 0.0021,
-drawdown: 0.0,
+drawdown: 0.18955194135562758,
 pos: [0, 1, 0]
 
-step: 23, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005105688685093699,
-equity_change: 0.0,
+step: 24, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8230052883250719,
+equity_change: 0.012557229680699545,
+cur_pct: 0.0008843423962365468,
 trade_duration: 0.0022,
-drawdown: 0.0,
+drawdown: 0.17699471167492806,
 pos: [0, 1, 0]
 
-step: 24, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.00506416371894303,
-equity_change: 0.0,
+step: 25, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8277965031990562,
+equity_change: 0.004791214873984238,
+cur_pct: 0.0011311482156123047,
 trade_duration: 0.0023,
-drawdown: 0.0,
+drawdown: 0.17220349680094382,
 pos: [0, 1, 0]
 
-step: 25, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005847609255950313,
-equity_change: 0.0,
+step: 26, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8315407566832923,
+equity_change: 0.003744253484236158,
+cur_pct: 0.001324022794071563,
 trade_duration: 0.0024,
-drawdown: 0.0,
+drawdown: 0.16845924331670767,
 pos: [0, 1, 0]
 
-step: 26, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.004953587321827967,
-equity_change: 0.0,
+step: 27, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8226163568851026,
+equity_change: -0.008924399798189772,
+cur_pct: 0.0008643076983055808,
 trade_duration: 0.0025,
-drawdown: 0.0,
+drawdown: 0.17738364311489743,
 pos: [0, 1, 0]
 
-step: 27, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.005046989087050776,
-equity_change: 0.0,
-trade_duration: 0.0026,
-drawdown: 0.0,
-pos: [0, 1, 0]
-
-step: 28, Action: [0], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.006322499591220248,
-equity_change: 0.0,
+step: 28, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8524820868104407,
+equity_change: 0.029865729925338095,
+cur_pct: 0.0024027559080700834,
 trade_duration: 0.0027,
-drawdown: 0.0,
+drawdown: 0.14751791318955934,
 pos: [0, 1, 0]
 
-step: 29, Action: [4], Balance: 84.93979196,
-balance_norm: 1.0,
-cur_pct: 0.0062121584630352635,
-equity_change: 0.0,
+step: 29, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8444196431765059,
+equity_change: -0.008062443633934829,
+cur_pct: 0.001987442034745625,
 trade_duration: 0.0028,
-drawdown: 0.0,
+drawdown: 0.15558035682349416,
 pos: [0, 1, 0]
 
-step: 30, Action: [0], Balance: 111.94382837,
-balance_norm: 1.3179197380506513,
-cur_pct: 0.0,
-equity_change: 0.31791973805065127,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 31, Action: [3], Balance: 111.94382837,
-balance_norm: 1.3179197380506513,
-cur_pct: 0.0,
-equity_change: 0.0,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 32, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: -0.0009355446422529719,
-equity_change: -0.29752733562028394,
-trade_duration: 0.0,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 33, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.00036087497937426394,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 34, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0021368784551701247,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 35, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.002960718046241897,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 36, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.002078354979896673,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 37, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.003055210310577974,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 38, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.001189344216563002,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 39, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0026549239847719567,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 40, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0010309865775874234,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 41, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0006997888169117066,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 42, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: -0.0003122043407087503,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 43, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0013807029227311787,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 44, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0019907478302985063,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-EPISODE END ---> Episode: 2,Final Balance: 86.67191838, Max Balance:111.94382837, Min Balance:84.93979196,Max drawdown:0.22575527707048357, Total trades1, Wins: 1, Losses 0, Winrate: 1.0
-
-step: 45, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0014185710537905525,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 46, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.002038231380216182,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 47, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0006302254162823053,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 48, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0035577049775817947,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 49, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.002336546782574033,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 50, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0030396594479799627,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 51, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.00358215900578937,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 52, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0029287853589222324,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 53, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.003059127703446203,
-equity_change: 0.0,
-trade_duration: 0.0021,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 54, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.001085948786617188,
-equity_change: 0.0,
-trade_duration: 0.0022,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 55, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.004032303059008912,
-equity_change: 0.0,
-trade_duration: 0.0023,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 56, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.005061983838973765,
-equity_change: 0.0,
-trade_duration: 0.0024,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 57, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.006133212725116584,
-equity_change: 0.0,
-trade_duration: 0.0026,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 58, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.007046796225532562,
-equity_change: 0.0,
-trade_duration: 0.0027,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 59, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.006496699299736334,
-equity_change: 0.0,
-trade_duration: 0.0028,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 60, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0077907447438677205,
-equity_change: 0.0,
+step: 30, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8497763853875253,
+equity_change: 0.005356742211019509,
+cur_pct: 0.002263379387869586,
 trade_duration: 0.0029,
-drawdown: 0.22575527707048357,
+drawdown: 0.15022361461247466,
 pos: [0, 1, 0]
 
-step: 61, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.008081700195988388,
-equity_change: 0.0,
+step: 31, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8608640849247796,
+equity_change: 0.011087699537254298,
+cur_pct: 0.002834530722397116,
 trade_duration: 0.003,
-drawdown: 0.22575527707048357,
+drawdown: 0.13913591507522036,
 pos: [0, 1, 0]
 
-step: 62, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.006486846463128396,
-equity_change: 0.0,
+step: 32, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8356634299469545,
+equity_change: -0.025200654977825077,
+cur_pct: 0.0015363905921391414,
 trade_duration: 0.0031,
-drawdown: 0.22575527707048357,
+drawdown: 0.16433657005304544,
 pos: [0, 1, 0]
 
-step: 63, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.007107931296051672,
-equity_change: 0.0,
+step: 33, Action: [0], Balance: 76.66130782,
+equity_norm: 0.8446677183652408,
+equity_change: 0.009004288418286217,
+cur_pct: 0.002000220923155531,
 trade_duration: 0.0032,
-drawdown: 0.22575527707048357,
+drawdown: 0.1553322816347592,
 pos: [0, 1, 0]
 
-step: 64, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.002489206395559366,
-equity_change: 0.0,
+step: 34, Action: [4], Balance: 76.66130782,
+equity_norm: 0.8547862428007367,
+equity_change: 0.010118524435495851,
+cur_pct: 0.002521447956352534,
 trade_duration: 0.0033,
-drawdown: 0.22575527707048357,
+drawdown: 0.14521375719926335,
 pos: [0, 1, 0]
 
-step: 65, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.002684245076846135,
-equity_change: 0.0,
-trade_duration: 0.0034,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 66, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0034303303549276785,
-equity_change: 0.0,
-trade_duration: 0.0035,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 67, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0028078210155069267,
-equity_change: 0.0,
-trade_duration: 0.0036,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 68, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.00014767384024399813,
-equity_change: 0.0,
-trade_duration: 0.0037,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 69, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0008877049657109277,
-equity_change: 0.0,
-trade_duration: 0.0038,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 70, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: -0.00014375644737576917,
-equity_change: 0.0,
-trade_duration: 0.0039,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 71, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: -0.0005407189246875631,
-equity_change: 0.0,
-trade_duration: 0.004,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 72, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0007218686676234326,
-equity_change: 0.0,
-trade_duration: 0.0041,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 73, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0009366130221260781,
-equity_change: 0.0,
-trade_duration: 0.0042,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 74, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.001670946121602935,
-equity_change: 0.0,
-trade_duration: 0.0043,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 75, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.00270513783880985,
-equity_change: 0.0,
-trade_duration: 0.0044,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 76, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.005760941693762002,
-equity_change: 0.0,
-trade_duration: 0.0045,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 77, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.006353892523358939,
-equity_change: 0.0,
-trade_duration: 0.0046,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 78, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.004699328226477484,
-equity_change: 0.0,
-trade_duration: 0.0047,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 79, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.006987085661511099,
-equity_change: 0.0,
-trade_duration: 0.0048,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 80, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.006806529462949062,
-equity_change: 0.0,
-trade_duration: 0.0049,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 81, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0061714369828001535,
-equity_change: 0.0,
-trade_duration: 0.005,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 82, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.005408495044498029,
-equity_change: 0.0,
-trade_duration: 0.0051,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 83, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.006088459479319127,
-equity_change: 0.0,
-trade_duration: 0.0052,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 84, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.007180462418550756,
-equity_change: 0.0,
-trade_duration: 0.0053,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 85, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.004349018336959896,
-equity_change: 0.0,
-trade_duration: 0.0054,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 86, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.004300228989419478,
-equity_change: 0.0,
-trade_duration: 0.0055,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 87, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.006509638567088859,
-equity_change: 0.0,
-trade_duration: 0.0056,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 88, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.003697425323214603,
-equity_change: 0.0,
-trade_duration: 0.0057,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 89, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0013727494281199888,
-equity_change: 0.0,
-trade_duration: 0.0058,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 90, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0025390641229728907,
-equity_change: 0.0,
-trade_duration: 0.0059,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 91, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.004698734682103479,
-equity_change: 0.0,
-trade_duration: 0.006,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 92, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.004161339605910312,
-equity_change: 0.0,
-trade_duration: 0.0061,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 93, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.004240637134272747,
-equity_change: 0.0,
-trade_duration: 0.0062,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 94, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.005598666661918194,
-equity_change: 0.0,
-trade_duration: 0.0063,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 95, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.003968912519868857,
-equity_change: 0.0,
-trade_duration: 0.0064,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 96, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0027972559256502507,
-equity_change: 0.0,
-trade_duration: 0.0065,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 97, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.004104952890383072,
-equity_change: 0.0,
-trade_duration: 0.0066,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 98, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.003463924966494455,
-equity_change: 0.0,
-trade_duration: 0.0067,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 99, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.0005143655544832395,
-equity_change: 0.0,
-trade_duration: 0.0068,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 100, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: 0.00035256535813870527,
-equity_change: 0.0,
-trade_duration: 0.0069,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 101, Action: [0], Balance: 86.67191838,
-balance_norm: 1.0203924024303674,
-cur_pct: -0.002682464443724291,
-equity_change: 0.0,
-trade_duration: 0.007,
-drawdown: 0.22575527707048357,
-pos: [0, 1, 0]
-
-step: 102, Action: [3], Balance: 110.41547178,
-balance_norm: 1.2999263270152235,
+step: 35, Action: [3], Balance: 95.50434577,
+equity_norm: 1.0039092627983537,
+equity_change: 0.010118524435495851,
 cur_pct: 0.0,
-equity_change: 0.27953392458485615,
 trade_duration: 0.0,
 drawdown: 0.0,
 pos: [0, 0, 1]
 
-step: 103, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0001492298672920798,
-equity_change: -0.2982118205790812,
+step: 36, Action: [4], Balance: 77.07064355,
+equity_norm: 0.742468474349845,
+equity_change: -0.2614407884485087,
+cur_pct: -0.003494273187052001,
 trade_duration: 0.0,
-drawdown: 0.23992753313051626,
+drawdown: 0.257531525650155,
 pos: [0, 1, 0]
 
-step: 104, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0016046948189996297,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 105, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.00095163649499317,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 106, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.0006307922803152156,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 107, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 8.041831737395225e-05,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 108, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0009843249421142152,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 109, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0010240011369895409,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 110, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.0005958535415445015,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 111, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.0007083681240265732,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 112, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.0006009463068569375,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 113, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.0009888255254135532,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 114, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.00029692006135013927,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 115, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.00015965227072188082,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 116, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.0027654900010067093,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 117, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.0037875961555544056,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 118, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.003353645176381454,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 119, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.00190031207992085,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 120, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 0.002433157455275481,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 121, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: 3.399124754979177e-05,
-equity_change: 0.0,
-trade_duration: 0.0021,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 122, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0019719661035015722,
-equity_change: 0.0,
-trade_duration: 0.0022,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 123, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0009197771026903242,
-equity_change: 0.0,
-trade_duration: 0.0023,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 124, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0018062735762463332,
-equity_change: 0.0,
-trade_duration: 0.0024,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 125, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0020830594491523468,
-equity_change: 0.0,
-trade_duration: 0.0025,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 126, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0014088010090781158,
-equity_change: 0.0,
-trade_duration: 0.0026,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 127, Action: [0], Balance: 85.08542178,
-balance_norm: 1.0017145064361423,
-cur_pct: -0.0009123156093256685,
-equity_change: 0.0,
-trade_duration: 0.0027,
-drawdown: 0.23992753313051626,
-pos: [0, 1, 0]
-
-step: 128, Action: [3], Balance: 108.8876082,
-balance_norm: 1.2819387202087515,
+step: 37, Action: [3], Balance: 94.82265857,
+equity_norm: 0.9967435983577095,
+equity_change: -0.2614407884485087,
 cur_pct: 0.0,
-equity_change: 0.2802242137726093,
 trade_duration: 0.0,
 drawdown: 0.0,
 pos: [0, 0, 1]
 
-step: 129, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0014606997167705609,
-equity_change: -0.2998925703985208,
+step: 38, Action: [2], Balance: 76.36515857,
+equity_norm: 0.7899235237413664,
+equity_change: -0.20682007461634305,
+cur_pct: -0.0006597931441760107,
 trade_duration: 0.0,
-drawdown: 0.25485132253745174,
+drawdown: 0.21007647625863352,
 pos: [0, 1, 0]
 
-step: 130, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0017944931161004635,
-equity_change: 0.0,
+step: 39, Action: [3], Balance: 94.61927617,
+equity_norm: 0.9946057116091644,
+equity_change: -0.20682007461634305,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 40, Action: [4], Balance: 76.16091617,
+equity_norm: 0.78006524279285,
+equity_change: -0.21454046881631436,
+cur_pct: -0.0010572018012628825,
+trade_duration: 0.0,
+drawdown: 0.21993475720714997,
+pos: [0, 1, 0]
+
+step: 41, Action: [3], Balance: 94.32644047,
+equity_norm: 0.991527522136865,
+equity_change: -0.21454046881631436,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 42, Action: [2], Balance: 75.85198392,
+equity_norm: 0.8106338638072359,
+equity_change: -0.18089365832962914,
+cur_pct: 0.000685332074147546,
+trade_duration: 0.0,
+drawdown: 0.1893661361927641,
+pos: [0, 1, 0]
+
+step: 43, Action: [3], Balance: 94.36007997,
+equity_norm: 0.9918811291415897,
+equity_change: -0.18089365832962914,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 44, Action: [2], Balance: 75.88108331,
+equity_norm: 0.7731040757703073,
+equity_change: -0.2187770533712824,
+cur_pct: -0.001265051554997624,
+trade_duration: 0.0,
+drawdown: 0.22689592422969276,
+pos: [0, 1, 0]
+
+step: 45, Action: [3], Balance: 94.01331627,
+equity_norm: 0.9882360668397067,
+equity_change: -0.2187770533712824,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 46, Action: [2], Balance: 75.50295952,
+equity_norm: 0.8073014109316388,
+equity_change: -0.18093465590806782,
+cur_pct: 0.0007019905239934054,
+trade_duration: 0.0,
+drawdown: 0.19269858906836118,
+pos: [0, 1, 0]
+
+step: 47, Action: [3], Balance: 94.00055647,
+equity_norm: 0.9881019401535525,
+equity_change: -0.18093465590806782,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 48, Action: [2], Balance: 75.50731962,
+equity_norm: 0.775671404952493,
+equity_change: -0.21243053520105945,
+cur_pct: -0.0009285385718537067,
+trade_duration: 0.0,
+drawdown: 0.224328595047507,
+pos: [0, 1, 0]
+
+step: 49, Action: [3], Balance: 93.72332527,
+equity_norm: 0.9851877798881447,
+equity_change: -0.21243053520105945,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 50, Action: [2], Balance: 75.2196659,
+equity_norm: 0.7963725045329304,
+equity_change: -0.18881527535521425,
+cur_pct: 0.00029269875608434475,
+trade_duration: 0.0,
+drawdown: 0.20362749546706962,
+pos: [0, 1, 0]
+
+step: 51, Action: [3], Balance: 93.72031617,
+equity_norm: 0.9851561492504147,
+equity_change: -0.18881527535521425,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 52, Action: [2], Balance: 75.22950625,
+equity_norm: 0.7883483270224417,
+equity_change: -0.19680782222797294,
+cur_pct: -0.00012553243065421683,
+trade_duration: 0.0,
+drawdown: 0.21165167297755827,
+pos: [0, 1, 0]
+
+step: 53, Action: [3], Balance: 93.59633376,
+equity_norm: 0.9838528882436033,
+equity_change: -0.19680782222797294,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 54, Action: [0], Balance: 75.06626475,
+equity_norm: 0.8064111282599139,
+equity_change: -0.17744175998368944,
+cur_pct: 0.000892390552864467,
+trade_duration: 0.0,
+drawdown: 0.19358887174008615,
+pos: [0, 1, 0]
+
+step: 55, Action: [0], Balance: 75.06626475,
+equity_norm: 0.8033375187181127,
+equity_change: -0.0030736095418012065,
+cur_pct: 0.0007342097831884849,
 trade_duration: 0.0001,
-drawdown: 0.25485132253745174,
+drawdown: 0.19666248128188735,
 pos: [0, 1, 0]
 
-step: 131, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0016103881409050152,
-equity_change: 0.0,
+step: 56, Action: [0], Balance: 75.06626475,
+equity_norm: 0.809411156177939,
+equity_change: 0.006073637459826401,
+cur_pct: 0.0010467845052090378,
 trade_duration: 0.0002,
-drawdown: 0.25485132253745174,
+drawdown: 0.19058884382206095,
 pos: [0, 1, 0]
 
-step: 132, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.003917475710990494,
-equity_change: 0.0,
+step: 57, Action: [0], Balance: 75.06626475,
+equity_norm: 0.8188148876967348,
+equity_change: 0.00940373151879577,
+cur_pct: 0.0015307397601754048,
 trade_duration: 0.0003,
-drawdown: 0.25485132253745174,
+drawdown: 0.1811851123032652,
 pos: [0, 1, 0]
 
-step: 133, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.00245217926308493,
-equity_change: 0.0,
+step: 58, Action: [0], Balance: 75.06626475,
+equity_norm: 0.7765517053309023,
+equity_change: -0.042263182365832506,
+cur_pct: -0.000644299920260478,
 trade_duration: 0.0004,
-drawdown: 0.25485132253745174,
+drawdown: 0.22344829466909769,
 pos: [0, 1, 0]
 
-step: 134, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.003240106125556696,
-equity_change: 0.0,
+step: 59, Action: [0], Balance: 75.06626475,
+equity_norm: 0.7678585620645867,
+equity_change: -0.008693143266315585,
+cur_pct: -0.0010916853392826983,
 trade_duration: 0.0005,
-drawdown: 0.25485132253745174,
+drawdown: 0.23214143793541328,
 pos: [0, 1, 0]
 
-step: 135, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.003927022767962823,
-equity_change: 0.0,
+step: 60, Action: [0], Balance: 75.06626475,
+equity_norm: 0.7749245002793589,
+equity_change: 0.007065938214772162,
+cur_pct: -0.0007280426806772578,
 trade_duration: 0.0006,
-drawdown: 0.25485132253745174,
+drawdown: 0.22507549972064111,
 pos: [0, 1, 0]
 
-step: 136, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0023209956283908053,
-equity_change: 0.0,
+step: 61, Action: [0], Balance: 75.06626475,
+equity_norm: 0.7592347957578333,
+equity_change: -0.015689704521525655,
+cur_pct: -0.0015355003305351942,
 trade_duration: 0.0007,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 137, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.001645158286668504,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 138, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0030391464695335886,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 139, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0027486094888316773,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 140, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0035229818877006115,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 141, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0040413517218292885,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 142, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0036580550641244066,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 143, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0034027596887894816,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 144, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0036290602985045795,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 145, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0026242620183892134,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 146, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.002693095120510858,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 147, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0025566075652763984,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 148, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.002745073541804844,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 149, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.002852566331419477,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 150, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0039173578460896625,
-equity_change: 0.0,
-trade_duration: 0.0021,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 151, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.003791595996836362,
-equity_change: 0.0,
-trade_duration: 0.0022,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 152, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0032979777918953463,
-equity_change: 0.0,
-trade_duration: 0.0023,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 153, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0021863939115706796,
-equity_change: 0.0,
-trade_duration: 0.0024,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 154, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0026767118992866968,
-equity_change: 0.0,
-trade_duration: 0.0025,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 155, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0021863939115706796,
-equity_change: 0.0,
-trade_duration: 0.0026,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 156, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.002650545891288371,
-equity_change: 0.0,
-trade_duration: 0.0027,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 157, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.001035561019248524,
-equity_change: 0.0,
-trade_duration: 0.0028,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 158, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0014958234572367158,
-equity_change: 0.0,
-trade_duration: 0.0029,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 159, Action: [0], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0010346181000413569,
-equity_change: 0.0,
-trade_duration: 0.003,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 160, Action: [4], Balance: 83.41479566,
-balance_norm: 0.9820461498102309,
-cur_pct: 0.0023452757979747973,
-equity_change: 0.0,
-trade_duration: 0.0031,
-drawdown: 0.25485132253745174,
-pos: [0, 1, 0]
-
-step: 161, Action: [0], Balance: 109.30751655,
-balance_norm: 1.286882320143606,
-cur_pct: 0.0,
-equity_change: 0.3048361703333751,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 162, Action: [3], Balance: 109.30751655,
-balance_norm: 1.286882320143606,
-cur_pct: 0.0,
-equity_change: 0.0,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 163, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.00024353940786828328,
-equity_change: -0.2987500840824995,
-trade_duration: 0.0,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 164, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 7.117025414388832e-05,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 165, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.0009143367866276893,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 166, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.000946966338361427,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 167, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.00028219833329207227,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 168, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.0020651196003117255,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 169, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.0007920941906393383,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 170, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.0018743076564771215,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 171, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.0013168861476912752,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 172, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.0014963486822272623,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 173, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.0016092516601467846,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 174, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: -0.0009573699635519689,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 175, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 4.2442061856603855e-05,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 176, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0019257346673618113,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 177, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0029588855825852635,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 178, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0036843019935946706,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 179, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0015490761462607697,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 180, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0014688027200749853,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 181, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0028622973805326963,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 182, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0034366247802528295,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 183, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0026875637665377708,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 184, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.002275320118364785,
-equity_change: 0.0,
-trade_duration: 0.0021,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 185, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0032852993229367947,
-equity_change: 0.0,
-trade_duration: 0.0022,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 186, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.002664392055886328,
-equity_change: 0.0,
-trade_duration: 0.0023,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 187, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0031697954387196374,
-equity_change: 0.0,
-trade_duration: 0.0024,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 188, Action: [0], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.002089709987125452,
-equity_change: 0.0,
-trade_duration: 0.0025,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 189, Action: [4], Balance: 83.93174656,
-balance_norm: 0.9881322360611066,
-cur_pct: 0.0027175924119740447,
-equity_change: 0.0,
-trade_duration: 0.0026,
-drawdown: 0.2502333734505994,
-pos: [0, 1, 0]
-
-step: 190, Action: [3], Balance: 109.86686522,
-balance_norm: 1.2934675572520675,
-cur_pct: 0.0,
-equity_change: 0.30533532119096096,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 191, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: -0.0004345806243644629,
-equity_change: -0.2982941098081775,
-trade_duration: 0.0,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 192, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: 0.0005114944027153703,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 193, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: 0.0008632356879931134,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 194, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: -0.002169229274166311,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 195, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: -0.001890372385938992,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 196, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: -0.0030656481022800085,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 197, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: -0.0024598187726504283,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 198, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: -0.0032319193365268916,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 199, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: -0.0037201855411578013,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 200, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: -0.004511129388174107,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 201, Action: [0], Balance: 84.52982559,
-balance_norm: 0.9951734474438899,
-cur_pct: -0.004708687583106073,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.24489070258871656,
-pos: [0, 1, 0]
-
-step: 202, Action: [3], Balance: 108.29576597,
-balance_norm: 1.2749709349535356,
-cur_pct: 0.0,
-equity_change: 0.2797974875096457,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 203, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0012253242279964874,
-equity_change: -0.300954704504553,
-trade_duration: 0.0,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 204, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0012227423744368604,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 205, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.003885689607217992,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 206, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.002113599209483451,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 207, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.004539837413640062,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 208, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.003795911517531509,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 209, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.004116765500803404,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 210, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.002700149395435538,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 211, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.002729488640431143,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 212, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.004732185503831241,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 213, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.005275313607189867,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 214, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.005709886504064754,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 215, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.005519885553473189,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 216, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0034045259892900703,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 217, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.001785117022512596,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 218, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.00027097726677953736,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 219, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0008773607823486806,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 220, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: -0.0005153144991026761,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 221, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0016690509693099897,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 222, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0010014071101900096,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 223, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.002465670149430711,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 224, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0024549906642522697,
-equity_change: 0.0,
-trade_duration: 0.0021,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 225, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0023219078489522464,
-equity_change: 0.0,
-trade_duration: 0.0022,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 226, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0032131167549387706,
-equity_change: 0.0,
-trade_duration: 0.0023,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 227, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 0.0026887657683772295,
-equity_change: 0.0,
-trade_duration: 0.0024,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 228, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: 5.820906207135542e-05,
-equity_change: 0.0,
-trade_duration: 0.0025,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 229, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: -0.0007296083445506842,
-equity_change: 0.0,
-trade_duration: 0.0026,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 230, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: -0.001464380396220622,
-equity_change: 0.0,
-trade_duration: 0.0027,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 231, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: -0.0025934719006313884,
-equity_change: 0.0,
-trade_duration: 0.0028,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 232, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: -0.0037774864716740163,
-equity_change: 0.0,
-trade_duration: 0.003,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 233, Action: [0], Balance: 82.73273598,
-balance_norm: 0.9740162304489827,
-cur_pct: -0.004099748738705816,
-equity_change: 0.0,
-trade_duration: 0.0031,
-drawdown: 0.2609441968828389,
-pos: [0, 1, 0]
-
-step: 234, Action: [3], Balance: 106.79399335,
-balance_norm: 1.257290498195376,
-cur_pct: 0.0,
-equity_change: 0.2832742677463934,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 235, Action: [0], Balance: 81.02739981,
-balance_norm: 0.9539392308396232,
-cur_pct: -0.003006073571846446,
-equity_change: -0.3033512673557529,
-trade_duration: 0.0,
-drawdown: 0.2761780529589726,
-pos: [0, 1, 0]
-
-step: 236, Action: [0], Balance: 81.02739981,
-balance_norm: 0.9539392308396232,
-cur_pct: -0.001435773233076351,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.2761780529589726,
-pos: [0, 1, 0]
-
-step: 237, Action: [3], Balance: 105.21763405,
-balance_norm: 1.2387319490910607,
-cur_pct: 0.0,
-equity_change: 0.2847927182514375,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 238, Action: [0], Balance: 79.46577445,
-balance_norm: 0.935554145075163,
-cur_pct: -0.0014907675249131737,
-equity_change: -0.3031778040158977,
-trade_duration: 0.0,
-drawdown: 0.2901281329476476,
-pos: [0, 1, 0]
-
-step: 239, Action: [0], Balance: 79.46577445,
-balance_norm: 0.935554145075163,
-cur_pct: -0.002418503892482008,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.2901281329476476,
-pos: [0, 1, 0]
-
-step: 240, Action: [0], Balance: 79.46577445,
-balance_norm: 0.935554145075163,
-cur_pct: 0.0005818027490470699,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.2901281329476476,
-pos: [0, 1, 0]
-
-step: 241, Action: [0], Balance: 79.46577445,
-balance_norm: 0.935554145075163,
-cur_pct: -0.000462877137017598,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.2901281329476476,
-pos: [0, 1, 0]
-
-step: 242, Action: [0], Balance: 79.46577445,
-balance_norm: 0.935554145075163,
-cur_pct: -0.00037426589668169356,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.2901281329476476,
-pos: [0, 1, 0]
-
-step: 243, Action: [0], Balance: 79.46577445,
-balance_norm: 0.935554145075163,
-cur_pct: -0.002199191072650839,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.2901281329476476,
-pos: [0, 1, 0]
-
-step: 244, Action: [0], Balance: 79.46577445,
-balance_norm: 0.935554145075163,
-cur_pct: -0.0034447619680557837,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.2901281329476476,
-pos: [0, 1, 0]
-
-step: 245, Action: [0], Balance: 79.46577445,
-balance_norm: 0.935554145075163,
-cur_pct: -0.0048519317833361835,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.2901281329476476,
-pos: [0, 1, 0]
-
-step: 246, Action: [3], Balance: 103.6633822,
-balance_norm: 1.220433671992243,
-cur_pct: 0.0,
-equity_change: 0.28487952691708013,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 247, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.0004859003075009995,
-equity_change: -0.305027000916144,
-trade_duration: 0.0,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 248, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: -0.00025889937606633523,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 249, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.001362237577295758,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 250, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.002698956398886078,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 251, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.003768308257289489,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 252, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.0019672640762037116,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 253, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.0035895609730070303,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 254, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.003083709638318103,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 255, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.004010040470426736,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 256, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.003183464774257742,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 257, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.0017575463020423595,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 258, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.002082330465566546,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 259, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.001690269582455173,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 260, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.0019499809189303995,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 261, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: 0.0011497359388757352,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 262, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: -0.001193697795295373,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 263, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: -0.00033116385245041943,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 264, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: -0.0032157112019217467,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 265, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: -0.002743962204402886,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 266, Action: [0], Balance: 77.7544522,
-balance_norm: 0.9154066710760991,
-cur_pct: -0.004738948928850094,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.30541546298556344,
-pos: [0, 1, 0]
-
-step: 267, Action: [3], Balance: 102.09459416,
-balance_norm: 1.2019642596732352,
-cur_pct: 0.0,
-equity_change: 0.286557588597136,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 268, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: -2.2658959537646275e-05,
-equity_change: -0.20386613977291884,
-trade_duration: 0.0,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 269, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: -0.0013265895953757224,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 270, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: -0.0011242774566473988,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 271, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: -0.000976878612716763,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 272, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: -0.0007443930635838083,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 273, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: -0.0007527167630057871,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 274, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: -0.0005572254335259779,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 275, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0005005780346821146,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 276, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0010056647398844537,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 277, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0005804624277457388,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 278, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0013338728323699961,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 279, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0019813872832369875,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 280, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.003093757225433533,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 281, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0034566473988439307,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 282, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.00450878612716757,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 283, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0052939884393062775,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 284, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0028224277456647333,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 285, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.002671560693641578,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 286, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0016384971098265424,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 287, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0009065895953757024,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 288, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0006497109826589259,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 289, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.002458034682080871,
-equity_change: 0.0,
-trade_duration: 0.0021,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 290, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0033309826589595914,
-equity_change: 0.0,
-trade_duration: 0.0022,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 291, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.004166936416184998,
-equity_change: 0.0,
-trade_duration: 0.0023,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 292, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.003873410404624311,
-equity_change: 0.0,
-trade_duration: 0.0024,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 293, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.005094913294797762,
-equity_change: 0.0,
-trade_duration: 0.0025,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 294, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.005581040462427685,
-equity_change: 0.0,
-trade_duration: 0.0026,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 295, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.005452601156069297,
-equity_change: 0.0,
-trade_duration: 0.0027,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 296, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.0056239306358381634,
-equity_change: 0.0,
-trade_duration: 0.0028,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 297, Action: [0], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.007064161849711016,
-equity_change: 0.0,
-trade_duration: 0.0029,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 298, Action: [4], Balance: 84.77824666,
-balance_norm: 0.9980981199003163,
-cur_pct: 0.007264046242774526,
-equity_change: 0.0,
-trade_duration: 0.003,
-drawdown: 0.2426715443410738,
-pos: [0, 1, 0]
-
-step: 299, Action: [3], Balance: 103.22644626,
-balance_norm: 1.2152896054726812,
-cur_pct: 0.0,
-equity_change: 0.21719148557236484,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 300, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0010609862853807315,
-equity_change: -0.30277996468499946,
-trade_duration: 0.0,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 301, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.002462562007586763,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 302, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.00029191712868391903,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 303, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0009308433031806245,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 304, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: 0.0017781149693609163,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 305, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: 0.0013883863437408473,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 306, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: 0.0002737087831922625,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 307, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.00012010504814699268,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 308, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0009754304056026493,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 309, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.00046629705281584,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 310, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0012510067114093145,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 311, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0022169827837759245,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 312, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0030934344908082737,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 313, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.003419900787861103,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 314, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0044305806828129155,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 315, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.004218149985409972,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 316, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0037337613072658234,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 317, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0036730668222935783,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 318, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.00307079077910705,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 319, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.002263787569302563,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 320, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.00444610446454623,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 321, Action: [0], Balance: 77.50837905,
-balance_norm: 0.9125096407876816,
-cur_pct: -0.0039732710825795565,
-equity_change: 0.0,
-trade_duration: 0.0021,
-drawdown: 0.3076136471425915,
-pos: [0, 1, 0]
-
-step: 322, Action: [3], Balance: 101.62514283,
-balance_norm: 1.1964373880013446,
-cur_pct: 0.0,
-equity_change: 0.283927747213663,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 323, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0004984341894954668,
-equity_change: -0.20279011571056832,
-trade_duration: 0.0,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 324, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.00041201260082520026,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 325, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0012272097907295907,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 326, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0013571906478830951,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 327, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.00038111455971450293,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 328, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.000834363268036873,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 329, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0005881082035459579,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 330, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0018631751105823951,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 331, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0043439625692302105,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 332, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.003374507489870957,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 333, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0035554817306619672,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 334, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.00352458368955127,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 335, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0026762814555996795,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 336, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0026207579080399415,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 337, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0021619336133516165,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 338, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0015145848046686174,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 339, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0026571153774671966,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 340, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0008675844701333004,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 341, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.00029004664907260764,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 342, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.001526665241794514,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 343, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.001570224510277583,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 344, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0013816999962829085,
-equity_change: 0.0,
-trade_duration: 0.0021,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 345, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.002144161431810538,
-equity_change: 0.0,
-trade_duration: 0.0022,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 346, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: 0.0002714613611865997,
-equity_change: 0.0,
-trade_duration: 0.0023,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 347, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: 0.0019343799947961057,
-equity_change: 0.0,
-trade_duration: 0.0024,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 348, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: 0.0016150615173029976,
-equity_change: 0.0,
-trade_duration: 0.0025,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 349, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: 0.001668610378024857,
-equity_change: 0.0,
-trade_duration: 0.0026,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 350, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: 0.0011916654276476026,
-equity_change: 0.0,
-trade_duration: 0.0027,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 351, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: 0.0008494638144445398,
-equity_change: 0.0,
-trade_duration: 0.0028,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 352, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: 0.0006008855889678947,
-equity_change: 0.0,
-trade_duration: 0.0029,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 353, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0014117849310485075,
-equity_change: 0.0,
-trade_duration: 0.003,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 354, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0005747500278778844,
-equity_change: 0.0,
-trade_duration: 0.0031,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 355, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.001937167787978914,
-equity_change: 0.0,
-trade_duration: 0.0032,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 356, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.003082253837861847,
-equity_change: 0.0,
-trade_duration: 0.0033,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 357, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0019308952533174265,
-equity_change: 0.0,
-trade_duration: 0.0034,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 358, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.002807307735196737,
-equity_change: 0.0,
-trade_duration: 0.0035,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 359, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0041389436122364655,
-equity_change: 0.0,
-trade_duration: 0.0036,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 360, Action: [0], Balance: 84.40019259,
-balance_norm: 0.9936472722907763,
-cur_pct: -0.0036419033193324027,
-equity_change: 0.0,
-trade_duration: 0.0037,
-drawdown: 0.24604872087241803,
-pos: [0, 1, 0]
-
-step: 361, Action: [3], Balance: 100.59173323,
-balance_norm: 1.1842710101923826,
-cur_pct: 0.0,
-equity_change: 0.19062373790160625,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 362, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.002391155197545827,
-equity_change: -0.20385592665631022,
-trade_duration: 0.0,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 363, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0026158096685740297,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 364, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.002305682545329496,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 365, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0014160739407744496,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 366, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0010134284466847613,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 367, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0005506055852914595,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 368, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: 0.0008607327085358249,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 369, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0005987705798512205,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 370, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: 0.0005055591875014672,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 371, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.001425891745420995,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 372, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0005510675996276904,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 373, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: 0.0022338393160339096,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 374, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0002554939279766994,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 375, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: 0.001608502911845294,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 376, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: 0.0011422149429296724,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 377, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: 0.0009632998911955566,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 378, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.000980971939559372,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 379, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0016843887665834473,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 380, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0031608710818297097,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 381, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.0025291819805168692,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 382, Action: [0], Balance: 83.27625323,
-balance_norm: 0.9804150835360723,
-cur_pct: -0.004053020765234446,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.2560889292194573,
-pos: [0, 1, 0]
-
-step: 383, Action: [3], Balance: 99.50652263,
-balance_norm: 1.1714947768751283,
-cur_pct: 0.0,
-equity_change: 0.19107969333905597,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 384, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.003107552885355274,
-equity_change: -0.20546041740034435,
-trade_duration: 0.0,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 385, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.003085275697425349,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 386, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.004846551514274765,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 387, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0039767077072181784,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 388, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.003994276829657724,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 389, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.002058572927934492,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 390, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0039032159532225385,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 391, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.003655181283487691,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 392, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.004763643629298533,
-equity_change: 0.0,
-trade_duration: 0.0008,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 393, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.005869924188662606,
-equity_change: 0.0,
-trade_duration: 0.0009,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 394, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.00587704370233087,
-equity_change: 0.0,
-trade_duration: 0.001,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 395, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.00627309535784752,
-equity_change: 0.0,
-trade_duration: 0.0011,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 396, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0051849580752509495,
-equity_change: 0.0,
-trade_duration: 0.0012,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 397, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.004529962817765773,
-equity_change: 0.0,
-trade_duration: 0.0013,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 398, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0038926515135856996,
-equity_change: 0.0,
-trade_duration: 0.0014,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 399, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0044081272693450345,
-equity_change: 0.0,
-trade_duration: 0.0015,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 400, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.004501255101361265,
-equity_change: 0.0,
-trade_duration: 0.0016,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 401, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.002510202722410229,
-equity_change: 0.0,
-trade_duration: 0.0017,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 402, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0009401202968149351,
-equity_change: 0.0,
-trade_duration: 0.0018,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 403, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0007420370536238313,
-equity_change: 0.0,
-trade_duration: 0.0019,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 404, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0013315787177067633,
-equity_change: 0.0,
-trade_duration: 0.002,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 405, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.00028271359115170645,
-equity_change: 0.0,
-trade_duration: 0.0021,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 406, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -5.4544661168564815e-05,
-equity_change: 0.0,
-trade_duration: 0.0022,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 407, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0024781649109027045,
-equity_change: 0.0,
-trade_duration: 0.0023,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 408, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.002220369617590258,
-equity_change: 0.0,
-trade_duration: 0.0024,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 409, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0012557903463987958,
-equity_change: 0.0,
-trade_duration: 0.0025,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 410, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0001013956543407416,
-equity_change: 0.0,
-trade_duration: 0.0026,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 411, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0011932075246370022,
-equity_change: 0.0,
-trade_duration: 0.0027,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 412, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.00021875279900238285,
-equity_change: 0.0,
-trade_duration: 0.0028,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 413, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0022506849661134113,
-equity_change: 0.0,
-trade_duration: 0.0029,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 414, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.003300698401324548,
-equity_change: 0.0,
-trade_duration: 0.003,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 415, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0030362429178062357,
-equity_change: 0.0,
-trade_duration: 0.0031,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 416, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.001743017709216022,
-equity_change: 0.0,
-trade_duration: 0.0032,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 417, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0001542178525249357,
-equity_change: 0.0,
-trade_duration: 0.0033,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 418, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.004554766284739308,
-equity_change: 0.0,
-trade_duration: 0.0034,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 419, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.003934220286939374,
-equity_change: 0.0,
-trade_duration: 0.0035,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 420, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.004614593165726208,
-equity_change: 0.0,
-trade_duration: 0.0036,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 421, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0044099645631949635,
-equity_change: 0.0,
-trade_duration: 0.0037,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 422, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.004741940595696732,
-equity_change: 0.0,
-trade_duration: 0.0038,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 423, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.00456590487870427,
-equity_change: 0.0,
-trade_duration: 0.0039,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 424, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.002243335790713864,
-equity_change: 0.0,
-trade_duration: 0.004,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 425, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0027307928152625403,
-equity_change: 0.0,
-trade_duration: 0.0041,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 426, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0029231345151727425,
-equity_change: 0.0,
-trade_duration: 0.0042,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 427, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0023838887702303945,
-equity_change: 0.0,
-trade_duration: 0.0043,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 428, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.00487583338500723,
-equity_change: 0.0,
-trade_duration: 0.0044,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 429, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.004699338344552368,
-equity_change: 0.0,
-trade_duration: 0.0045,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 430, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0038822019048144188,
-equity_change: 0.0,
-trade_duration: 0.0046,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 431, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.002402721032191745,
-equity_change: 0.0,
-trade_duration: 0.0048,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 432, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.003380161360332373,
-equity_change: 0.0,
-trade_duration: 0.0049,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 433, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.00025733596984988094,
-equity_change: 0.0,
-trade_duration: 0.005,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 434, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.000803012243266979,
-equity_change: 0.0,
-trade_duration: 0.0051,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 435, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.002252292598232057,
-equity_change: 0.0,
-trade_duration: 0.0052,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 436, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0006216943064560142,
-equity_change: 0.0,
-trade_duration: 0.0053,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 437, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0007049466840290869,
-equity_change: 0.0,
-trade_duration: 0.0054,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 438, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0011631218378449644,
-equity_change: 0.0,
-trade_duration: 0.0055,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 439, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0008421695684427678,
-equity_change: 0.0,
-trade_duration: 0.0056,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 440, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0005490063685199475,
-equity_change: 0.0,
-trade_duration: 0.0057,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 441, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: 0.0009587228970450026,
-equity_change: 0.0,
-trade_duration: 0.0058,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 442, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0013250333583664552,
-equity_change: 0.0,
-trade_duration: 0.0059,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 443, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0013482291932211772,
-equity_change: 0.0,
-trade_duration: 0.006,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 444, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0017798784170794835,
-equity_change: 0.0,
-trade_duration: 0.0061,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 445, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0033460565932438044,
-equity_change: 0.0,
-trade_duration: 0.0062,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 446, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.004803719601398952,
-equity_change: 0.0,
-trade_duration: 0.0063,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 447, Action: [0], Balance: 82.05475752,
-balance_norm: 0.9660343594747839,
-cur_pct: -0.0030246450003788747,
-equity_change: 0.0,
-trade_duration: 0.0064,
-drawdown: 0.2670006134791976,
-pos: [0, 1, 0]
-
-step: 448, Action: [3], Balance: 98.41674204,
-balance_norm: 1.1586647408595796,
-cur_pct: 0.0,
-equity_change: 0.19263038138479577,
-trade_duration: 0.0,
-drawdown: 0.0,
-pos: [0, 0, 1]
-
-step: 449, Action: [0], Balance: 80.89024204,
-balance_norm: 0.9523244662300678,
-cur_pct: -0.00027153766628402445,
-equity_change: -0.20634027462951182,
-trade_duration: 0.0,
-drawdown: 0.27740329040168954,
-pos: [0, 1, 0]
-
-step: 450, Action: [0], Balance: 80.89024204,
-balance_norm: 0.9523244662300678,
-cur_pct: -0.0010605619241818914,
-equity_change: 0.0,
-trade_duration: 0.0001,
-drawdown: 0.27740329040168954,
-pos: [0, 1, 0]
-
-step: 451, Action: [0], Balance: 80.89024204,
-balance_norm: 0.9523244662300678,
-cur_pct: -0.0003901140640974449,
-equity_change: 0.0,
-trade_duration: 0.0002,
-drawdown: 0.27740329040168954,
-pos: [0, 1, 0]
-
-step: 452, Action: [0], Balance: 80.89024204,
-balance_norm: 0.9523244662300678,
-cur_pct: 4.238135220510293e-05,
-equity_change: 0.0,
-trade_duration: 0.0003,
-drawdown: 0.27740329040168954,
-pos: [0, 1, 0]
-
-step: 453, Action: [0], Balance: 80.89024204,
-balance_norm: 0.9523244662300678,
-cur_pct: 0.002062064120358411,
-equity_change: 0.0,
-trade_duration: 0.0004,
-drawdown: 0.27740329040168954,
-pos: [0, 1, 0]
-
-step: 454, Action: [0], Balance: 80.89024204,
-balance_norm: 0.9523244662300678,
-cur_pct: 0.0011674863060253157,
-equity_change: 0.0,
-trade_duration: 0.0005,
-drawdown: 0.27740329040168954,
-pos: [0, 1, 0]
-
-step: 455, Action: [0], Balance: 80.89024204,
-balance_norm: 0.9523244662300678,
-cur_pct: 0.0025567036218349373,
-equity_change: 0.0,
-trade_duration: 0.0006,
-drawdown: 0.27740329040168954,
-pos: [0, 1, 0]
-
-step: 456, Action: [0], Balance: 80.89024204,
-balance_norm: 0.9523244662300678,
-cur_pct: 0.0009925918310229147,
-equity_change: 0.0,
-trade_duration: 0.0007,
-drawdown: 0.27740329040168954,
+drawdown: 0.24076520424216677,
 pos: [0, 1, 0]
 

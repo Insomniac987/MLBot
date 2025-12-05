@@ -7,7 +7,7 @@
     "hma_period": 300,
     "ema_period": 200,
     "vol_sma_period": 20,
-    "fecha_fin": "2025-10-01",
+    "fecha_fin": "2025-12-11",
     "sma_period_lista": [
       10, 20, 1250, 1500, 1750, 2000, 2500, 3000
     ],
@@ -26,9 +26,9 @@
   },
   
   "datos": {
-    "iteraciones":450,
+    "iteraciones":460,
     "episode_steps":10000,
-    "train_steps":7000000,
+    "train_steps":8000000,
     "fijar_seed": false,
     "window_size": 50,
     "seeds_number": 10,
@@ -47,15 +47,21 @@
     "resucitar": false,
     "factor_seguridad": 0.25,
     "slippage": 0.0005,
-    "comision": 0.0005
+    "comision": 0.0005,
+    "funding_rate" : 0.0001,
+    "funding_interval": 96,
+    "min_edge": 0.003
   },
 "factores_rewards": {
-    "pft": 12.0,
-    "pnl": 100.0,
+    "pft": 4.0,
+    "pnl": 120.0,
     "hold_in": 0.001,
-    "hold_out": 0.01,
+    "hold_out": 0.001,
     "noop": 1.0,
-    "dd": 3,
-    "ddrec": 3
+    "dd": 2,
+    "dd_eq": 4,
+    "ddrec": 2,
+    "ddrec_eq": 4,
+    "fp": 1
 }
 }

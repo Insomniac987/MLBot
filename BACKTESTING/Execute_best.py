@@ -89,6 +89,19 @@ winning_trades = [t for t in closed_trades if 'profit' in t and t['profit'] > 0]
 # Perdedoras
 losing_trades = [t for t in closed_trades if 'profit' in t and t['profit'] <= 0]
 
+# Longs
+longs = [
+    t for t in trades 
+    if 'LONG BUY' in t['type']
+    ]
+
+shorts = [
+    t for t in trades
+    if 'SHORT SELL' in t['type']
+]
+
+# Shorts
+
 # Hold (acciones donde no se hizo nada, si las guardas como 'hold')
 hold_inpos_count = sum(1 for tt in tipos if tt == 'hold_inpos')
 hold_outpos_count = sum(1 for tt in tipos if tt == 'hold_outpos')
@@ -113,6 +126,8 @@ print(f"Drawdown máximo: {max_dd:.2f}")
 print(f"Total de trades cerrados: {len(closed_trades)}")
 print(f" - Ganadores: {len(winning_trades)}")
 print(f" - Perdedoras: {len(losing_trades)}")
+print(f" - LONGS: {len(longs)}")
+print(f" - SHORTS: {len(shorts)}")
 print(f"Operaciones HOLD in position {hold_inpos_count}")
 print(f"Operaciones HOLD out of position {hold_outpos_count}")
 print(f"Operaciones No-Op: {noop_count}")

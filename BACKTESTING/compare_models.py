@@ -12,11 +12,13 @@ MODELOS = [
     # "expert_professional_bots/agressive_winner_4M.zip",
     "expert_professional_bots/super_winner_8M_best_model.zip",
     "expert_professional_bots/super_winner_8M.zip",
+    "expert_professional_bots/coke_SHORTER_8M_best.zip",
+    "expert_professional_bots/coke_SHORTER_8M.zip"
     # "expert_professional_bots/smart_holder_2M.zip",
     # "expert_professional_bots/lucky_7M_best_model.zip",
     # "expert_professional_bots/lucky_7M.zip"
 ]
-N_EPISODIOS = 500             # cuántas veces probar cada modelo
+N_EPISODIOS = 100             # cuántas veces probar cada modelo
 DATOS_PATH = "Data.csv"
 WINDOW_SIZE = 50
 PLOT_PATH = "equity_comparison.png"

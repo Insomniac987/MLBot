@@ -1558,3 +1558,2563 @@ trade_duration: 0.0006,
 drawdown: 0.0785871759583009,
 pos: [0, 1, 0]
 
+step: 135, Action: [0], Balance: 77.43463078,
+equity_norm: 0.8775810200287582,
+equity_change: -0.012180912233377156,
+cur_pct: 0.0033443267247726094,
+trade_duration: 0.0007,
+drawdown: 0.09120139143931734,
+pos: [0, 1, 0]
+
+step: 136, Action: [0], Balance: 77.43463078,
+equity_norm: 0.8389002115748467,
+equity_change: -0.038680808453911426,
+cur_pct: 0.0013108071963978864,
+trade_duration: 0.0008,
+drawdown: 0.13125816579818514,
+pos: [0, 1, 0]
+
+step: 137, Action: [3], Balance: 94.42032428,
+equity_norm: 0.9925143968777569,
+equity_change: -0.038680808453911426,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 138, Action: [0], Balance: 76.19698428,
+equity_norm: 0.8402073733537657,
+equity_change: -0.1523070235239911,
+cur_pct: 0.0020490206515380504,
+trade_duration: 0.0,
+drawdown: 0.12990450524863684,
+pos: [0, 1, 0]
+
+step: 139, Action: [0], Balance: 76.19698428,
+equity_norm: 0.8215807108774535,
+equity_change: -0.018626662476312176,
+cur_pct: 0.0010766412743217354,
+trade_duration: 0.0001,
+drawdown: 0.14919376123100442,
+pos: [0, 1, 0]
+
+step: 140, Action: [4], Balance: 76.19698428,
+equity_norm: 0.8380798132605358,
+equity_change: 0.01649910238308225,
+cur_pct: 0.0019379542937793155,
+trade_duration: 0.0002,
+drawdown: 0.13210774757980442,
+pos: [0, 1, 0]
+
+step: 141, Action: [3], Balance: 94.61127738,
+equity_norm: 0.9945216310439562,
+equity_change: 0.01649910238308225,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 142, Action: [2], Balance: 76.35027605,
+equity_norm: 0.7669567803720484,
+equity_change: -0.22756485067190782,
+cur_pct: -0.0018602756094025178,
+trade_duration: 0.0,
+drawdown: 0.20576079140196335,
+pos: [0, 1, 0]
+
+step: 143, Action: [3], Balance: 94.14182098,
+equity_norm: 0.9895868647289765,
+equity_change: -0.22756485067190782,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 144, Action: [0], Balance: 75.90344098,
+equity_norm: 0.8239275095210619,
+equity_change: -0.1656593552079147,
+cur_pct: 0.0013591119386698576,
+trade_duration: 0.0,
+drawdown: 0.14676348152667196,
+pos: [0, 1, 0]
+
+step: 145, Action: [2], Balance: 75.90344098,
+equity_norm: 0.8320950697603935,
+equity_change: 0.008167560239331672,
+cur_pct: 0.0017851366184934584,
+trade_duration: 0.0001,
+drawdown: 0.13830538226126518,
+pos: [0, 1, 0]
+
+step: 146, Action: [3], Balance: 94.38805138,
+equity_norm: 0.9921751551083258,
+equity_change: 0.008167560239331672,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 147, Action: [0], Balance: 76.1083093,
+equity_norm: 0.876373004442279,
+equity_change: -0.11580215066604674,
+cur_pct: 0.003991940492430235,
+trade_duration: 0.0,
+drawdown: 0.09245237893683175,
+pos: [0, 1, 0]
+
+step: 148, Action: [4], Balance: 76.1083093,
+equity_norm: 0.9113642200467624,
+equity_change: 0.034991215604483414,
+cur_pct: 0.005821488282825904,
+trade_duration: 0.0001,
+drawdown: 0.05621644478666144,
+pos: [0, 1, 0]
+
+step: 1, Action: [3], Balance: 95.36879251,
+equity_norm: 1.002484372944187,
+equity_change: 0.0,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 2, Action: [0], Balance: 77.54427251,
+equity_norm: 0.8370842352851855,
+equity_change: -0.16540013765900147,
+cur_pct: 0.0011723176837301703,
+trade_duration: 0.0,
+drawdown: 0.16499024036977192,
+pos: [0, 1, 0]
+
+step: 3, Action: [0], Balance: 77.54427251,
+equity_norm: 0.8303798981929784,
+equity_change: -0.006704337092207006,
+cur_pct: 0.000814495986427809,
+trade_duration: 0.0001,
+drawdown: 0.1716779626656488,
+pos: [0, 1, 0]
+
+step: 4, Action: [0], Balance: 77.54427251,
+equity_norm: 0.882496711148705,
+equity_change: 0.052116812955726524,
+cur_pct: 0.0035960575656455852,
+trade_duration: 0.0002,
+drawdown: 0.11969030643648969,
+pos: [0, 1, 0]
+
+step: 5, Action: [0], Balance: 77.54427251,
+equity_norm: 0.9374537747822547,
+equity_change: 0.05495706363354972,
+cur_pct: 0.0065292080796566605,
+trade_duration: 0.0003,
+drawdown: 0.06486943828455348,
+pos: [0, 1, 0]
+
+step: 6, Action: [0], Balance: 77.54427251,
+equity_norm: 0.9690308030434492,
+equity_change: 0.031577028261194566,
+cur_pct: 0.008214526955003621,
+trade_duration: 0.0004,
+drawdown: 0.0333706647241674,
+pos: [0, 1, 0]
+
+step: 7, Action: [0], Balance: 77.54427251,
+equity_norm: 0.9550923411678346,
+equity_change: -0.013938461875614682,
+cur_pct: 0.007470607904167999,
+trade_duration: 0.0005,
+drawdown: 0.04727458407871948,
+pos: [0, 1, 0]
+
+step: 8, Action: [0], Balance: 77.54427251,
+equity_norm: 0.8923671603954629,
+equity_change: -0.06272518077237169,
+cur_pct: 0.004122859970422792,
+trade_duration: 0.0006,
+drawdown: 0.1098443182962761,
+pos: [0, 1, 0]
+
+step: 9, Action: [0], Balance: 77.54427251,
+equity_norm: 0.885835214536108,
+equity_change: -0.006531945859354882,
+cur_pct: 0.003774239081894041,
+trade_duration: 0.0007,
+drawdown: 0.11636007658203498,
+pos: [0, 1, 0]
+
+step: 10, Action: [0], Balance: 77.54427251,
+equity_norm: 0.8653753184616756,
+equity_change: -0.020459896074432375,
+cur_pct: 0.002682260167454752,
+trade_duration: 0.0008,
+drawdown: 0.13676926861197547,
+pos: [0, 1, 0]
+
+step: 11, Action: [4], Balance: 77.54427251,
+equity_norm: 0.8847546158326292,
+equity_change: 0.019379297370953518,
+cur_pct: 0.003716565719581907,
+trade_duration: 0.0009,
+drawdown: 0.11743799732837565,
+pos: [0, 1, 0]
+
+step: 12, Action: [3], Balance: 95.93912141,
+equity_norm: 1.0084794767369554,
+equity_change: 0.019379297370953518,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 13, Action: [2], Balance: 78.18045821,
+equity_norm: 0.7707155626530123,
+equity_change: -0.2377639140839429,
+cur_pct: -0.0027423477304144676,
+trade_duration: 0.0,
+drawdown: 0.2311944370868295,
+pos: [0, 1, 0]
+
+step: 14, Action: [3], Balance: 95.36108611,
+equity_norm: 1.002403365883404,
+equity_change: -0.2377639140839429,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 15, Action: [2], Balance: 77.61682611,
+equity_norm: 0.7454914445976982,
+equity_change: -0.2569119212857057,
+cur_pct: -0.0037738826401623126,
+trade_duration: 0.0,
+drawdown: 0.2563560443258867,
+pos: [0, 1, 0]
+
+step: 16, Action: [3], Balance: 94.64637701,
+equity_norm: 0.9948905864395844,
+equity_change: -0.2569119212857057,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 17, Action: [2], Balance: 76.79120458,
+equity_norm: 0.7693737110277951,
+equity_change: -0.22551687541178933,
+cur_pct: -0.0020251221387018728,
+trade_duration: 0.0,
+drawdown: 0.23253296331370366,
+pos: [0, 1, 0]
+
+step: 18, Action: [3], Balance: 94.21134061,
+equity_norm: 0.9903176314803804,
+equity_change: -0.22551687541178933,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 19, Action: [2], Balance: 76.38306061,
+equity_norm: 0.755465270770032,
+equity_change: -0.23485236071034843,
+cur_pct: -0.00253182023167689,
+trade_duration: 0.0,
+drawdown: 0.24640693545046174,
+pos: [0, 1, 0]
+
+step: 20, Action: [3], Balance: 93.70329301,
+equity_norm: 0.9849772075711819,
+equity_change: -0.23485236071034843,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 21, Action: [2], Balance: 75.76820499,
+equity_norm: 0.7613701370026648,
+equity_change: -0.2236070705685172,
+cur_pct: -0.0018700449859797123,
+trade_duration: 0.0,
+drawdown: 0.24051670275257858,
+pos: [0, 1, 0]
+
+step: 22, Action: [3], Balance: 93.30592801,
+equity_norm: 0.9808002415808326,
+equity_change: -0.2236070705685172,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 23, Action: [0], Balance: 75.36628801,
+equity_norm: 0.8017357861530877,
+equity_change: -0.17906445542774482,
+cur_pct: 0.0005046167299853287,
+trade_duration: 0.0,
+drawdown: 0.2002510884050218,
+pos: [0, 1, 0]
+
+step: 24, Action: [4], Balance: 75.36628801,
+equity_norm: 0.8364663125761892,
+equity_change: 0.03473052642310148,
+cur_pct: 0.002347293206413254,
+trade_duration: 0.0001,
+drawdown: 0.16560663173274298,
+pos: [0, 1, 0]
+
+step: 25, Action: [1], Balance: 93.64308171,
+equity_norm: 0.9843442868249292,
+equity_change: 0.03473052642310148,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 26, Action: [0], Balance: 75.79650171,
+equity_norm: 0.8331826138333448,
+equity_change: -0.15116167299158442,
+cur_pct: 0.001942220862484714,
+trade_duration: 0.0,
+drawdown: 0.16888219276039318,
+pos: [1, 0, 0]
+
+step: 27, Action: [0], Balance: 75.79650171,
+equity_norm: 0.8108032885443661,
+equity_change: -0.022379325288978714,
+cur_pct: 0.0007492752112729788,
+trade_duration: 0.0001,
+drawdown: 0.19120605724443804,
+pos: [1, 0, 0]
+
+step: 28, Action: [0], Balance: 75.79650171,
+equity_norm: 0.8071284120196953,
+equity_change: -0.0036748765246707796,
+cur_pct: 0.0005533833373117388,
+trade_duration: 0.0002,
+drawdown: 0.19487182663082564,
+pos: [1, 0, 0]
+
+step: 29, Action: [0], Balance: 75.79650171,
+equity_norm: 0.7757574123050774,
+equity_change: -0.031370999714617945,
+cur_pct: -0.0011188698338841,
+trade_duration: 0.0003,
+drawdown: 0.2261650822279027,
+pos: [1, 0, 0]
+
+step: 30, Action: [4], Balance: 75.79650171,
+equity_norm: 0.7889537509465913,
+equity_change: 0.013196338641513816,
+cur_pct: -0.00041542973499676054,
+trade_duration: 0.0004,
+drawdown: 0.2130014469656815,
+pos: [1, 0, 0]
+
+step: 31, Action: [3], Balance: 93.26711471,
+equity_norm: 0.9803922493468078,
+equity_change: 0.013196338641513816,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 32, Action: [0], Balance: 75.46985471,
+equity_norm: 0.792556654131548,
+equity_change: -0.18783559521525986,
+cur_pct: -4.0455665647310524e-05,
+trade_duration: 0.0,
+drawdown: 0.20940747255351644,
+pos: [0, 1, 0]
+
+step: 33, Action: [1], Balance: 75.46985471,
+equity_norm: 0.8210937101646663,
+equity_change: 0.028537056033118315,
+cur_pct: 0.0014849476829579319,
+trade_duration: 0.0001,
+drawdown: 0.18094113751299296,
+pos: [0, 1, 0]
+
+step: 34, Action: [0], Balance: 75.46985471,
+equity_norm: 0.7973163340239144,
+equity_change: -0.02377737614075177,
+cur_pct: 0.00021396552053527508,
+trade_duration: 0.0002,
+drawdown: 0.20465958817663796,
+pos: [0, 1, 0]
+
+step: 35, Action: [0], Balance: 75.46985471,
+equity_norm: 0.7644652925053081,
+equity_change: -0.03285104151860635,
+cur_pct: -0.001542035122260406,
+trade_duration: 0.0003,
+drawdown: 0.2374292177142301,
+pos: [0, 1, 0]
+
+step: 36, Action: [0], Balance: 75.46985471,
+equity_norm: 0.7254102689361875,
+equity_change: -0.039055023569120585,
+cur_pct: -0.003629659846515595,
+trade_duration: 0.0004,
+drawdown: 0.2763874544939419,
+pos: [0, 1, 0]
+
+step: 37, Action: [0], Balance: 75.46985471,
+equity_norm: 0.7164816644737841,
+equity_change: -0.008928604462403395,
+cur_pct: -0.00410692432430601,
+trade_duration: 0.0005,
+drawdown: 0.28529393194473857,
+pos: [0, 1, 0]
+
+step: 38, Action: [1], Balance: 92.19329441,
+equity_norm: 0.9691046148725916,
+equity_change: -0.008928604462403395,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 39, Action: [0], Balance: 74.31555441,
+equity_norm: 0.7774776739338786,
+equity_change: -0.19162694093871305,
+cur_pct: -0.00019700476682176364,
+trade_duration: 0.0,
+drawdown: 0.2244490837792197,
+pos: [1, 0, 0]
+
+step: 40, Action: [0], Balance: 74.31555441,
+equity_norm: 0.8209770275791783,
+equity_change: 0.04349935364529974,
+cur_pct: 0.0021177173401112546,
+trade_duration: 0.0001,
+drawdown: 0.18105753093381535,
+pos: [1, 0, 0]
+
+step: 41, Action: [0], Balance: 74.31555441,
+equity_norm: 0.7959950151405771,
+equity_change: -0.024982012438601164,
+cur_pct: 0.0007883546801777089,
+trade_duration: 0.0002,
+drawdown: 0.2059776325462043,
+pos: [1, 0, 0]
+
+step: 42, Action: [0], Balance: 74.31555441,
+equity_norm: 0.7910587393511449,
+equity_change: -0.00493627578943229,
+cur_pct: 0.000525681657748745,
+trade_duration: 0.0003,
+drawdown: 0.21090167517734776,
+pos: [1, 0, 0]
+
+step: 43, Action: [2], Balance: 74.31555441,
+equity_norm: 0.8319070522083374,
+equity_change: 0.040848312857192565,
+cur_pct: 0.002699334479637898,
+trade_duration: 0.0004,
+drawdown: 0.17015459326800533,
+pos: [1, 0, 0]
+
+step: 44, Action: [3], Balance: 92.39132851,
+equity_norm: 0.9711862821070725,
+equity_change: 0.040848312857192565,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 45, Action: [2], Balance: 74.47142851,
+equity_norm: 0.7949635489896273,
+equity_change: -0.17622273311744516,
+cur_pct: 0.0006447580622660179,
+trade_duration: 0.0,
+drawdown: 0.20700654250110023,
+pos: [0, 1, 0]
+
+step: 46, Action: [3], Balance: 92.43504091,
+equity_norm: 0.9716457720172471,
+equity_change: -0.17622273311744516,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 47, Action: [4], Balance: 74.49991755,
+equity_norm: 0.7011268913101679,
+equity_change: -0.27051888070707925,
+cur_pct: -0.004364857302742026,
+trade_duration: 0.0,
+drawdown: 0.30061065266181164,
+pos: [0, 1, 0]
+
+step: 48, Action: [3], Balance: 91.55038811,
+equity_norm: 0.9623466020881708,
+equity_change: -0.27051888070707925,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 49, Action: [2], Balance: 73.62534014,
+equity_norm: 0.7516945229607574,
+equity_change: -0.21065207912741332,
+cur_pct: -0.0011803512923697472,
+trade_duration: 0.0,
+drawdown: 0.2501683385316891,
+pos: [0, 1, 0]
+
+step: 50, Action: [3], Balance: 91.22294701,
+equity_norm: 0.9589046523982317,
+equity_change: -0.21065207912741332,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 51, Action: [2], Balance: 73.31954701,
+equity_norm: 0.7768868408252616,
+equity_change: -0.1820178115729701,
+cur_pct: 0.00032870520580441766,
+trade_duration: 0.0,
+drawdown: 0.2250384526756961,
+pos: [0, 1, 0]
+
+step: 52, Action: [3], Balance: 91.19145861,
+equity_norm: 0.9585736570264941,
+equity_change: -0.1820178115729701,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 53, Action: [2], Balance: 73.32936316,
+equity_norm: 0.7714777100748603,
+equity_change: -0.1870959469516337,
+cur_pct: 3.540786839033693e-05,
+trade_duration: 0.0,
+drawdown: 0.2304341784310166,
+pos: [0, 1, 0]
+
+step: 54, Action: [3], Balance: 91.10301221,
+equity_norm: 0.9576439384937375,
+equity_change: -0.1870959469516337,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 55, Action: [2], Balance: 73.24725221,
+equity_norm: 0.7682494640204421,
+equity_change: -0.18939447447329535,
+cur_pct: -9.061501722689493e-05,
+trade_duration: 0.0,
+drawdown: 0.23365442419398766,
+pos: [0, 1, 0]
+
+step: 56, Action: [3], Balance: 90.97608041,
+equity_norm: 0.956309674500447,
+equity_change: -0.18939447447329535,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 57, Action: [2], Balance: 73.10948041,
+equity_norm: 0.7531108669400217,
+equity_change: -0.20319880756042522,
+cur_pct: -0.0008197657492218485,
+trade_duration: 0.0,
+drawdown: 0.2487555045589214,
+pos: [0, 1, 0]
+
+step: 58, Action: [3], Balance: 90.73763851,
+equity_norm: 0.953803254189211,
+equity_change: -0.20319880756042522,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 59, Action: [2], Balance: 72.85699851,
+equity_norm: 0.757331488907758,
+equity_change: -0.1964717652814529,
+cur_pct: -0.00045312084042684986,
+trade_duration: 0.0,
+drawdown: 0.24454534220462876,
+pos: [0, 1, 0]
+
+step: 60, Action: [3], Balance: 90.50320631,
+equity_norm: 0.9513389824832409,
+equity_change: -0.1964717652814529,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 61, Action: [2], Balance: 72.62778631,
+equity_norm: 0.7518652971848708,
+equity_change: -0.19947368529837003,
+cur_pct: -0.0006159295837523074,
+trade_duration: 0.0,
+drawdown: 0.24999798752301275,
+pos: [0, 1, 0]
+
+step: 62, Action: [3], Balance: 90.29183581,
+equity_norm: 0.9491171275391387,
+equity_change: -0.19947368529837003,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 63, Action: [0], Balance: 72.41561351,
+equity_norm: 0.7856395484160246,
+equity_change: -0.16347757912311406,
+cur_pct: 0.001300548600743626,
+trade_duration: 0.0,
+drawdown: 0.2163074361860752,
+pos: [0, 1, 0]
+
+step: 64, Action: [0], Balance: 72.41561351,
+equity_norm: 0.7845799730336263,
+equity_change: -0.0010595753823983538,
+cur_pct: 0.0012441441179302777,
+trade_duration: 0.0001,
+drawdown: 0.2173643857116688,
+pos: [0, 1, 0]
+
+step: 65, Action: [0], Balance: 72.41561351,
+equity_norm: 0.8045184907452884,
+equity_change: 0.019938517711662083,
+cur_pct: 0.002305533234998638,
+trade_duration: 0.0002,
+drawdown: 0.1974752799562296,
+pos: [0, 1, 0]
+
+step: 66, Action: [0], Balance: 72.41561351,
+equity_norm: 0.7922156432496474,
+equity_change: -0.012302847495640881,
+cur_pct: 0.0016506145178872183,
+trade_duration: 0.0003,
+drawdown: 0.20974763833674856,
+pos: [0, 1, 0]
+
+step: 67, Action: [0], Balance: 72.41561351,
+equity_norm: 0.7947489534397106,
+equity_change: 0.002533310190063197,
+cur_pct: 0.0017854704738201296,
+trade_duration: 0.0004,
+drawdown: 0.20722060623686342,
+pos: [0, 1, 0]
+
+step: 68, Action: [4], Balance: 72.41561351,
+equity_norm: 0.8225207605855404,
+equity_change: 0.027771807145829684,
+cur_pct: 0.0032638498745447843,
+trade_duration: 0.0005,
+drawdown: 0.1795176236314918,
+pos: [0, 1, 0]
+
+step: 69, Action: [3], Balance: 90.75244611,
+equity_norm: 0.9539589066538183,
+equity_change: 0.027771807145829684,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 70, Action: [0], Balance: 72.92660611,
+equity_norm: 0.7992268430433227,
+equity_change: -0.15473206361049557,
+cur_pct: 0.0017423217343107299,
+trade_duration: 0.0,
+drawdown: 0.2027538138115002,
+pos: [0, 1, 0]
+
+step: 71, Action: [0], Balance: 72.92660611,
+equity_norm: 0.7582965392339206,
+equity_change: -0.04093030380940209,
+cur_pct: -0.00044205986433035486,
+trade_duration: 0.0001,
+drawdown: 0.2435826834817518,
+pos: [0, 1, 0]
+
+step: 72, Action: [0], Balance: 72.92660611,
+equity_norm: 0.7577036815794844,
+equity_change: -0.0005928576544362066,
+cur_pct: -0.000473699682031065,
+trade_duration: 0.0002,
+drawdown: 0.24417407190678533,
+pos: [0, 1, 0]
+
+step: 73, Action: [0], Balance: 72.92660611,
+equity_norm: 0.7444568869673822,
+equity_change: -0.013246794612102215,
+cur_pct: -0.0011806588711540896,
+trade_duration: 0.0003,
+drawdown: 0.25738803809879474,
+pos: [0, 1, 0]
+
+step: 74, Action: [0], Balance: 72.92660611,
+equity_norm: 0.7635628811643004,
+equity_change: 0.019105994196918174,
+cur_pct: -0.00016100403688177055,
+trade_duration: 0.0004,
+drawdown: 0.2383293926848957,
+pos: [0, 1, 0]
+
+step: 75, Action: [0], Balance: 72.92660611,
+equity_norm: 0.7422242102687523,
+equity_change: -0.021338670895548077,
+cur_pct: -0.0012998130782401734,
+trade_duration: 0.0005,
+drawdown: 0.2596151817420146,
+pos: [0, 1, 0]
+
+step: 76, Action: [0], Balance: 72.92660611,
+equity_norm: 0.7342626785760005,
+equity_change: -0.007961531692751758,
+cur_pct: -0.0017247066584986702,
+trade_duration: 0.0006,
+drawdown: 0.2675569830384973,
+pos: [0, 1, 0]
+
+step: 77, Action: [0], Balance: 72.92660611,
+equity_norm: 0.7242051217716365,
+equity_change: -0.010057556804363989,
+cur_pct: -0.0022614615800610545,
+trade_duration: 0.0007,
+drawdown: 0.2775896150433494,
+pos: [0, 1, 0]
+
+step: 78, Action: [0], Balance: 72.92660611,
+equity_norm: 0.7288596850586062,
+equity_change: 0.004654563286969702,
+cur_pct: -0.0020130553517292873,
+trade_duration: 0.0008,
+drawdown: 0.2729465867702006,
+pos: [0, 1, 0]
+
+step: 79, Action: [4], Balance: 72.92660611,
+equity_norm: 0.7412466258385635,
+equity_change: 0.01238694077995722,
+cur_pct: -0.0013519851180658871,
+trade_duration: 0.0009,
+drawdown: 0.260590343506699,
+pos: [0, 1, 0]
+
+step: 80, Action: [3], Balance: 90.40910721,
+equity_norm: 0.9503498446869516,
+equity_change: 0.01238694077995722,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 81, Action: [2], Balance: 72.57964274,
+equity_norm: 0.7440725452337533,
+equity_change: -0.2062772994531983,
+cur_pct: -0.0010082165547113575,
+trade_duration: 0.0,
+drawdown: 0.2577714273505395,
+pos: [0, 1, 0]
+
+step: 82, Action: [3], Balance: 90.12349561,
+equity_norm: 0.9473475925015571,
+equity_change: -0.2062772994531983,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 83, Action: [2], Balance: 72.30101561,
+equity_norm: 0.7627956298056799,
+equity_change: -0.18455196269587718,
+cur_pct: 0.00014902694829167578,
+trade_duration: 0.0,
+drawdown: 0.23909474262882258,
+pos: [0, 1, 0]
+
+step: 84, Action: [3], Balance: 90.0341172,
+equity_norm: 0.9464080769960608,
+equity_change: -0.18455196269587718,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 85, Action: [2], Balance: 72.1943772,
+equity_norm: 0.7440928796206012,
+equity_change: -0.20231519737545958,
+cur_pct: -0.0007886886243858467,
+trade_duration: 0.0,
+drawdown: 0.2577511433566971,
+pos: [0, 1, 0]
+
+step: 86, Action: [3], Balance: 89.7930885,
+equity_norm: 0.9438744651213407,
+equity_change: -0.20231519737545958,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 87, Action: [2], Balance: 71.93605168,
+equity_norm: 0.7681254208548941,
+equity_change: -0.17574904426644658,
+cur_pct: 0.0006371253192347849,
+trade_duration: 0.0,
+drawdown: 0.2337781599537619,
+pos: [0, 1, 0]
+
+step: 88, Action: [3], Balance: 89.8112348,
+equity_norm: 0.9440652128669919,
+equity_change: -0.17574904426644658,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 89, Action: [2], Balance: 71.9570148,
+equity_norm: 0.750877500571349,
+equity_change: -0.19318771229564283,
+cur_pct: -0.000293603345352944,
+trade_duration: 0.0,
+drawdown: 0.2509833361630327,
+pos: [0, 1, 0]
+
+step: 90, Action: [3], Balance: 89.6447006,
+equity_norm: 0.9423146618883449,
+equity_change: -0.19318771229564283,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 91, Action: [2], Balance: 71.75639427,
+equity_norm: 0.7662789697896943,
+equity_change: -0.1760356920986505,
+cur_pct: 0.0006394436347464098,
+trade_duration: 0.0,
+drawdown: 0.23562003511414661,
+pos: [0, 1, 0]
+
+step: 92, Action: [3], Balance: 89.6638692,
+equity_norm: 0.9425161557045657,
+equity_change: -0.1760356920986505,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 93, Action: [2], Balance: 71.8375492,
+equity_norm: 0.7614704624983062,
+equity_change: -0.1810456932062596,
+cur_pct: 0.00033826387050169335,
+trade_duration: 0.0,
+drawdown: 0.24041662588519888,
+pos: [0, 1, 0]
+
+step: 94, Action: [3], Balance: 89.6094679,
+equity_norm: 0.9419443077060485,
+equity_change: -0.1810456932062596,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 95, Action: [2], Balance: 71.7965879,
+equity_norm: 0.744774147698341,
+equity_change: -0.19717016000770754,
+cur_pct: -0.000530184116034209,
+trade_duration: 0.0,
+drawdown: 0.25707156360849714,
+pos: [0, 1, 0]
+
+step: 96, Action: [3], Balance: 89.3643076,
+equity_norm: 0.9393672658546428,
+equity_change: -0.19717016000770754,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 97, Action: [2], Balance: 71.5366276,
+equity_norm: 0.7058120440548904,
+equity_change: -0.23355522179975233,
+cur_pct: -0.0024630237922152846,
+trade_duration: 0.0,
+drawdown: 0.2959371107381976,
+pos: [0, 1, 0]
+
+step: 98, Action: [3], Balance: 88.8372565,
+equity_norm: 0.9338270836043784,
+equity_change: -0.23355522179975233,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 99, Action: [2], Balance: 70.94564849,
+equity_norm: 0.7317298138701117,
+equity_change: -0.20209726973426664,
+cur_pct: -0.0007466010182957664,
+trade_duration: 0.0,
+drawdown: 0.2700835707582141,
+pos: [0, 1, 0]
+
+step: 100, Action: [3], Balance: 88.6040993,
+equity_norm: 0.9313762142655965,
+equity_change: -0.20209726973426664,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 101, Action: [2], Balance: 70.71873307,
+equity_norm: 0.725730647110314,
+equity_change: -0.2056455671552824,
+cur_pct: -0.0009394302066386954,
+trade_duration: 0.0,
+drawdown: 0.27606787028617463,
+pos: [0, 1, 0]
+
+step: 102, Action: [3], Balance: 88.33221251,
+equity_norm: 0.9285182326238935,
+equity_change: -0.2056455671552824,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 103, Action: [2], Balance: 70.45503251,
+equity_norm: 0.7482686925869063,
+equity_change: -0.1802495400369872,
+cur_pct: 0.00040811805888843684,
+trade_duration: 0.0,
+drawdown: 0.25358567895744544,
+pos: [0, 1, 0]
+
+step: 104, Action: [3], Balance: 88.31292039,
+equity_norm: 0.9283154404073627,
+equity_change: -0.1802495400369872,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 105, Action: [2], Balance: 70.43440267,
+equity_norm: 0.7393523884492023,
+equity_change: -0.18896305195816046,
+cur_pct: -5.48238866554652e-05,
+trade_duration: 0.0,
+drawdown: 0.2624798865664058,
+pos: [0, 1, 0]
+
+step: 106, Action: [3], Balance: 88.18599209,
+equity_norm: 0.9269812132048841,
+equity_change: -0.18896305195816046,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 107, Action: [2], Balance: 70.29377209,
+equity_norm: 0.7242867551171543,
+equity_change: -0.20269445808772982,
+cur_pct: -0.0007779223554499747,
+trade_duration: 0.0,
+drawdown: 0.27750818400290533,
+pos: [0, 1, 0]
+
+step: 108, Action: [3], Balance: 87.94280169,
+equity_norm: 0.9244248782735754,
+equity_change: -0.20269445808772982,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 109, Action: [2], Balance: 69.99638751,
+equity_norm: 0.7449969908022362,
+equity_change: -0.17942788747133923,
+cur_pct: 0.0004906019243679327,
+trade_duration: 0.0,
+drawdown: 0.2568492727579767,
+pos: [0, 1, 0]
+
+step: 110, Action: [3], Balance: 87.92932429,
+equity_norm: 0.9242832084198179,
+equity_change: -0.17942788747133923,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 111, Action: [2], Balance: 70.05382685,
+equity_norm: 0.7370337703061008,
+equity_change: -0.18724943811371708,
+cur_pct: 3.472922408198137e-05,
+trade_duration: 0.0,
+drawdown: 0.26479275867262314,
+pos: [0, 1, 0]
+
+step: 112, Action: [3], Balance: 87.83544258,
+equity_norm: 0.9232963557534135,
+equity_change: -0.18724943811371708,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 113, Action: [2], Balance: 69.97080258,
+equity_norm: 0.7397539329357679,
+equity_change: -0.18354242281764566,
+cur_pct: 0.00022603563279903908,
+trade_duration: 0.0,
+drawdown: 0.2620793371938642,
+pos: [0, 1, 0]
+
+step: 114, Action: [3], Balance: 87.78486218,
+equity_norm: 0.9227646717586523,
+equity_change: -0.18354242281764566,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 115, Action: [2], Balance: 69.90951504,
+equity_norm: 0.7420319407500084,
+equity_change: -0.18073273100864382,
+cur_pct: 0.00038180421250233584,
+trade_duration: 0.0,
+drawdown: 0.25980697477533554,
+pos: [0, 1, 0]
+
+step: 116, Action: [3], Balance: 87.77157158,
+equity_norm: 0.9226249654830836,
+equity_change: -0.18073273100864382,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 117, Action: [2], Balance: 69.89191073,
+equity_norm: 0.7209917557085279,
+equity_change: -0.20163320977455568,
+cur_pct: -0.0007296832361132189,
+trade_duration: 0.0,
+drawdown: 0.28079501769084536,
+pos: [0, 1, 0]
+
+step: 118, Action: [3], Balance: 87.54748778,
+equity_norm: 0.9202694726450423,
+equity_change: -0.20163320977455568,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 119, Action: [2], Balance: 69.69524778,
+equity_norm: 0.7244578396454815,
+equity_change: -0.19581163299956084,
+cur_pct: -0.00043456731480204334,
+trade_duration: 0.0,
+drawdown: 0.2773375234590161,
+pos: [0, 1, 0]
+
+step: 120, Action: [3], Balance: 87.38137158,
+equity_norm: 0.9185233155405009,
+equity_change: -0.19581163299956084,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 121, Action: [2], Balance: 69.53441158,
+equity_norm: 0.727526864000959,
+equity_change: -0.19099645153954195,
+cur_pct: -0.00018098320386210513,
+trade_duration: 0.0,
+drawdown: 0.27427610480920295,
+pos: [0, 1, 0]
+
+step: 122, Action: [3], Balance: 87.25272688,
+equity_norm: 0.917171046123872,
+equity_change: -0.19099645153954195,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 123, Action: [2], Balance: 69.41844688,
+equity_norm: 0.7152370015595799,
+equity_change: -0.20193404456429218,
+cur_pct: -0.0007716686254632953,
+trade_duration: 0.0,
+drawdown: 0.2865355103152311,
+pos: [0, 1, 0]
+
+step: 124, Action: [3], Balance: 87.02055918,
+equity_norm: 0.9147305780731941,
+equity_change: -0.20193404456429218,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 125, Action: [2], Balance: 69.17587918,
+equity_norm: 0.6998734980414211,
+equity_change: -0.21485708003177303,
+cur_pct: -0.0014543270039026682,
+trade_duration: 0.0,
+drawdown: 0.30186093975114126,
+pos: [0, 1, 0]
+
+step: 126, Action: [3], Balance: 86.65361818,
+equity_norm: 0.9108734188431037,
+equity_change: -0.21485708003177303,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 127, Action: [4], Balance: 68.78069818,
+equity_norm: 0.680961118119985,
+equity_change: -0.22991230072311872,
+cur_pct: -0.0022375750576849427,
+trade_duration: 0.0,
+drawdown: 0.3207264507075789,
+pos: [0, 1, 0]
+
+step: 128, Action: [3], Balance: 86.14872598,
+equity_norm: 0.9055661634275721,
+equity_change: -0.22991230072311872,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 129, Action: [2], Balance: 68.21431612,
+equity_norm: 0.6931464235967706,
+equity_change: -0.2124197398308015,
+cur_pct: -0.0012678656071378003,
+trade_duration: 0.0,
+drawdown: 0.30857134305138806,
+pos: [0, 1, 0]
+
+step: 130, Action: [3], Balance: 85.84693978,
+equity_norm: 0.9023938893376126,
+equity_change: -0.2124197398308015,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 131, Action: [2], Balance: 67.91275978,
+equity_norm: 0.7187701062673891,
+equity_change: -0.18362378307022334,
+cur_pct: 0.0002596188910659969,
+trade_duration: 0.0,
+drawdown: 0.2830111614045015,
+pos: [0, 1, 0]
+
+step: 132, Action: [3], Balance: 85.80746986,
+equity_norm: 0.9019789949370443,
+equity_change: -0.18362378307022334,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 133, Action: [4], Balance: 67.86602252,
+equity_norm: 0.657733757679271,
+equity_change: -0.24424523725777317,
+cur_pct: -0.002958053546904178,
+trade_duration: 0.0,
+drawdown: 0.34389624872896624,
+pos: [0, 1, 0]
+
+step: 134, Action: [3], Balance: 85.23949966,
+equity_norm: 0.8960086849979908,
+equity_change: -0.24424523725777317,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 135, Action: [2], Balance: 67.31421966,
+equity_norm: 0.6964250477303728,
+equity_change: -0.199583637267618,
+cur_pct: -0.0005922428240208886,
+trade_duration: 0.0,
+drawdown: 0.3053008440570015,
+pos: [0, 1, 0]
+
+step: 136, Action: [3], Balance: 85.05804776,
+equity_norm: 0.8941013242209109,
+equity_change: -0.199583637267618,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 137, Action: [2], Balance: 67.09940426,
+equity_norm: 0.6922622682770881,
+equity_change: -0.20183905594382276,
+cur_pct: -0.0006930650002174826,
+trade_duration: 0.0,
+drawdown: 0.30945330724309483,
+pos: [0, 1, 0]
+
+step: 138, Action: [3], Balance: 84.85631716,
+equity_norm: 0.8919808006332453,
+equity_change: -0.20183905594382276,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 139, Action: [2], Balance: 66.92677716,
+equity_norm: 0.6990104694775604,
+equity_change: -0.19297033115568482,
+cur_pct: -0.00023882641525012626,
+trade_duration: 0.0,
+drawdown: 0.30272182954369337,
+pos: [0, 1, 0]
+
+step: 140, Action: [3], Balance: 84.74845945,
+equity_norm: 0.8908470369991381,
+equity_change: -0.19297033115568482,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 141, Action: [2], Balance: 66.80931251,
+equity_norm: 0.7159798146739634,
+equity_change: -0.1748672223251747,
+cur_pct: 0.0007270626134988803,
+trade_duration: 0.0,
+drawdown: 0.28579453805229,
+pos: [0, 1, 0]
+
+step: 142, Action: [3], Balance: 84.80127865,
+equity_norm: 0.8914022544995155,
+equity_change: -0.1748672223251747,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 143, Action: [2], Balance: 66.88709645,
+equity_norm: 0.6959696488533641,
+equity_change: -0.19543260564615147,
+cur_pct: -0.00037839244063681823,
+trade_duration: 0.0,
+drawdown: 0.3057551143571671,
+pos: [0, 1, 0]
+
+step: 144, Action: [3], Balance: 84.64316294,
+equity_norm: 0.8897401958300052,
+equity_change: -0.19543260564615147,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 145, Action: [2], Balance: 66.72069496,
+equity_norm: 0.6866584042849422,
+equity_change: -0.20308179154506306,
+cur_pct: -0.0007798711526933305,
+trade_duration: 0.0,
+drawdown: 0.31504328364909917,
+pos: [0, 1, 0]
+
+step: 146, Action: [3], Balance: 84.41758194,
+equity_norm: 0.887368964933804,
+equity_change: -0.20308179154506306,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 147, Action: [2], Balance: 66.50392194,
+equity_norm: 0.7002040136609744,
+equity_change: -0.18716495127282953,
+cur_pct: 6.040150813972837e-05,
+trade_duration: 0.0,
+drawdown: 0.30153124322072783,
+pos: [0, 1, 0]
+
+step: 148, Action: [3], Balance: 84.31268444,
+equity_norm: 0.8862663180223429,
+equity_change: -0.18716495127282953,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 149, Action: [2], Balance: 66.38689094,
+equity_norm: 0.693379517777135,
+equity_change: -0.19288680024520788,
+cur_pct: -0.00023659552432706032,
+trade_duration: 0.0,
+drawdown: 0.3083388265287814,
+pos: [0, 1, 0]
+
+step: 150, Action: [3], Balance: 84.16229003,
+equity_norm: 0.8846854230373576,
+equity_change: -0.19288680024520788,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 151, Action: [2], Balance: 66.23973167,
+equity_norm: 0.6782200290867471,
+equity_change: -0.20646539395061053,
+cur_pct: -0.0009591327966504236,
+trade_duration: 0.0,
+drawdown: 0.3234607467297579,
+pos: [0, 1, 0]
+
+step: 152, Action: [3], Balance: 83.89722273,
+equity_norm: 0.8818991255595884,
+equity_change: -0.20646539395061053,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 153, Action: [2], Balance: 65.95756192,
+equity_norm: 0.6872141238222276,
+equity_change: -0.1946850017373609,
+cur_pct: -0.0003240623546820952,
+trade_duration: 0.0,
+drawdown: 0.31448894130493543,
+pos: [0, 1, 0]
+
+step: 154, Action: [3], Balance: 83.74929022,
+equity_norm: 0.8803441092316859,
+equity_change: -0.1946850017373609,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 155, Action: [2], Balance: 65.83131022,
+equity_norm: 0.6790964761006371,
+equity_change: -0.20124763313104882,
+cur_pct: -0.0006848986325467557,
+trade_duration: 0.0,
+drawdown: 0.3225864717409958,
+pos: [0, 1, 0]
+
+step: 156, Action: [3], Balance: 83.54369722,
+equity_norm: 0.8781829854063516,
+equity_change: -0.20124763313104882,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 157, Action: [2], Balance: 65.61583868,
+equity_norm: 0.6864328631531404,
+equity_change: -0.1917501222532112,
+cur_pct: -0.00017521994626127957,
+trade_duration: 0.0,
+drawdown: 0.3152682658412298,
+pos: [0, 1, 0]
+
+step: 158, Action: [3], Balance: 83.43384262,
+equity_norm: 0.8770282311424293,
+equity_change: -0.1917501222532112,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 159, Action: [2], Balance: 65.51148442,
+equity_norm: 0.6773428599217786,
+equity_change: -0.19968537122065083,
+cur_pct: -0.000600111061328332,
+trade_duration: 0.0,
+drawdown: 0.3243357420799522,
+pos: [0, 1, 0]
+
+step: 160, Action: [3], Balance: 83.25364183,
+equity_norm: 0.8751340216089676,
+equity_change: -0.19968537122065083,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 161, Action: [2], Balance: 65.33063357,
+equity_norm: 0.6702805918532801,
+equity_change: -0.20485342975568743,
+cur_pct: -0.0008741311464790623,
+trade_duration: 0.0,
+drawdown: 0.3313805083218012,
+pos: [0, 1, 0]
+
+step: 162, Action: [3], Balance: 83.02355853,
+equity_norm: 0.8727154640635184,
+equity_change: -0.20485342975568743,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 163, Action: [2], Balance: 65.11223853,
+equity_norm: 0.6784818415441785,
+equity_change: -0.1942336225193399,
+cur_pct: -0.0003163362610906085,
+trade_duration: 0.0,
+drawdown: 0.3231995831001818,
+pos: [0, 1, 0]
+
+step: 164, Action: [3], Balance: 82.88566593,
+equity_norm: 0.8712659838613847,
+equity_change: -0.1942336225193399,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 165, Action: [2], Balance: 64.96666593,
+equity_norm: 0.6652542559405425,
+equity_change: -0.20601172792084219,
+cur_pct: -0.000937227939370953,
+trade_duration: 0.0,
+drawdown: 0.33639438788779963,
+pos: [0, 1, 0]
+
+step: 166, Action: [3], Balance: 82.62783864,
+equity_norm: 0.8685557909110393,
+equity_change: -0.20601172792084219,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 167, Action: [2], Balance: 64.70976531,
+equity_norm: 0.6498304899134412,
+equity_change: -0.21872530099759807,
+cur_pct: -0.0016130364694272737,
+trade_duration: 0.0,
+drawdown: 0.3517799304891306,
+pos: [0, 1, 0]
+
+step: 168, Action: [1], Balance: 82.25719014,
+equity_norm: 0.8646596596994982,
+equity_change: -0.21872530099759807,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 169, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6804335584803524,
+equity_change: -0.18422610121914587,
+cur_pct: 0.00023000833961411065,
+trade_duration: 0.0,
+drawdown: 0.32125270294040253,
+pos: [1, 0, 0]
+
+step: 170, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6757789951933827,
+equity_change: -0.004654563286969702,
+cur_pct: -1.6835317150558593e-05,
+trade_duration: 0.0001,
+drawdown: 0.3258957312135513,
+pos: [1, 0, 0]
+
+step: 171, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6662806587297303,
+equity_change: -0.009498336463652361,
+cur_pct: -0.0005205569256702662,
+trade_duration: 0.0002,
+drawdown: 0.335370528746561,
+pos: [1, 0, 0]
+
+step: 172, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6720347417091496,
+equity_change: 0.005754082979419265,
+cur_pct: -0.0002154028657945649,
+trade_duration: 0.0003,
+drawdown: 0.3296307056284009,
+pos: [1, 0, 0]
+
+step: 173, Action: [0], Balance: 64.31871014,
+equity_norm: 0.673807007676138,
+equity_change: 0.0017722659669884126,
+cur_pct: -0.00012141496938424457,
+trade_duration: 0.0004,
+drawdown: 0.32786283171952046,
+pos: [1, 0, 0]
+
+step: 174, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6753101751333138,
+equity_change: 0.0015031674571758752,
+cur_pct: -4.169807029347734e-05,
+trade_duration: 0.0005,
+drawdown: 0.32636338943618465,
+pos: [1, 0, 0]
+
+step: 175, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6772800603184488,
+equity_change: 0.0019698851851348855,
+cur_pct: 6.277008977354443e-05,
+trade_duration: 0.0006,
+drawdown: 0.324398386052292,
+pos: [1, 0, 0]
+
+step: 176, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6773452326137942,
+equity_change: 6.517229534548354e-05,
+cur_pct: 6.622634693689019e-05,
+trade_duration: 0.0007,
+drawdown: 0.3243333752679801,
+pos: [1, 0, 0]
+
+step: 177, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6752092631921308,
+equity_change: -0.002135969421663441,
+cur_pct: -4.7049694288492274e-05,
+trade_duration: 0.0008,
+drawdown: 0.3264640512957673,
+pos: [1, 0, 0]
+
+step: 178, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6753732450965525,
+equity_change: 0.00016398190442174485,
+cur_pct: -3.8353305296633565e-05,
+trade_duration: 0.0009,
+drawdown: 0.3263004757739463,
+pos: [1, 0, 0]
+
+step: 179, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6707985704296823,
+equity_change: -0.004574674666870196,
+cur_pct: -0.0002809602597321188,
+trade_duration: 0.001,
+drawdown: 0.3308638134082626,
+pos: [1, 0, 0]
+
+step: 180, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6503639023405472,
+equity_change: -0.020434668089135116,
+cur_pct: -0.0013646641186989554,
+trade_duration: 0.0011,
+drawdown: 0.35124783997330594,
+pos: [1, 0, 0]
+
+step: 181, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6552812571410088,
+equity_change: 0.004917354800461658,
+cur_pct: -0.001103883941114239,
+trade_duration: 0.0012,
+drawdown: 0.346342671440833,
+pos: [1, 0, 0]
+
+step: 182, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6605917480456536,
+equity_change: 0.005310490904644656,
+cur_pct: -0.0008222547283827839,
+trade_duration: 0.0013,
+drawdown: 0.34104534108041223,
+pos: [1, 0, 0]
+
+step: 183, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6644999834343084,
+equity_change: 0.003908235388654915,
+cur_pct: -0.0006149907907469188,
+trade_duration: 0.0014,
+drawdown: 0.3371467911437415,
+pos: [1, 0, 0]
+
+step: 184, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6715953542985917,
+equity_change: 0.007095370864283268,
+cur_pct: -0.00023870472860564488,
+trade_duration: 0.0015,
+drawdown: 0.33006900414199014,
+pos: [1, 0, 0]
+
+step: 185, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6499034916089088,
+equity_change: -0.021691862689682852,
+cur_pct: -0.001389080903175704,
+trade_duration: 0.0016,
+drawdown: 0.35170710970764224,
+pos: [1, 0, 0]
+
+step: 186, Action: [0], Balance: 64.31871014,
+equity_norm: 0.657598027123955,
+equity_change: 0.007694535515046106,
+cur_pct: -0.0009810195735646576,
+trade_duration: 0.0017,
+drawdown: 0.3440316429146307,
+pos: [1, 0, 0]
+
+step: 187, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6487072646394929,
+equity_change: -0.008890762484462057,
+cur_pct: -0.0014525199459485849,
+trade_duration: 0.0018,
+drawdown: 0.3529003721680861,
+pos: [1, 0, 0]
+
+step: 188, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6534227955575944,
+equity_change: 0.00471553091810149,
+cur_pct: -0.0012024430163535737,
+trade_duration: 0.0019,
+drawdown: 0.34819652735477247,
+pos: [1, 0, 0]
+
+step: 189, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6448032339150578,
+equity_change: -0.00861956164253666,
+cur_pct: -0.0016595608992511213,
+trade_duration: 0.002,
+drawdown: 0.3567947278606038,
+pos: [1, 0, 0]
+
+step: 190, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6469623289899087,
+equity_change: 0.0021590950748509043,
+cur_pct: -0.0015450584441935682,
+trade_duration: 0.0021,
+drawdown: 0.3546409834899959,
+pos: [1, 0, 0]
+
+step: 191, Action: [0], Balance: 64.31871014,
+equity_norm: 0.6224638529361303,
+equity_change: -0.024498476053778334,
+cur_pct: -0.0028442766611217964,
+trade_duration: 0.0022,
+drawdown: 0.37907874702523087,
+pos: [1, 0, 0]
+
+step: 192, Action: [1], Balance: 81.18041563,
+equity_norm: 0.8533409715725991,
+equity_change: -0.024498476053778334,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 193, Action: [0], Balance: 63.30853563,
+equity_norm: 0.6682297885360138,
+equity_change: -0.18511118303658536,
+cur_pct: 0.00014664300661866388,
+trade_duration: 0.0,
+drawdown: 0.33342622930520505,
+pos: [1, 0, 0]
+
+step: 194, Action: [0], Balance: 63.30853563,
+equity_norm: 0.6782663220192972,
+equity_change: 0.01003653348328341,
+cur_pct: 0.0006814586778155877,
+trade_duration: 0.0001,
+drawdown: 0.32341456852110007,
+pos: [1, 0, 0]
+
+step: 195, Action: [0], Balance: 63.30853563,
+equity_norm: 0.6927576972393,
+equity_change: 0.014491375220002817,
+cur_pct: 0.0014536590174807575,
+trade_duration: 0.0002,
+drawdown: 0.30895910606092897,
+pos: [1, 0, 0]
+
+step: 196, Action: [0], Balance: 63.30853563,
+equity_norm: 0.6713181144025688,
+equity_change: -0.02143958283673115,
+cur_pct: 0.0003112102921209221,
+trade_duration: 0.0003,
+drawdown: 0.3303455569776305,
+pos: [1, 0, 0]
+
+step: 197, Action: [0], Balance: 63.30853563,
+equity_norm: 0.6769082154775723,
+equity_change: 0.005590101075003496,
+cur_pct: 0.0006090894018221138,
+trade_duration: 0.0004,
+drawdown: 0.32476930938128545,
+pos: [1, 0, 0]
+
+step: 198, Action: [0], Balance: 63.30853563,
+equity_norm: 0.6681541045801279,
+equity_change: -0.008754110897444385,
+cur_pct: 0.00014261004386978995,
+trade_duration: 0.0005,
+drawdown: 0.3335017256998905,
+pos: [1, 0, 0]
+
+step: 199, Action: [0], Balance: 63.30853563,
+equity_norm: 0.6799965413441305,
+equity_change: 0.011842436764002526,
+cur_pct: 0.000773656687324535,
+trade_duration: 0.0006,
+drawdown: 0.32168863705370787,
+pos: [1, 0, 0]
+
+step: 200, Action: [0], Balance: 63.30853563,
+equity_norm: 0.6938298866143455,
+equity_change: 0.013833345270215002,
+cur_pct: 0.0015107926564229478,
+trade_duration: 0.0007,
+drawdown: 0.3078895738028883,
+pos: [1, 0, 0]
+
+step: 201, Action: [0], Balance: 63.30853563,
+equity_norm: 0.7179940918629597,
+equity_change: 0.02416420524861419,
+cur_pct: 0.002798428040741919,
+trade_duration: 0.0008,
+drawdown: 0.283785252677516,
+pos: [1, 0, 0]
+
+step: 202, Action: [0], Balance: 63.30853563,
+equity_norm: 0.720043865668197,
+equity_change: 0.002049773805237304,
+cur_pct: 0.002907654115190411,
+trade_duration: 0.0009,
+drawdown: 0.28174055865478786,
+pos: [1, 0, 0]
+
+step: 203, Action: [0], Balance: 63.30853563,
+equity_norm: 0.7171636706803257,
+equity_change: -0.0028801949878712674,
+cur_pct: 0.002754177477247434,
+trade_duration: 0.001,
+drawdown: 0.28461361589697953,
+pos: [1, 0, 0]
+
+step: 204, Action: [0], Balance: 63.30853563,
+equity_norm: 0.7433103751067219,
+equity_change: 0.02614670442639621,
+cur_pct: 0.004147454080238048,
+trade_duration: 0.0011,
+drawdown: 0.2585317086552674,
+pos: [1, 0, 0]
+
+step: 205, Action: [0], Balance: 63.30853563,
+equity_norm: 0.7341336954555834,
+equity_change: -0.00917667965113849,
+cur_pct: 0.0036584573469379397,
+trade_duration: 0.0012,
+drawdown: 0.26768564651086474,
+pos: [1, 0, 0]
+
+step: 206, Action: [0], Balance: 63.30853563,
+equity_norm: 0.7432241794902987,
+equity_change: 0.009090484034715341,
+cur_pct: 0.004142860983774184,
+trade_duration: 0.0013,
+drawdown: 0.25861769066032353,
+pos: [1, 0, 0]
+
+step: 207, Action: [0], Balance: 63.30853563,
+equity_norm: 0.741821923974303,
+equity_change: -0.001402255515995791,
+cur_pct: 0.004068139146176969,
+trade_duration: 0.0014,
+drawdown: 0.2600164710840797,
+pos: [1, 0, 0]
+
+step: 208, Action: [0], Balance: 63.30853563,
+equity_norm: 0.748643991664557,
+equity_change: 0.006822067690253973,
+cur_pct: 0.004431665927290287,
+trade_duration: 0.0015,
+drawdown: 0.253211309952023,
+pos: [1, 0, 0]
+
+step: 209, Action: [0], Balance: 63.30853563,
+equity_norm: 0.729622090751952,
+equity_change: -0.019021900912604972,
+cur_pct: 0.0034180479564081606,
+trade_duration: 0.0016,
+drawdown: 0.2721860704829426,
+pos: [1, 0, 0]
+
+step: 210, Action: [0], Balance: 63.30853563,
+equity_norm: 0.7305933681858203,
+equity_change: 0.0009712774338683941,
+cur_pct: 0.003469804311685403,
+trade_duration: 0.0017,
+drawdown: 0.2712172000844785,
+pos: [1, 0, 0]
+
+step: 211, Action: [0], Balance: 63.30853563,
+equity_norm: 0.7203844434696848,
+equity_change: -0.01020892471613561,
+cur_pct: 0.0029258024475604253,
+trade_duration: 0.0018,
+drawdown: 0.2814008248787016,
+pos: [1, 0, 0]
+
+step: 212, Action: [0], Balance: 63.30853563,
+equity_norm: 0.7238175518019412,
+equity_change: 0.003433108332256414,
+cur_pct: 0.0031087421189186283,
+trade_duration: 0.0019,
+drawdown: 0.277976224530894,
+pos: [1, 0, 0]
+
+step: 213, Action: [2], Balance: 63.30853563,
+equity_norm: 0.7307783734113167,
+equity_change: 0.006960821609375468,
+cur_pct: 0.0034796626650714126,
+trade_duration: 0.002,
+drawdown: 0.27103265334191645,
+pos: [1, 0, 0]
+
+step: 214, Action: [3], Balance: 81.55660933,
+equity_norm: 0.8572953920441649,
+equity_change: 0.006960821609375468,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 215, Action: [2], Balance: 63.64246933,
+equity_norm: 0.6651344587500359,
+equity_change: -0.19216093329412912,
+cur_pct: -0.00020464281288414343,
+trade_duration: 0.0,
+drawdown: 0.33651388819497635,
+pos: [0, 1, 0]
+
+step: 216, Action: [3], Balance: 81.49432633,
+equity_norm: 0.8566406942907722,
+equity_change: -0.19216093329412912,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 217, Action: [2], Balance: 63.59542545,
+equity_norm: 0.6594766217959166,
+equity_change: -0.1971640724948555,
+cur_pct: -0.00047925054109832535,
+trade_duration: 0.0,
+drawdown: 0.3421577038062888,
+pos: [0, 1, 0]
+
+step: 218, Action: [3], Balance: 81.28792483,
+equity_norm: 0.8544710717878915,
+equity_change: -0.1971640724948555,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 219, Action: [2], Balance: 63.38022483,
+equity_norm: 0.6728537544814823,
+equity_change: -0.18161731730640923,
+cur_pct: 0.00035180790171715764,
+trade_duration: 0.0,
+drawdown: 0.32881372254673213,
+pos: [0, 1, 0]
+
+step: 220, Action: [3], Balance: 81.20789933,
+equity_norm: 0.8536298708973735,
+equity_change: -0.18161731730640923,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 221, Action: [2], Balance: 63.3115499,
+equity_norm: 0.6579179995479822,
+equity_change: -0.1957118713493913,
+cur_pct: -0.00040359942282265415,
+trade_duration: 0.0,
+drawdown: 0.34371246345142614,
+pos: [0, 1, 0]
+
+step: 222, Action: [3], Balance: 81.03656332,
+equity_norm: 0.8518288449220305,
+equity_change: -0.1957118713493913,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 223, Action: [2], Balance: 63.14384332,
+equity_norm: 0.6492090196241334,
+equity_change: -0.20261982529789713,
+cur_pct: -0.0007729400560674305,
+trade_duration: 0.0,
+drawdown: 0.35239986064074247,
+pos: [0, 1, 0]
+
+step: 224, Action: [3], Balance: 80.79260362,
+equity_norm: 0.8492644233702685,
+equity_change: -0.20261982529789713,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 225, Action: [2], Balance: 62.90010362,
+equity_norm: 0.6388430538530305,
+equity_change: -0.21042136951723805,
+cur_pct: -0.001187885291438262,
+trade_duration: 0.0,
+drawdown: 0.36274013730825716,
+pos: [0, 1, 0]
+
+step: 226, Action: [3], Balance: 80.49662212,
+equity_norm: 0.8461531663162436,
+equity_change: -0.21042136951723805,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 227, Action: [2], Balance: 62.58280962,
+equity_norm: 0.6454959468785584,
+equity_change: -0.20065721943768522,
+cur_pct: -0.0006563859674599087,
+trade_duration: 0.0,
+drawdown: 0.35610373158954345,
+pos: [0, 1, 0]
+
+step: 228, Action: [3], Balance: 80.27375922,
+equity_norm: 0.8438105071645553,
+equity_change: -0.20065721943768522,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 229, Action: [2], Balance: 62.34532844,
+equity_norm: 0.6411117310969076,
+equity_change: -0.2026987760676477,
+cur_pct: -0.0007563669820243395,
+trade_duration: 0.0,
+drawdown: 0.36047708233692205,
+pos: [0, 1, 0]
+
+step: 230, Action: [3], Balance: 80.07783142,
+equity_norm: 0.8417509806406691,
+equity_change: -0.2026987760676477,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 231, Action: [2], Balance: 62.13819356,
+equity_norm: 0.6361971631478902,
+equity_change: -0.20555381749277887,
+cur_pct: -0.0009011803722110918,
+trade_duration: 0.0,
+drawdown: 0.36537947092437084,
+pos: [0, 1, 0]
+
+step: 232, Action: [3], Balance: 79.85017563,
+equity_norm: 0.8393579402562967,
+equity_change: -0.20555381749277887,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 233, Action: [2], Balance: 61.93281563,
+equity_norm: 0.6416655609529791,
+equity_change: -0.19769237930331762,
+cur_pct: -0.0004965017167707288,
+trade_duration: 0.0,
+drawdown: 0.35992462499093375,
+pos: [0, 1, 0]
+
+step: 234, Action: [3], Balance: 79.67360333,
+equity_norm: 0.8375018721779864,
+equity_change: -0.19769237930331762,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 235, Action: [2], Balance: 61.76002333,
+equity_norm: 0.6468478905388255,
+equity_change: -0.1906539816391609,
+cur_pct: -0.00012493315127408736,
+trade_duration: 0.0,
+drawdown: 0.3547551383378635,
+pos: [0, 1, 0]
+
+step: 236, Action: [3], Balance: 79.55889972,
+equity_norm: 0.8362961467669907,
+equity_change: -0.1906539816391609,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 237, Action: [2], Balance: 61.6526303,
+equity_norm: 0.6310510403460723,
+equity_change: -0.20524510642091837,
+cur_pct: -0.0009042698155270795,
+trade_duration: 0.0,
+drawdown: 0.3705128405216488,
+pos: [0, 1, 0]
+
+step: 238, Action: [3], Balance: 79.30700172,
+equity_norm: 0.8336482805003667,
+equity_change: -0.20524510642091837,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 239, Action: [2], Balance: 61.34330172,
+equity_norm: 0.629628512251795,
+equity_change: -0.20401976824857174,
+cur_pct: -0.0008069280118816382,
+trade_duration: 0.0,
+drawdown: 0.371931843283856,
+pos: [0, 1, 0]
+
+step: 240, Action: [3], Balance: 79.07287522,
+equity_norm: 0.8311872222090235,
+equity_change: -0.20401976824857174,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 241, Action: [2], Balance: 61.15758725,
+equity_norm: 0.6274513952502979,
+equity_change: -0.20373582695872558,
+cur_pct: -0.0008189224352137959,
+trade_duration: 0.0,
+drawdown: 0.37410356491888064,
+pos: [0, 1, 0]
+
+step: 242, Action: [3], Balance: 78.84556212,
+equity_norm: 0.8287977840656015,
+equity_change: -0.20373582695872558,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 243, Action: [2], Balance: 60.93482212,
+equity_norm: 0.6309311214305352,
+equity_change: -0.19786666263506628,
+cur_pct: -0.0005096383510675653,
+trade_duration: 0.0,
+drawdown: 0.37063246225219504,
+pos: [0, 1, 0]
+
+step: 244, Action: [3], Balance: 78.68546421,
+equity_norm: 0.8271148891825695,
+equity_change: -0.19786666263506628,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 245, Action: [2], Balance: 60.77963578,
+equity_norm: 0.6275233846728548,
+equity_change: -0.1995915045097146,
+cur_pct: -0.0006041746018802855,
+trade_duration: 0.0,
+drawdown: 0.3740317539016719,
+pos: [0, 1, 0]
+
+step: 246, Action: [3], Balance: 78.48099732,
+equity_norm: 0.8249656026432856,
+equity_change: -0.1995915045097146,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 247, Action: [2], Balance: 60.56516656,
+equity_norm: 0.6308527511146821,
+equity_change: -0.19411285152860344,
+cur_pct: -0.00030737453246244443,
+trade_duration: 0.0,
+drawdown: 0.3707106383494671,
+pos: [0, 1, 0]
+
+step: 248, Action: [3], Balance: 78.33468371,
+equity_norm: 0.8234276036426306,
+equity_change: -0.19411285152860344,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 249, Action: [4], Balance: 60.41107809,
+equity_norm: 0.6213219497028034,
+equity_change: -0.20210565393982716,
+cur_pct: -0.0007276251903929013,
+trade_duration: 0.0,
+drawdown: 0.3802178203755448,
+pos: [0, 1, 0]
+
+step: 250, Action: [3], Balance: 78.11435992,
+equity_norm: 0.8211116347533352,
+equity_change: -0.20210565393982716,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 251, Action: [4], Balance: 60.19877992,
+equity_norm: 0.6088288603877313,
+equity_change: -0.2122827743656038,
+cur_pct: -0.0012723146257573232,
+trade_duration: 0.0,
+drawdown: 0.39267994911514925,
+pos: [0, 1, 0]
+
+step: 252, Action: [3], Balance: 77.81174442,
+equity_norm: 0.8179306433432899,
+equity_change: -0.2122827743656038,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 253, Action: [2], Balance: 59.88220154,
+equity_norm: 0.6179405950056254,
+equity_change: -0.19999004833766454,
+cur_pct: -0.0006112912635546911,
+trade_duration: 0.0,
+drawdown: 0.3835907953449674,
+pos: [0, 1, 0]
+
+step: 254, Action: [3], Balance: 77.62064593,
+equity_norm: 0.8159218808867646,
+equity_change: -0.19999004833766454,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 255, Action: [2], Balance: 59.67158593,
+equity_norm: 0.6302369714179216,
+equity_change: -0.18568490946884306,
+cur_pct: 0.00015845017455148866,
+trade_duration: 0.0,
+drawdown: 0.37132489201104996,
+pos: [0, 1, 0]
+
+step: 256, Action: [3], Balance: 77.56541943,
+equity_norm: 0.8153413586659702,
+equity_change: -0.18568490946884306,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 257, Action: [4], Balance: 59.62558849,
+equity_norm: 0.6143517769202079,
+equity_change: -0.20098958174576229,
+cur_pct: -0.0006588204836930565,
+trade_duration: 0.0,
+drawdown: 0.387170719563514,
+pos: [0, 1, 0]
+
+step: 258, Action: [4], Balance: 77.37678533,
+equity_norm: 0.8133585010405624,
+equity_change: -0.20098958174576229,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 259, Action: [4], Balance: 77.37678533,
+equity_norm: 0.8133585010405624,
+equity_change: -0.20098958174576229,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 260, Action: [4], Balance: 77.37678533,
+equity_norm: 0.8133585010405624,
+equity_change: -0.20098958174576229,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 261, Action: [3], Balance: 77.37678533,
+equity_norm: 0.8133585010405624,
+equity_change: -0.20098958174576229,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 262, Action: [2], Balance: 59.37474533,
+equity_norm: 0.6408280938042844,
+equity_change: -0.172530407236278,
+cur_pct: 0.0008825666424472152,
+trade_duration: 0.0,
+drawdown: 0.3607600167150313,
+pos: [0, 1, 0]
+
+step: 263, Action: [3], Balance: 77.45669483,
+equity_norm: 0.8141984825784578,
+equity_change: -0.172530407236278,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 264, Action: [4], Balance: 59.44969865,
+equity_norm: 0.5923751550283745,
+equity_change: -0.2218233275500834,
+cur_pct: -0.0017224897421829572,
+trade_duration: 0.0,
+drawdown: 0.40909287863646854,
+pos: [0, 1, 0]
+
+step: 265, Action: [3], Balance: 77.07127543,
+equity_norm: 0.8101470846802511,
+equity_change: -0.2218233275500834,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 266, Action: [2], Balance: 59.05702261,
+equity_norm: 0.6096639349773728,
+equity_change: -0.2004831497028783,
+cur_pct: -0.0005878131263080418,
+trade_duration: 0.0,
+drawdown: 0.3918469440208265,
+pos: [0, 1, 0]
+
+step: 267, Action: [3], Balance: 76.87844583,
+equity_norm: 0.8081201253830491,
+equity_change: -0.2004831497028783,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 268, Action: [2], Balance: 58.85982136,
+equity_norm: 0.6109379350952059,
+equity_change: -0.19718219028784323,
+cur_pct: -0.00041089453706871554,
+trade_duration: 0.0,
+drawdown: 0.3905761011506364,
+pos: [0, 1, 0]
+
+step: 269, Action: [3], Balance: 76.73421753,
+equity_norm: 0.806604046453234,
+equity_change: -0.19718219028784323,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 270, Action: [2], Balance: 58.74411884,
+equity_norm: 0.6201618907293871,
+equity_change: -0.1864421557238469,
+cur_pct: 0.00014085791027782754,
+trade_duration: 0.0,
+drawdown: 0.38137500447210015,
+pos: [0, 1, 0]
+
+step: 271, Action: [3], Balance: 76.68198373,
+equity_norm: 0.8060549824789366,
+equity_change: -0.1864421557238469,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 272, Action: [2], Balance: 58.71880373,
+equity_norm: 0.6119048225442767,
+equity_change: -0.19415015993465987,
+cur_pct: -0.00028213581488161833,
+trade_duration: 0.0,
+drawdown: 0.3896116098576388,
+pos: [0, 1, 0]
+
+step: 273, Action: [3], Balance: 76.56838692,
+equity_norm: 0.8048608913738261,
+equity_change: -0.19415015993465987,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 274, Action: [2], Balance: 58.66524692,
+equity_norm: 0.6042254573526079,
+equity_change: -0.20063543402121825,
+cur_pct: -0.0006612247907350591,
+trade_duration: 0.0,
+drawdown: 0.39727194392261317,
+pos: [0, 1, 0]
+
+step: 275, Action: [3], Balance: 76.40756461,
+equity_norm: 0.8031703818438991,
+equity_change: -0.20063543402121825,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 276, Action: [2], Balance: 58.48400461,
+equity_norm: 0.6177871570325455,
+equity_change: -0.1853832248113536,
+cur_pct: 0.00016045919449043223,
+trade_duration: 0.0,
+drawdown: 0.3837438530655872,
+pos: [0, 1, 0]
+
+step: 277, Action: [3], Balance: 76.37620291,
+equity_norm: 0.802840718299552,
+equity_change: -0.1853832248113536,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 278, Action: [4], Balance: 58.44500291,
+equity_norm: 0.5683970509509855,
+equity_change: -0.23444366734856656,
+cur_pct: -0.0024382354581451767,
+trade_duration: 0.0,
+drawdown: 0.4330115597895402,
+pos: [0, 1, 0]
+
+step: 279, Action: [3], Balance: 75.86392651,
+equity_norm: 0.7974558426802631,
+equity_change: -0.23444366734856656,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 280, Action: [4], Balance: 57.87630595,
+equity_norm: 0.6013122455543298,
+equity_change: -0.19614359712593335,
+cur_pct: -0.0003739765730390251,
+trade_duration: 0.0,
+drawdown: 0.4001779361524195,
+pos: [0, 1, 0]
+
+step: 281, Action: [3], Balance: 75.76147471,
+equity_norm: 0.7963789041369842,
+equity_change: -0.19614359712593335,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 282, Action: [4], Balance: 57.81881471,
+equity_norm: 0.5654791380227665,
+equity_change: -0.2308997661142177,
+cur_pct: -0.002242365401785446,
+trade_duration: 0.0,
+drawdown: 0.4359222414988713,
+pos: [0, 1, 0]
+
+step: 283, Action: [3], Balance: 75.34452941,
+equity_norm: 0.7919961166797697,
+equity_change: -0.2308997661142177,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 284, Action: [2], Balance: 57.35854941,
+equity_norm: 0.600129089414328,
+equity_change: -0.19186702726544172,
+cur_pct: -0.00014833776085607857,
+trade_duration: 0.0,
+drawdown: 0.4013581601757896,
+pos: [0, 1, 0]
+
+step: 285, Action: [3], Balance: 75.2218982,
+equity_norm: 0.7907070590286794,
+equity_change: -0.19186702726544172,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 286, Action: [2], Balance: 57.23914344,
+equity_norm: 0.5894659982082674,
+equity_change: -0.20124106082041213,
+cur_pct: -0.0006463917674903164,
+trade_duration: 0.0,
+drawdown: 0.41199482593721615,
+pos: [0, 1, 0]
+
+step: 287, Action: [3], Balance: 75.03755971,
+equity_norm: 0.7887693553974024,
+equity_change: -0.20124106082041213,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 288, Action: [2], Balance: 57.07159971,
+equity_norm: 0.5985865063836302,
+equity_change: -0.19018284901377225,
+cur_pct: -7.046737794562263e-05,
+trade_duration: 0.0,
+drawdown: 0.4028969203523371,
+pos: [0, 1, 0]
+
+step: 289, Action: [3], Balance: 74.96675651,
+equity_norm: 0.7880250961938795,
+equity_change: -0.19018284901377225,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 290, Action: [2], Balance: 56.98056831,
+equity_norm: 0.6011909657992222,
+equity_change: -0.18683413039465735,
+cur_pct: 0.00011810528401482919,
+trade_duration: 0.0,
+drawdown: 0.40029891535008166,
+pos: [0, 1, 0]
+
+step: 291, Action: [3], Balance: 74.91895221,
+equity_norm: 0.7875225936199426,
+equity_change: -0.18683413039465735,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 292, Action: [2], Balance: 56.97955221,
+equity_norm: 0.6004129336815525,
+equity_change: -0.18710965993839007,
+cur_pct: 7.759456838028476e-05,
+trade_duration: 0.0,
+drawdown: 0.4010750193360068,
+pos: [0, 1, 0]
+
+step: 293, Action: [3], Balance: 74.83540611,
+equity_norm: 0.7866443853773284,
+equity_change: -0.18710965993839007,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 294, Action: [4], Balance: 56.8657293,
+equity_norm: 0.571741087571381,
+equity_change: -0.21490329780594747,
+cur_pct: -0.0013803605694140293,
+trade_duration: 0.0,
+drawdown: 0.42967581041464026,
+pos: [0, 1, 0]
+
+step: 295, Action: [3], Balance: 74.50045631,
+equity_norm: 0.7831235067818952,
+equity_change: -0.21490329780594747,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 296, Action: [2], Balance: 56.55425631,
+equity_norm: 0.6010468299099031,
+equity_change: -0.18207667687199217,
+cur_pct: 0.0003481555778447034,
+trade_duration: 0.0,
+drawdown: 0.40044269403951477,
+pos: [0, 1, 0]
+
+step: 297, Action: [3], Balance: 74.47347251,
+equity_norm: 0.7828398622362245,
+equity_change: -0.18207667687199217,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 298, Action: [4], Balance: 56.54631779,
+equity_norm: 0.5690857211298446,
+equity_change: -0.21375414110637994,
+cur_pct: -0.0013437133768625417,
+trade_duration: 0.0,
+drawdown: 0.43232459628422726,
+pos: [0, 1, 0]
+
+step: 299, Action: [3], Balance: 74.12419751,
+equity_norm: 0.7791684020012283,
+equity_change: -0.21375414110637994,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 300, Action: [2], Balance: 56.13893902,
+equity_norm: 0.6104177935344154,
+equity_change: -0.16875060846681295,
+cur_pct: 0.0010757742500323217,
+trade_duration: 0.0,
+drawdown: 0.3910949536882205,
+pos: [0, 1, 0]
+
+step: 301, Action: [3], Balance: 74.24579361,
+equity_norm: 0.7804465789273771,
+equity_change: -0.16875060846681295,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 302, Action: [2], Balance: 56.32297361,
+equity_norm: 0.5815909792687396,
+equity_change: -0.19885559965863753,
+cur_pct: -0.0005550465830710869,
+trade_duration: 0.0,
+drawdown: 0.41985032887777535,
+pos: [0, 1, 0]
+
+step: 303, Action: [3], Balance: 74.03274852,
+equity_norm: 0.7782071212616517,
+equity_change: -0.19885559965863753,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 304, Action: [2], Balance: 56.10566152,
+equity_norm: 0.580450337014206,
+equity_change: -0.19775678424744578,
+cur_pct: -0.0004943385404403844,
+trade_duration: 0.0,
+drawdown: 0.42098814437427406,
+pos: [0, 1, 0]
+
+step: 305, Action: [3], Balance: 73.84871672,
+equity_norm: 0.7762726414515457,
+equity_change: -0.19775678424744578,
+cur_pct: 0.0,
+trade_duration: 0.0,
+drawdown: 0.0,
+pos: [0, 0, 1]
+
+step: 306, Action: [2], Balance: 55.91169672,
+equity_norm: 0.5896210796794743,
+equity_change: -0.18665156177207134,
+cur_pct: 0.00010057411989287043,
+trade_duration: 0.0,
+drawdown: 0.41184012879141274,
+pos: [0, 1, 0]
+
